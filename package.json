@@ -1,0 +1,41 @@
+{
+  "name": "language-data",
+  "version": "0.1.0",
+  "description": "Language data and utilities",
+  "homepage": "https://github.com/wikimedia/language-data.uls",
+  "keywords": [
+    "cldr",
+    "internationalization",
+    "localization",
+    "l10n"
+  ],
+  "author": {
+     "name": "Santhosh Thottingal",
+     "email": "santhosh.thottingal@gmail.com"
+  },
+  "contributors": [
+    "Amir Aharoni",
+    "Niklas Laxström",
+    "Santhosh Thottingal"
+  ],
+  "devDependencies": {
+    "assert": "1.4.1",
+    "eslint": "2.9.0",
+    "eslint-config-wikimedia": "0.3.0",
+    "mocha": "^2.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wikimedia/language-data.git"
+  },
+  "bugs": {
+    "url" : "http://github.com/wikimedia/language-data/issues"
+  },
+  "engine": {
+    "node": ">=0.10.x"
+  },
+ "license": "(MIT OR GPL-2.0+)",
+ "scripts": {
+    "test": "mocha"
+  }
+}
