@@ -2,7 +2,7 @@
   "name": "language-data",
   "version": "0.1.0",
   "description": "Language data and utilities",
-  "homepage": "https://github.com/wikimedia/language-data.uls",
+  "homepage": "https://github.com/wikimedia/language-data",
   "keywords": [
     "cldr",
     "internationalization",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wikimedia/language-data.git"
+    "url": "git://github.com/santhoshtr/language-data.git"
   },
   "bugs": {
-    "url" : "http://github.com/wikimedia/language-data/issues"
+    "url" : "http://github.com/santhoshtr/language-data/issues"
   },
   "engine": {
     "node": ">=0.10.x"
