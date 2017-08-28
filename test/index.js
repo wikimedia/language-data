@@ -2,7 +2,7 @@ var languageData = require( '../index' ),
 	assert = require( 'assert' );
 
 describe( 'languagedata', function () {
-	var orphanScripts, badRedirects, doubleRedirects, languagesWithoutAutonym;
+	var orphanScripts, badRedirects, doubleRedirects, doubleAutonyms, languagesWithoutAutonym;
 	/*
 	 * Runs over all script codes mentioned in langdb and checks whether
 	 * they belong to the 'Other' group.
@@ -46,6 +46,30 @@ describe( 'languagedata', function () {
 			}
 		}
 		return result;
+	};
+	/*
+	 * Runs over all languages and checks that all autonyms are unique.
+	 */
+	doubleAutonyms = function () {
+		var language, autonym,
+			autonyms = [],
+			duplicateAutonyms = [];
+
+		for ( language in languageData.languages ) {
+			if ( languageData.isRedirect( language ) ) {
+				continue;
+			}
+
+			autonym = languageData.getAutonym( language );
+
+			if ( autonyms.indexOf( autonym ) > -1 ) {
+				duplicateAutonyms.push( language );
+			}
+
+			autonyms.push( autonym );
+		}
+
+		return duplicateAutonyms;
 	};
 	/*
 	 * Runs over all script codes mentioned in langdb and checks whether
@@ -125,6 +149,7 @@ describe( 'languagedata', function () {
 		assert.strictEqual( languageData.isRedirect( 'sr-ec' ), 'sr-cyrl', '"sr-ec" is a redirect to "sr-cyrl"' );
 		assert.deepEqual( badRedirects(), [], 'All redirects have valid targets.' );
 		assert.deepEqual( doubleRedirects(), [], 'There are no double redirects.' );
+		assert.deepEqual( doubleAutonyms(), [], 'All languages have distinct autonyms.' );
 		assert.strictEqual( languageData.getScript( 'no-such-language' ), 'Zyyy', 'A script for an unknown language is Zyyy - undetermined' );
 		assert.strictEqual( languageData.getScript( 'ii' ), 'Yiii', 'Correct script of the Yi language was selected' );
 	} );
