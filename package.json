@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/santhoshtr/language-data.git"
+    "url": "git://github.com/wikimedia/language-data.git"
   },
   "bugs": {
-    "url" : "http://github.com/santhoshtr/language-data/issues"
+    "url" : "http://github.com/wikimedia/language-data/issues"
   },
   "engine": {
     "node": ">=0.10.x"
