@@ -85,6 +85,12 @@ describe( 'languagedata', function () {
 		}
 		return result;
 	};
+
+	it( 'language tags', function () {
+		assert.ok( languageData.isKnown( 'ar' ), 'Language is unknown' );
+		assert.ok( !languageData.isKnown( 'unknownLanguageCode!' ), 'Language is known' );
+	} );
+
 	it( 'autonyms', function () {
 		var autonyms;
 		// Add a language in run time.

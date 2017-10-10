@@ -5,12 +5,23 @@ var languageData = require( './language-data.json' );
  */
 
 /**
+  * Check whether the languageCode is known to the language database.
+  * For practical purposes it may be same as checking if given language code is valid,
+  * but not guaranteed that all valid language codes are in our database.
+  * @param {string} languageCode language code
+  * @return {boolean}
+  */
+function isKnown( languageCode ) {
+	return !!languageData.languages[ languageCode ];
+}
+
+/**
  * Is this language a redirect to another language?
  * @param {string} language  Language code
  * @return {string} Target language code if it's a redirect or false if it's not
  */
 function isRedirect( language ) {
-	return ( languageData.languages[ language ] !== undefined && languageData.languages[ language ].length === 1 ) ? languageData.languages[ language ][ 0 ] : false;
+	return ( isKnown( language ) && languageData.languages[ language ].length === 1 ) ? languageData.languages[ language ][ 0 ] : false;
 }
 
 /**
@@ -23,7 +34,7 @@ function getScript( language ) {
 	if ( target ) {
 		return getScript( target );
 	}
-	if ( !languageData.languages[ language ] ) {
+	if ( !isKnown( language ) ) {
 		// Undetermined
 		return 'Zyyy';
 	}
@@ -40,7 +51,7 @@ function getRegions( language ) {
 	if ( target ) {
 		return getRegions( target );
 	}
-	return ( languageData.languages[ language ] && languageData.languages[ language ][ 1 ] ) || 'UNKNOWN';
+	return ( isKnown( language ) && languageData.languages[ language ][ 1 ] ) || 'UNKNOWN';
 }
 
 /**
@@ -53,7 +64,7 @@ function getAutonym( language ) {
 	if ( target ) {
 		return getAutonym( target );
 	}
-	return ( languageData.languages[ language ] && languageData.languages[ language ][ 2 ] ) || language;
+	return ( isKnown( language ) && languageData.languages[ language ][ 2 ] ) || language;
 }
 
 /**
@@ -255,6 +266,7 @@ module.exports = {
 	getRegions,
 	getScript,
 	getScriptGroupOfLanguage,
+	isKnown,
 	isRedirect,
 	isRtl,
 	sortByAutonym
