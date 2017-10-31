@@ -145,7 +145,7 @@ languages:
  # world?
   es-formal: [Latn, [EU, AM, AF, WW], español (formal)]
  # world?
-  es: [Latn, [EU, AM, AF, WW], español]
+  es: [Latn, [EU, AM, AF, WW, PA], español]
   es-ni: [Latn, [AM], español nicaragüense]
   esu: [Latn, [AM], "Yup'ik"]
   et: [Latn, [EU], eesti]
