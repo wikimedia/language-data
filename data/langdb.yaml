@@ -143,9 +143,9 @@ languages:
   eo: [Latn, [WW], Esperanto]
   es-419: [Latn, [AM], español de America Latina]
  # world?
-  es-formal: [Latn, [EU, AM, AF, WW], español (formal)]
+  es-formal: [Latn, [EU, AM, AF, PA, WW], español (formal)]
  # world?
-  es: [Latn, [EU, AM, AF, WW], español]
+  es: [Latn, [EU, AM, AF, PA, WW], español]
   es-ni: [Latn, [AM], español nicaragüense]
   esu: [Latn, [AM], "Yup'ik"]
   et: [Latn, [EU], eesti]
