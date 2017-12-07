@@ -286,6 +286,7 @@ languages:
   ku: [ku-latn]
   ku-arab: [Arab, [EU, ME], كوردي]
   ku-latn: [Latn, [EU, ME], Kurdî]
+  kum: [Cyrl, [EU], къумукъ]
   kv: [Cyrl, [EU], коми]
   kw: [Latn, [EU], kernowek]
   ky: [Cyrl, [AS], Кыргызча]
