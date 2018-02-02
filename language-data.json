@@ -1093,6 +1093,13 @@
             ],
             "Guadeloupean Creole French"
         ],
+        "gcr": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "kréyòl gwiyanè"
+        ],
         "gd": [
             "Latn",
             [
@@ -4393,6 +4400,7 @@
         ],
         "GF": [
             "fr",
+            "gcr",
             "zh-hant",
             "zh"
         ],

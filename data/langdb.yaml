@@ -175,6 +175,7 @@ languages:
   gan: [Hant, [AS], 贛語]
   gbz: [Latn, [AS], Dari-e Mazdeyasnā]
   gcf: [Latn, [AM], Guadeloupean Creole French]
+  gcr: [Latn, [AM], kréyòl gwiyanè]
   gd: [Latn, [EU], Gàidhlig]
   gl: [Latn, [EU], galego]
   glk: [Arab, [AS, ME], گیلکی]
