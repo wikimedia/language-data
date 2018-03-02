@@ -1,0 +1,11 @@
+{
+    "name": "wikimedia/language-data",
+    "description": "Language data and utilities",
+    "license": "GPL-2.0-or-later OR MIT",
+    "authors": [
+        {
+            "name": "Santhosh Thottingal",
+            "email": "santhosh.thottingal@gmail.com"
+        }
+    ]
+}
