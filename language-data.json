@@ -14,6 +14,13 @@
             ],
             "Аҧсшәа"
         ],
+        "abe": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "Wôbanakiôdwawôgan"
+        ],
         "abs": [
             "Latn",
             [
@@ -558,6 +565,13 @@
         "chm": [
             "mhr"
         ],
+        "chn": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "chinuk wawa"
+        ],
         "cho": [
             "Latn",
             [
@@ -934,6 +948,13 @@
             ],
             "estremeñu"
         ],
+        "eya": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "I·ya·q"
+        ],
         "fa": [
             "Arab",
             [
@@ -983,6 +1004,13 @@
             ],
             "Na Vosa Vakaviti"
         ],
+        "fkv": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "kvääni"
+        ],
         "fo": [
             "Latn",
             [
@@ -1019,6 +1047,13 @@
                 "EU"
             ],
             "Nordfriisk"
+        ],
+        "fuf": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Fuuta Jalon"
         ],
         "fur": [
             "Latn",
@@ -1106,6 +1141,13 @@
                 "EU"
             ],
             "Gàidhlig"
+        ],
+        "gez": [
+            "Ethi",
+            [
+                "AF"
+            ],
+            "ግዕዝ"
         ],
         "gl": [
             "Latn",
@@ -1218,6 +1260,13 @@
         ],
         "ha": [
             "ha-latn"
+        ],
+        "hai": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "X̱aat Kíl"
         ],
         "hak": [
             "Latn",
@@ -1728,6 +1777,13 @@
             ],
             "Перем Коми"
         ],
+        "koy": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "Denaakkenaageʼ"
+        ],
         "kr": [
             "Latn",
             [
@@ -2182,6 +2238,13 @@
             ],
             "молдовеняскэ"
         ],
+        "moe": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "Innu-aimun"
+        ],
         "mr": [
             "Deva",
             [
@@ -2406,6 +2469,13 @@
             ],
             "ߒߞߏ"
         ],
+        "nr": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "isiNdebele seSewula"
+        ],
         "nrm": [
             "Latn",
             [
@@ -2462,6 +2532,13 @@
                 "AF"
             ],
             "Oromoo"
+        ],
+        "ood": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "ʼOʼodham ha-ñeʼokĭ"
         ],
         "or": [
             "Orya",
@@ -2581,6 +2658,13 @@
             ],
             "Pijin"
         ],
+        "pjt": [
+            "Latn",
+            [
+                "PA"
+            ],
+            "Pitjantjatjara"
+        ],
         "pko": [
             "Latn",
             [
@@ -2672,6 +2756,13 @@
                 "AM"
             ],
             "Runa Simi"
+        ],
+        "quc": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "K'iche'"
         ],
         "qug": [
             "Latn",
@@ -2918,7 +3009,7 @@
             [
                 "EU"
             ],
-            "sámegiella"
+            "davvisámegiella"
         ],
         "ses": [
             "Latn",
@@ -2993,12 +3084,33 @@
             ],
             "Simple English"
         ],
+        "sjd": [
+            "Cyrl",
+            [
+                "EU"
+            ],
+            "Кӣллт са̄мь кӣлл"
+        ],
+        "sje": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "bidumsámegiella"
+        ],
         "sjo": [
             "Mong",
             [
                 "AS"
             ],
             "ᠰᡞᠪᡝ ᡤᡞᠰᡠᠨ"
+        ],
+        "sju": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "ubmejensámien giella"
         ],
         "sk": [
             "Latn",
@@ -3513,6 +3625,13 @@
             ],
             "українська"
         ],
+        "umu": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "Huluníixsuwaakan"
+        ],
         "ur": [
             "Arab",
             [
@@ -3805,6 +3924,13 @@
                 "AF"
             ],
             "isiZulu"
+        ],
+        "zun": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "Shiwi'ma"
         ]
     },
     "scriptgroups": {
@@ -4100,6 +4226,7 @@
             "cr",
             "yi",
             "ike-cans",
+            "moe",
             "atj"
         ],
         "CC": [
@@ -4452,7 +4579,8 @@
             "tsd"
         ],
         "GT": [
-            "es"
+            "es",
+            "quc"
         ],
         "GU": [
             "en",
@@ -5455,6 +5583,7 @@
             "ss",
             "ve",
             "hi",
+            "nr",
             "sw"
         ],
         "ZM": [
