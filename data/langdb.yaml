@@ -277,7 +277,7 @@ languages:
   kn: [Knda, [AS], ಕನ್ನಡ]
   knn: [Deva, [AS], महाराष्ट्रीय कोंकणी]
  # Here Hang may be even more appropriate, because kp has more resistance to Han
-  ko-kp: [Kore, [AS], 한국어 (조선)]
+  ko-kp: [Kore, [AS], 조선말]
  # Kore is an alias for Hangul+Han. Maybe Hang is more appropriate?
   ko: [Kore, [AS], 한국어]
   koi: [Cyrl, [EU], Перем Коми]
