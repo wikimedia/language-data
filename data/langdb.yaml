@@ -295,7 +295,7 @@ languages:
  # CLDR uses ku-latn and ku-arab. Latin is more common and is used in Wikipedia.
   ku: [ku-latn]
   ku-arab: [Arab, [EU, ME], كوردي]
-  ku-latn: [Latn, [EU, ME], Kurdî]
+  ku-latn: [Latn, [EU, ME], kurdî]
   kum: [Cyrl, [EU], къумукъ]
   kv: [Cyrl, [EU], коми]
   kw: [Latn, [EU], kernowek]
