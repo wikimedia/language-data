@@ -2369,6 +2369,13 @@
             ],
             "norsk (bokmål)"
         ],
+        "nd": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "siNdebele saseNyakatho"
+        ],
         "nds-nl": [
             "Latn",
             [
@@ -5608,6 +5615,7 @@
         "ZW": [
             "sn",
             "en",
+            "nd",
             "ny",
             "ve",
             "tn"
