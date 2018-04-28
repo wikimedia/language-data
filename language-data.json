@@ -1188,6 +1188,13 @@
             ],
             "Gõychi Konknni"
         ],
+        "gor": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Bahasa Hulontalo"
+        ],
         "got": [
             "Goth",
             [
@@ -4659,6 +4666,7 @@
             "bbc-latn",
             "zh-hant",
             "zh",
+            "gor",
             "sly",
             "mwv"
         ],
