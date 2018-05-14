@@ -164,15 +164,22 @@ function getLanguagesByScriptGroup( languages ) {
  * @param {string[]} regions array of region codes
  * @return {Object}
  */
-function getLanguagesByScriptGroupInRegions( regions ) {
-	var language, i, scriptGroup,
+function getLanguagesByScriptGroupInRegions( regions, languages ) {
+	var language, languageIndex, regionIndex, scriptGroup,
 		languagesByScriptGroupInRegions = {};
-	for ( language in languageData.languages ) {
+
+	if ( languages === undefined ) {
+		languages = Object.keys( languageData.languages );
+	}
+
+	for ( languageIndex = 0; languageIndex < languages.length; languageIndex++ ) {
+		language = languages[ languageIndex ];
+
 		if ( isRedirect( language ) ) {
 			continue;
 		}
-		for ( i = 0; i < regions.length; i++ ) {
-			if ( getRegions( language ).includes( regions[ i ] ) ) {
+		for ( regionIndex = 0; regionIndex < regions.length; regionIndex++ ) {
+			if ( getRegions( language ).includes( regions[ regionIndex ] ) ) {
 				scriptGroup = getScriptGroupOfLanguage( language );
 				if ( languagesByScriptGroupInRegions[ scriptGroup ] === undefined ) {
 					languagesByScriptGroupInRegions[ scriptGroup ] = [];
@@ -191,8 +198,8 @@ function getLanguagesByScriptGroupInRegions( regions ) {
  * @param {string} region Region code
  * @return {Object}
  */
-function getLanguagesByScriptGroupInRegion( region ) {
-	return getLanguagesByScriptGroupInRegions( [ region ] );
+function getLanguagesByScriptGroupInRegion( region, languages ) {
+	return getLanguagesByScriptGroupInRegions( [ region ], languages );
 }
 
 /**
