@@ -114,13 +114,13 @@ describe( 'languagedata', function () {
 		], 'Languages are correctly sorted by autonym' );
 	} );
 	it( 'regions and groups', function () {
-		var languagesToGroup, groupedLanguages, languagesAM;
+		var languagesToGroupObject, languagesToGroupArray, groupedLanguages, languagesAM;
 
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
 
-		languagesToGroup = {
+		languagesToGroupObject = {
 			en: 'English',
 			'fiu-vro': 'Võro', // Alias before target
 			ru: 'русский',
@@ -130,11 +130,13 @@ describe( 'languagedata', function () {
 			'sr-el': 'srpski', // Alias after target
 			vro: 'Võro' // Target after alias
 		};
+		languagesToGroupArray = [ 'en', 'fiu-vro', 'ru', 'sr', 'sr-cyrl', 'sr-latn', 'sr-el', 'vro' ];
 		groupedLanguages = {
 			Latin: [ 'en', 'fiu-vro', 'sr-latn', 'sr-el', 'vro' ],
 			Cyrillic: [ 'ru', 'sr', 'sr-cyrl' ]
 		};
-		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroup ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup.' );
+		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroupObject ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup with an object.' );
+		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroupArray ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup with an array.' );
 
 		languagesAM = [ "atj", "gn", "en", "es", "fr", "haw", "ike-cans", "ik", "kl", "nl", "cr", "pt", "qu", "srn", "chr", "chy", "yi" ];
 		assert.deepEqual(

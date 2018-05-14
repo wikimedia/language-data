@@ -141,13 +141,19 @@ function getScriptGroupOfLanguage( language ) {
 
 /**
  * Get the given list of languages grouped by script.
- * @param {string[]} languages Array of language codes
- * @return {Object} Array of languages indexed by script codes
+ * @param {string[], Object} languages Array of language codes or associative array of autonyms indexed by language code
+ * @return {Object} Associative array of languages indexed by script groups
  */
 function getLanguagesByScriptGroup( languages ) {
 	var languagesByScriptGroup = {},
-		language, resolvedRedirect, langScriptGroup;
-	for ( language in languages ) {
+		languagesList, language, languageIndex, resolvedRedirect, langScriptGroup;
+
+	languagesList = Array.isArray( languages )
+		? languages
+		: Object.keys( languages );
+
+	for ( languageIndex = 0; languageIndex < languagesList.length; languageIndex++ ) {
+		language = languagesList[ languageIndex ];
 		resolvedRedirect = isRedirect( language ) || language;
 		langScriptGroup = getScriptGroupOfLanguage( resolvedRedirect );
 		if ( !languagesByScriptGroup[ langScriptGroup ] ) {
