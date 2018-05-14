@@ -144,7 +144,7 @@ describe( 'languagedata', function () {
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
 		assert.deepEqual( languageData.getLanguagesInScript( 'Guru' ), [ 'pa-guru' ], '"pa-guru" is written in script Guru, and "pa" is skipped as a redirect' );
-		assert.deepEqual( languageData.getLanguagesInScripts( [ 'Geor', 'Armn' ] ), [ 'hy', 'ka', 'xmf' ], 'languages in scripts Geor and Armn are selected correctly' );
+		assert.deepEqual( languageData.getLanguagesInScripts( [ 'Geor', 'Armn' ] ), [ 'hy', 'hyw', 'ka', 'xmf' ], 'languages in scripts Geor and Armn are selected correctly' );
 		assert.deepEqual( languageData.getLanguagesInScript( 'Knda' ), [
 			'kn', 'tcy'
 		], 'languages in script Knda are selected correctly' );
