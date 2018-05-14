@@ -209,6 +209,26 @@ function getLanguagesByScriptGroupInRegion( region, languages ) {
 }
 
 /**
+ * Get the given list of languages grouped by script.
+ * @param {string[], Object} languages Array of language codes or associative array of autonyms indexed by language code
+ * @return {string[]} Array of language codes
+ */
+function sortByScriptGroupAndAutonym( languages ) {
+	var groupedLanguages, group,
+		sortedByAutonym = [],
+		allLanguages = [];
+
+	groupedLanguages = getLanguagesByScriptGroup( languages );
+
+	for ( group in groupedLanguages ) {
+		sortedByAutonym = groupedLanguages[ group ].sort( sortByAutonym )
+		allLanguages = allLanguages.concat( sortedByAutonym );
+	}
+
+	return allLanguages;
+}
+
+/**
  * A callback for sorting languages by autonym.
  * Can be used as an argument to a sort function.
  * @param {string} a Language code
@@ -282,5 +302,6 @@ module.exports = {
 	isKnown,
 	isRedirect,
 	isRtl,
+	sortByScriptGroupAndAutonym,
 	sortByAutonym
 };

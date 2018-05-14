@@ -148,6 +148,11 @@ describe( 'languagedata', function () {
 			},
 			'languages in region AM are grouped correctly'
 		);
+		assert.deepEqual(
+			languageData.sortByScriptGroupAndAutonym( languagesAM ),
+			[ "atj", "gn", "en", "es", "fr", "haw", "ik", "kl", "nl", "pt", "qu", "srn", "chy", "chr", "ike-cans", "cr", "yi" ],
+			'languages in region AM are ordered correctly by script group'
+		);
 
 		assert.strictEqual( languageData.getGroupOfScript( 'Beng' ), 'SouthAsian', 'Bengali script belongs to the SouthAsian group.' );
 		assert.strictEqual( languageData.getScriptGroupOfLanguage( 'iu' ), 'NativeAmerican', 'The script of the Inupiaq language belongs to the NativeAmerican group.' );
