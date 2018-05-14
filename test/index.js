@@ -114,10 +114,12 @@ describe( 'languagedata', function () {
 		], 'Languages are correctly sorted by autonym' );
 	} );
 	it( 'regions and groups', function () {
-		var languagesToGroup, groupedLanguages;
+		var languagesToGroup, groupedLanguages, languagesAM;
+
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
+
 		languagesToGroup = {
 			en: 'English',
 			'fiu-vro': 'Võro', // Alias before target
@@ -133,19 +135,8 @@ describe( 'languagedata', function () {
 			Cyrillic: [ 'ru', 'sr', 'sr-cyrl' ]
 		};
 		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroup ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup.' );
-		assert.deepEqual( languageData.getRegions( 'lzz' ), [
-			'EU', 'ME'
-		], 'Correct regions of the Laz language were selected' );
-		assert.strictEqual( languageData.getRegions( 'no-such-language' ), 'UNKNOWN', 'The region of an invalid language is "UNKNOWN"' );
-		assert.ok( languageData.getLanguagesInTerritory( 'RU' ).includes( 'sah' ), 'Sakha language is spoken in Russia' );
-	} );
-	it( 'scripts', function () {
-		var languagesAM = [ "atj", "gn", "en", "es", "fr", "haw", "ike-cans", "ik", "kl", "nl", "cr", "pt", "qu", "srn", "chr", "chy", "yi" ];
-		// This test assumes that we don't want any scripts to be in the 'Other'
-		// group. Actually, this may become wrong some day.
-		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
-		assert.deepEqual( languageData.getLanguagesInScript( 'Guru' ), [ 'pa-guru' ], '"pa-guru" is written in script Guru, and "pa" is skipped as a redirect' );
-		assert.deepEqual( languageData.getLanguagesInScripts( [ 'Geor', 'Armn' ] ), [ 'hy', 'hyw', 'ka', 'xmf' ], 'languages in scripts Geor and Armn are selected correctly' );
+
+		languagesAM = [ "atj", "gn", "en", "es", "fr", "haw", "ike-cans", "ik", "kl", "nl", "cr", "pt", "qu", "srn", "chr", "chy", "yi" ];
 		assert.deepEqual(
 			languageData.getLanguagesByScriptGroupInRegion( 'AM', languagesAM ),
 			{
@@ -155,11 +146,25 @@ describe( 'languagedata', function () {
 			},
 			'languages in region AM are grouped correctly'
 		);
+
+		assert.strictEqual( languageData.getGroupOfScript( 'Beng' ), 'SouthAsian', 'Bengali script belongs to the SouthAsian group.' );
+		assert.strictEqual( languageData.getScriptGroupOfLanguage( 'iu' ), 'NativeAmerican', 'The script of the Inupiaq language belongs to the NativeAmerican group.' );
+
+		assert.deepEqual( languageData.getRegions( 'lzz' ), [
+			'EU', 'ME'
+		], 'Correct regions of the Laz language were selected' );
+		assert.strictEqual( languageData.getRegions( 'no-such-language' ), 'UNKNOWN', 'The region of an invalid language is "UNKNOWN"' );
+		assert.ok( languageData.getLanguagesInTerritory( 'RU' ).includes( 'sah' ), 'Sakha language is spoken in Russia' );
+	} );
+	it( 'scripts', function () {
+		// This test assumes that we don't want any scripts to be in the 'Other'
+		// group. Actually, this may become wrong some day.
+		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
+		assert.deepEqual( languageData.getLanguagesInScript( 'Guru' ), [ 'pa-guru' ], '"pa-guru" is written in script Guru, and "pa" is skipped as a redirect' );
+		assert.deepEqual( languageData.getLanguagesInScripts( [ 'Geor', 'Armn' ] ), [ 'hy', 'hyw', 'ka', 'xmf' ], 'languages in scripts Geor and Armn are selected correctly' );
 		assert.deepEqual( languageData.getLanguagesInScript( 'Knda' ), [
 			'kn', 'tcy'
 		], 'languages in script Knda are selected correctly' );
-		assert.strictEqual( languageData.getGroupOfScript( 'Beng' ), 'SouthAsian', 'Bengali script belongs to the SouthAsian group.' );
-		assert.strictEqual( languageData.getScriptGroupOfLanguage( 'iu' ), 'NativeAmerican', 'The script of the Inupiaq language belongs to the NativeAmerican group.' );
 	} );
 	it( 'redirects', function () {
 		assert.strictEqual( languageData.isRedirect( 'sr-ec' ), 'sr-cyrl', '"sr-ec" is a redirect to "sr-cyrl"' );
