@@ -165,6 +165,7 @@ languages:
   fj: [Latn, [PA], Na Vosa Vakaviti]
   fkv: [Latn, [EU], kvääni]
   fo: [Latn, [EU], føroyskt]
+  fon: [Latn, [AF], fon]
   fr: [Latn, [EU, AM, WW], français]
   frc: [Latn, [AM], français cadien]
   frp: [Latn, [EU], arpetan]
