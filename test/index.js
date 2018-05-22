@@ -114,25 +114,11 @@ describe( 'languagedata', function () {
 		], 'Languages are correctly sorted by autonym' );
 	} );
 	it( 'regions and groups', function () {
-		var languagesToGroup, groupedLanguages, languagesAM;
+		var languagesAM;
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
-		languagesToGroup = {
-			en: 'English',
-			'fiu-vro': 'Võro', // Alias before target
-			ru: 'русский',
-			sr: 'српски', // Alias before target
-			'sr-cyrl': 'српски', // Target before alias
-			'sr-latn': 'srpski', // Target before alias
-			'sr-el': 'srpski', // Alias after target
-			vro: 'Võro' // Target after alias
-		};
-		groupedLanguages = {
-			Latin: [ 'en', 'fiu-vro', 'sr-latn', 'sr-el', 'vro' ],
-			Cyrillic: [ 'ru', 'sr', 'sr-cyrl' ]
-		};
-		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroup ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup.' );
+
 		assert.deepEqual( languageData.getRegions( 'lzz' ), [
 			'EU', 'ME'
 		], 'Correct regions of the Laz language were selected' );
@@ -141,8 +127,8 @@ describe( 'languagedata', function () {
 
 		languagesAM = [ 'atj', 'chr', 'chy', 'cr', 'en', 'es', 'fr', 'gn', 'haw', 'ike-cans', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'yi' ];
 		assert.deepEqual(
-			languageData.sortByScriptGroupAndAutonym( languagesAM ),
-			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'chr', 'ike-cans', 'cr' ],
+			languageData.sortByScriptGroup( languagesAM ),
+			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'ike-cans', 'cr', 'chr' ],
 			'languages in region AM are ordered correctly by script group'
 		);
 	} );

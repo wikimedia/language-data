@@ -141,19 +141,15 @@ function getScriptGroupOfLanguage( language ) {
 
 /**
  * Get the given list of languages grouped by script.
- * @param {string[]|Object} languages Array of language codes or associative array of autonyms indexed by language code
- * @return {Object} Associative array of languages indexed by script groups
+ * @param {string[]} languages Array of language codes to group
+ * @return {string[]} Array of language codes
  */
  function getLanguagesByScriptGroup( languages ) {
  	var languagesByScriptGroup = {},
- 		languagesList, language, languageIndex, resolvedRedirect, langScriptGroup;
+ 		languages, language, languageIndex, resolvedRedirect, langScriptGroup;
 
- 	languagesList = Array.isArray( languages )
- 		? languages
- 		: Object.keys( languages );
-
- 	for ( languageIndex = 0; languageIndex < languagesList.length; languageIndex++ ) {
- 		language = languagesList[ languageIndex ];
+ 	for ( languageIndex = 0; languageIndex < languages.length; languageIndex++ ) {
+ 		language = languages[ languageIndex ];
  		resolvedRedirect = isRedirect( language ) || language;
  		langScriptGroup = getScriptGroupOfLanguage( resolvedRedirect );
  		if ( !languagesByScriptGroup[ langScriptGroup ] ) {
@@ -202,11 +198,11 @@ function getLanguagesByScriptGroupInRegion( region ) {
 }
 
 /**
- * Get the given list of languages grouped by script.
- * @param {string[], Object} languages Array of language codes or associative array of autonyms indexed by language code
+ * Return the list of languages sorted by script groups.
+ * @param {string[]} languages Array of language codes to sort
  * @return {string[]} Array of language codes
  */
-function sortByScriptGroupAndAutonym( languages ) {
+function sortByScriptGroup( languages ) {
 	var groupedLanguages, scriptGroups, i,
 		sortedByAutonym = [],
 		allLanguages = [];
@@ -296,6 +292,6 @@ module.exports = {
 	isKnown,
 	isRedirect,
 	isRtl,
-	sortByScriptGroupAndAutonym,
+	sortByScriptGroup,
 	sortByAutonym
 };
