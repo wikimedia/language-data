@@ -114,11 +114,13 @@ describe( 'languagedata', function () {
 		], 'Languages are correctly sorted by autonym' );
 	} );
 	it( 'regions and groups', function () {
-		var languagesToGroup, groupedLanguages;
+		var languagesToGroupObject, languagesToGroupArray, groupedLanguages, languagesAM;
+
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
-		languagesToGroup = {
+
+		languagesToGroupObject = {
 			en: 'English',
 			'fiu-vro': 'Võro', // Alias before target
 			ru: 'русский',
@@ -128,11 +130,33 @@ describe( 'languagedata', function () {
 			'sr-el': 'srpski', // Alias after target
 			vro: 'Võro' // Target after alias
 		};
+		languagesToGroupArray = [ 'en', 'fiu-vro', 'ru', 'sr', 'sr-cyrl', 'sr-latn', 'sr-el', 'vro' ];
 		groupedLanguages = {
 			Latin: [ 'en', 'fiu-vro', 'sr-latn', 'sr-el', 'vro' ],
 			Cyrillic: [ 'ru', 'sr', 'sr-cyrl' ]
 		};
-		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroup ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup.' );
+		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroupObject ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup with an object.' );
+		assert.deepEqual( languageData.getLanguagesByScriptGroup( languagesToGroupArray ), groupedLanguages, 'A custom list of languages is grouped correctly using getLanguagesByScriptGroup with an array.' );
+
+		languagesAM = [ "atj", "gn", "en", "es", "fr", "haw", "ike-cans", "ik", "kl", "nl", "cr", "pt", "qu", "srn", "chr", "chy", "yi" ];
+		assert.deepEqual(
+			languageData.getLanguagesByScriptGroupInRegion( 'AM', languagesAM ),
+			{
+				"Latin": [ "atj", "gn", "en", "es", "fr", "haw", "ik", "kl", "nl", "pt", "qu", "srn", "chy" ],
+				"MiddleEastern": [ "yi" ],
+				"NativeAmerican": [ "ike-cans", "cr", "chr" ]
+			},
+			'languages in region AM are grouped correctly'
+		);
+		assert.deepEqual(
+			languageData.sortByScriptGroupAndAutonym( languagesAM ),
+			[ "atj", "gn", "en", "es", "fr", "haw", "ik", "kl", "nl", "pt", "qu", "srn", "chy", "chr", "ike-cans", "cr", "yi" ],
+			'languages in region AM are ordered correctly by script group'
+		);
+
+		assert.strictEqual( languageData.getGroupOfScript( 'Beng' ), 'SouthAsian', 'Bengali script belongs to the SouthAsian group.' );
+		assert.strictEqual( languageData.getScriptGroupOfLanguage( 'iu' ), 'NativeAmerican', 'The script of the Inupiaq language belongs to the NativeAmerican group.' );
+
 		assert.deepEqual( languageData.getRegions( 'lzz' ), [
 			'EU', 'ME'
 		], 'Correct regions of the Laz language were selected' );
@@ -148,8 +172,6 @@ describe( 'languagedata', function () {
 		assert.deepEqual( languageData.getLanguagesInScript( 'Knda' ), [
 			'kn', 'tcy'
 		], 'languages in script Knda are selected correctly' );
-		assert.strictEqual( languageData.getGroupOfScript( 'Beng' ), 'SouthAsian', 'Bengali script belongs to the SouthAsian group.' );
-		assert.strictEqual( languageData.getScriptGroupOfLanguage( 'iu' ), 'NativeAmerican', 'The script of the Inupiaq language belongs to the NativeAmerican group.' );
 	} );
 	it( 'redirects', function () {
 		assert.strictEqual( languageData.isRedirect( 'sr-ec' ), 'sr-cyrl', '"sr-ec" is a redirect to "sr-cyrl"' );

@@ -141,13 +141,19 @@ function getScriptGroupOfLanguage( language ) {
 
 /**
  * Get the given list of languages grouped by script.
- * @param {string[]} languages Array of language codes
- * @return {Object} Array of languages indexed by script codes
+ * @param {string[], Object} languages Array of language codes or associative array of autonyms indexed by language code
+ * @return {Object} Associative array of languages indexed by script groups
  */
 function getLanguagesByScriptGroup( languages ) {
 	var languagesByScriptGroup = {},
-		language, resolvedRedirect, langScriptGroup;
-	for ( language in languages ) {
+		languagesList, language, languageIndex, resolvedRedirect, langScriptGroup;
+
+	languagesList = Array.isArray( languages )
+		? languages
+		: Object.keys( languages );
+
+	for ( languageIndex = 0; languageIndex < languagesList.length; languageIndex++ ) {
+		language = languagesList[ languageIndex ];
 		resolvedRedirect = isRedirect( language ) || language;
 		langScriptGroup = getScriptGroupOfLanguage( resolvedRedirect );
 		if ( !languagesByScriptGroup[ langScriptGroup ] ) {
@@ -164,15 +170,22 @@ function getLanguagesByScriptGroup( languages ) {
  * @param {string[]} regions array of region codes
  * @return {Object}
  */
-function getLanguagesByScriptGroupInRegions( regions ) {
-	var language, i, scriptGroup,
+function getLanguagesByScriptGroupInRegions( regions, languages ) {
+	var language, languageIndex, regionIndex, scriptGroup,
 		languagesByScriptGroupInRegions = {};
-	for ( language in languageData.languages ) {
+
+	if ( languages === undefined ) {
+		languages = Object.keys( languageData.languages );
+	}
+
+	for ( languageIndex = 0; languageIndex < languages.length; languageIndex++ ) {
+		language = languages[ languageIndex ];
+
 		if ( isRedirect( language ) ) {
 			continue;
 		}
-		for ( i = 0; i < regions.length; i++ ) {
-			if ( getRegions( language ).includes( regions[ i ] ) ) {
+		for ( regionIndex = 0; regionIndex < regions.length; regionIndex++ ) {
+			if ( getRegions( language ).includes( regions[ regionIndex ] ) ) {
 				scriptGroup = getScriptGroupOfLanguage( language );
 				if ( languagesByScriptGroupInRegions[ scriptGroup ] === undefined ) {
 					languagesByScriptGroupInRegions[ scriptGroup ] = [];
@@ -191,8 +204,28 @@ function getLanguagesByScriptGroupInRegions( regions ) {
  * @param {string} region Region code
  * @return {Object}
  */
-function getLanguagesByScriptGroupInRegion( region ) {
-	return getLanguagesByScriptGroupInRegions( [ region ] );
+function getLanguagesByScriptGroupInRegion( region, languages ) {
+	return getLanguagesByScriptGroupInRegions( [ region ], languages );
+}
+
+/**
+ * Get the given list of languages grouped by script.
+ * @param {string[], Object} languages Array of language codes or associative array of autonyms indexed by language code
+ * @return {string[]} Array of language codes
+ */
+function sortByScriptGroupAndAutonym( languages ) {
+	var groupedLanguages, group,
+		sortedByAutonym = [],
+		allLanguages = [];
+
+	groupedLanguages = getLanguagesByScriptGroup( languages );
+
+	for ( group in groupedLanguages ) {
+		sortedByAutonym = groupedLanguages[ group ].sort( sortByAutonym )
+		allLanguages = allLanguages.concat( sortedByAutonym );
+	}
+
+	return allLanguages;
 }
 
 /**
@@ -269,5 +302,6 @@ module.exports = {
 	isKnown,
 	isRedirect,
 	isRtl,
+	sortByScriptGroupAndAutonym,
 	sortByAutonym
 };
