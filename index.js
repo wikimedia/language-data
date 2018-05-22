@@ -204,15 +204,13 @@ function getLanguagesByScriptGroupInRegion( region ) {
  */
 function sortByScriptGroup( languages ) {
 	var groupedLanguages, scriptGroups, i,
-		sortedByAutonym = [],
 		allLanguages = [];
 
 	groupedLanguages = getLanguagesByScriptGroup( languages );
 	scriptGroups = Object.keys( groupedLanguages ).sort();
 
 	for ( i = 0; i < scriptGroups.length; i++ ) {
-		sortedByAutonym = groupedLanguages[ scriptGroups[i] ].sort( sortByAutonym )
-		allLanguages = allLanguages.concat( sortedByAutonym );
+		allLanguages = allLanguages.concat( groupedLanguages[ scriptGroups[i] ] );
 	}
 
 	return allLanguages;
