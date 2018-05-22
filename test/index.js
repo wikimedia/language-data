@@ -114,7 +114,7 @@ describe( 'languagedata', function () {
 		], 'Languages are correctly sorted by autonym' );
 	} );
 	it( 'regions and groups', function () {
-		var languagesToGroup, groupedLanguages;
+		var languagesToGroup, groupedLanguages, languagesAM;
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
@@ -138,6 +138,13 @@ describe( 'languagedata', function () {
 		], 'Correct regions of the Laz language were selected' );
 		assert.strictEqual( languageData.getRegions( 'no-such-language' ), 'UNKNOWN', 'The region of an invalid language is "UNKNOWN"' );
 		assert.ok( languageData.getLanguagesInTerritory( 'RU' ).includes( 'sah' ), 'Sakha language is spoken in Russia' );
+
+		languagesAM = [ 'atj', 'chr', 'chy', 'cr', 'en', 'es', 'fr', 'gn', 'haw', 'ike-cans', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'yi' ];
+		assert.deepEqual(
+			languageData.sortByScriptGroupAndAutonym( languagesAM ),
+			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'chr', 'ike-cans', 'cr' ],
+			'languages in region AM are ordered correctly by script group'
+		);
 	} );
 	it( 'scripts', function () {
 		// This test assumes that we don't want any scripts to be in the 'Other'
