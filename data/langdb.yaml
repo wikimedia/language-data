@@ -467,8 +467,7 @@ languages:
   ryu: [Kana, [AS], ʔucināguci]
   sa: [Deva, [AS], संस्कृतम्]
   sah: [Cyrl, [EU, AS], саха тыла]
- # Currently Latn, potentially Olck
-  sat: [Latn, [AS], Santali]
+  sat: [Olck, [AS], ᱥᱟᱱᱛᱟᱲᱤ]
   saz: [Saur, [AS], ꢱꣃꢬꢵꢯ꣄ꢡ꣄ꢬꢵ]
   sc: [Latn, [EU], sardu]
   scn: [Latn, [EU], sicilianu]
