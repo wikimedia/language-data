@@ -651,7 +651,7 @@ scriptgroups:
  # Tibetan (Tibt) is here, even though it's classified as "Central Asian" by
  # Unicode, because linguistically and geographically it's closely related to
  # the Brahmic family.
-  SouthAsian: [Beng, Deva, Gujr, Guru, Knda, Mlym, Orya, Saur, Sinh, Taml, Telu, Tibt, Thaa, Wara]
+  SouthAsian: [Beng, Deva, Gujr, Guru, Knda, Mlym, Olck, Orya, Saur, Sinh, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
   CJK: [Hans, Hant, Kana, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Mymr, Thai]

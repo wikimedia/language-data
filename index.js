@@ -25,6 +25,14 @@ function isRedirect( language ) {
 }
 
 /**
+ * Get all the languages
+ * @return {Object}
+ */
+function getLanguages() {
+	return languageData.languages;
+}
+
+/**
  * Returns the script of the language.
  * @param {string} language Language code
  * @return {string}
@@ -278,6 +286,7 @@ module.exports = {
 	getAutonyms,
 	getDir,
 	getGroupOfScript,
+	getLanguages,
 	getLanguagesByScriptGroup,
 	getLanguagesByScriptGroupInRegion,
 	getLanguagesByScriptGroupInRegions,
