@@ -10,7 +10,7 @@ describe( 'languagedata', function () {
 	orphanScripts = function () {
 		var language, script,
 			result = [];
-		for ( language in languageData.languages ) {
+		for ( language in languageData.getLanguages() ) {
 			script = languageData.getScript( language );
 			if ( languageData.getGroupOfScript( script ) === 'Other' ) {
 				result.push( script );
@@ -24,9 +24,9 @@ describe( 'languagedata', function () {
 	badRedirects = function () {
 		var language, target,
 			result = [];
-		for ( language in languageData.languages ) {
+		for ( language in languageData.getLanguages() ) {
 			target = languageData.isRedirect( language );
-			if ( target && !languageData.languages[ target ] ) {
+			if ( target && !languageData.getLanguages()[ target ] ) {
 				result.push( language );
 			}
 		}
@@ -39,7 +39,7 @@ describe( 'languagedata', function () {
 	doubleRedirects = function () {
 		var language, target,
 			result = [];
-		for ( language in languageData.languages ) {
+		for ( language in languageData.getLanguages() ) {
 			target = languageData.isRedirect( language );
 			if ( target && languageData.isRedirect( target ) ) {
 				result.push( language );
@@ -55,7 +55,7 @@ describe( 'languagedata', function () {
 			autonyms = [],
 			duplicateAutonyms = [];
 
-		for ( language in languageData.languages ) {
+		for ( language in languageData.getLanguages() ) {
 			if ( languageData.isRedirect( language ) ) {
 				continue;
 			}
@@ -78,7 +78,7 @@ describe( 'languagedata', function () {
 	languagesWithoutAutonym = function () {
 		var language,
 			result = [];
-		for ( language in languageData.languages ) {
+		for ( language in languageData.getLanguages() ) {
 			if ( typeof languageData.getAutonym( language ) !== 'string' ) {
 				result.push( language );
 			}
