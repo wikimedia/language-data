@@ -365,6 +365,7 @@ languages:
   mr: [Deva, [AS, ME], मराठी]
   mrj: [Cyrl, [EU], кырык мары]
   ms: [Latn, [AS], Bahasa Melayu]
+  ms-arab: [Arab, [AS], بهاس ملايو]
   mt: [Latn, [EU], Malti]
   mui: [Latn, [AS], Musi]
   mus: [Latn, [AM], Mvskoke]

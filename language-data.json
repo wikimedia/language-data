@@ -2340,6 +2340,13 @@
             ],
             "Bahasa Melayu"
         ],
+        "ms-arab": [
+            "Arab",
+            [
+              "AS"
+            ],
+            "بهاس ملايو"
+        ],
         "mt": [
             "Latn",
             [
@@ -4267,6 +4274,7 @@
         ],
         "BN": [
             "ms",
+            "ms-arab",
             "zh-hant",
             "zh",
             "en"
@@ -4730,6 +4738,7 @@
             "jv",
             "su",
             "ms",
+            "ms-arab",
             "min",
             "bew",
             "ban",
@@ -5101,6 +5110,7 @@
         ],
         "MY": [
             "ms",
+            "ms-arab",
             "en",
             "zh-hant",
             "zh",
