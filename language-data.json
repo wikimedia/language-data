@@ -903,6 +903,13 @@
             ],
             "British English"
         ],
+        "en-simple": [
+            "Latn",
+            [
+                "WW"
+            ],
+            "Simple English"
+        ],
         "en": [
             "Latn",
             [
@@ -3170,13 +3177,6 @@
                 "AS"
             ],
             "සිංහල"
-        ],
-        "simple": [
-            "Latn",
-            [
-                "WW"
-            ],
-            "Simple English"
         ],
         "sjd": [
             "Cyrl",
