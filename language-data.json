@@ -926,7 +926,9 @@
         "es-419": [
             "Latn",
             [
-                "AM"
+                "AM",
+                "PA",
+                "ME"
             ],
             "español de América Latina"
         ],
@@ -936,7 +938,9 @@
                 "EU",
                 "AM",
                 "AF",
-                "WW"
+                "WW",
+                "PA",
+                "ME"
             ],
             "español (formal)"
         ],
@@ -947,14 +951,17 @@
                 "AM",
                 "AF",
                 "WW",
-                "PA"
+                "PA",
+                "ME"
             ],
             "español"
         ],
         "es-ni": [
             "Latn",
             [
-                "AM"
+                "AM",
+                "ME",
+                "PA"
             ],
             "español nicaragüense"
         ],
