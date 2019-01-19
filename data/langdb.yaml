@@ -309,6 +309,7 @@ languages:
   ks: [ks-arab]
   ksf: [Latn, [AF], Bafia]
   ksh: [Latn, [EU], Ripoarisch]
+  ksw: [Mymr, [AS], စှီၤ ကညီကျိာ်]
  # CLDR uses ku-latn and ku-arab. Latin is more common and is used in Wikipedia.
   ku: [ku-latn]
   ku-arab: [Arab, [EU, ME], كوردي]
