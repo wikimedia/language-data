@@ -590,6 +590,7 @@ languages:
   ur: [Arab, [AS, ME], اردو]
   uz: [Latn, [AS], oʻzbekcha]
   ve: [Latn, [AF], Tshivenda]
+  vai: [Vaii, [AF], ꕙꔤ]
   vec: [Latn, [EU], vèneto]
   vep: [Latn, [EU], vepsän kel’]
   vi: [Latn, [AS], Tiếng Việt]
@@ -663,7 +664,7 @@ scriptgroups:
  # Maybe Thaana can be moved here from SouthAsian.
  # Maybe it can be unified with African.
   MiddleEastern: [Hebr, Syrc]
-  African: [Ethi, Nkoo, Tfng, Copt]
+  African: [Copt, Ethi, Nkoo, Tfng, Vaii]
  # India, Nepal, Bangladesh, Sri-Lanka, Bhutan, Maldives.
  #
  # Thaana (Thaa, the script of Maldives) is here, even though it's RTL,
