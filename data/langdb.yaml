@@ -260,9 +260,9 @@ languages:
   jdt: [jdt-cyrl]
   jdt-cyrl: [Cyrl, [EU, AS], жугьури]
   jut: [Latn, [EU], jysk]
-  jv: [Latn, [AS, PA], Basa Jawa]
+  jv: [Latn, [AS, PA], Jawa]
  # For support in webfonts.
-  jv-java: [Java, [AS, PA], ꦧꦱꦗꦮ]
+  jv-java: [Java, [AS, PA], ꦗꦮ]
   jv-x-bms: [Latn, [AS], Basa Banyumasan]
   ka: [Geor, [EU], ქართული]
   kaa: [Latn, [AS], Qaraqalpaqsha]
