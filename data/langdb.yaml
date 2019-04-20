@@ -48,7 +48,10 @@ languages:
   azb: [az-arab]
   azj: [az-latn]
   ba: [Cyrl, [EU], башҡортса]
-  ban: [Bali, [AS], ᬩᬲᬩᬮᬶ]
+ # The common modern default.
+  ban: [Latn, [AS, PA], Bali]
+ # For support in webfonts.
+  ban-bali: [Bali, [AS, PA], ᬩᬮᬶ]
   bar: [Latn, [EU], Boarisch]
   bat-smg: [sgs]
   bbc-latn: [Latn, [AS], Batak Toba]
