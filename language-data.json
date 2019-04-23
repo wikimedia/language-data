@@ -3792,6 +3792,13 @@
             ],
             "Tshivenda"
         ],
+        "vai": [
+            "Vaii",
+            [
+                "AF"
+            ],
+            "ꕙꔤ"
+        ],
         "vec": [
             "Latn",
             [
@@ -4109,10 +4116,11 @@
             "Syrc"
         ],
         "African": [
+            "Copt",
             "Ethi",
             "Nkoo",
             "Tfng",
-            "Copt"
+            "Vaii"
         ],
         "SouthAsian": [
             "Beng",
@@ -5018,6 +5026,7 @@
         ],
         "LR": [
             "en",
+            "vai",
             "ff"
         ],
         "LS": [
