@@ -2933,6 +2933,14 @@
             ],
             "Kreol Réyoné"
         ],
+        "rej": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Jang"
+        ],
         "rgn": [
             "Latn",
             [
@@ -4822,6 +4830,7 @@
             "bbc-latn",
             "zh-hant",
             "zh",
+            "rej",
             "gor",
             "sly",
             "mwv"
