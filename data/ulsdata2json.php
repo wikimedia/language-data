@@ -26,7 +26,7 @@ $parsedLangdb = spyc_load( $yamlLangdb );
 
 $supplementalDataFilename = 'supplementalData.xml';
 $supplementalDataUrl =
-	"http://unicode.org/repos/cldr/trunk/common/supplemental/$supplementalDataFilename";
+	"https://raw.githubusercontent.com/unicode-org/cldr/master/common/supplemental/supplementalData.xml";
 
 $curl = curl_init( $supplementalDataUrl );
 $supplementalDataFile = fopen( $supplementalDataFilename, 'w' );
