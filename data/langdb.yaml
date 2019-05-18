@@ -463,9 +463,19 @@ languages:
   rif: [Latn, [AF], Tarifit]
   rki: [Mymr, [AS], ရခိုင်]
   rm: [Latn, [EU], rumantsch]
- # Also known as Fíntika Rómma
+  # Waiting for a confirmed autonym
+  #rmc: [Latn, [EU], Carpathian Romani]
+  # Also known as Fíntika Rómma
   rmf: [Latn, [EU], kaalengo tšimb]
-  rmy: [Latn, [EU], Romani]
+  rmg: [Latn, [EU], romani rakripa]
+  # Waiting for a confirmed autonym
+  #rml: [Latn, [EU], Baltic Romani]
+  # Waiting for a confirmed autonym
+  #rmn: [Latn, [EU], Balkan Romani]
+  # Waiting for a confirmed autonym
+  #rmo: [Latn, [EU], Sinte Romani]
+  rmw: [Latn, [EU], kååle]
+  rmy: [Latn, [EU], romani čhib]
   rn: [Latn, [AF], Kirundi]
   ro: [Latn, [EU], română]
   ro-cyrl-md: [Cyrl, [EU], молдовеняскэ]
@@ -507,10 +517,13 @@ languages:
   shi: [shi-latn]
   shn: [Mymr, [AS], လိၵ်ႈတႆး]
   si: [Sinh, [AS], සිංහල]
+  sia: [Cyrl, [EU], аккала]
   simple: [en-simple]
   sjd: [Cyrl, [EU], Кӣллт са̄мь кӣлл]
   sje: [Latn, [EU], bidumsámegiella]
+  sjk: [Latn, [EU], kemi]
   sjo: [Mong, [AS], ᠰᡞᠪᡝ ᡤᡞᠰᡠᠨ]
+  sjt: [Cyrl, [EU], тер]
   sju: [Latn, [EU], ubmejensámien giella]
   sk: [Latn, [EU], slovenčina]
   sl: [Latn, [EU], slovenščina]

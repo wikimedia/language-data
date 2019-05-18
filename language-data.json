@@ -2983,12 +2983,26 @@
             ],
             "kaalengo tšimb"
         ],
+        "rmg": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "romani rakripa"
+        ],
+        "rmw": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "kååle"
+        ],
         "rmy": [
             "Latn",
             [
                 "EU"
             ],
-            "Romani"
+            "romani čhib"
         ],
         "rn": [
             "Latn",
@@ -3243,6 +3257,13 @@
             ],
             "සිංහල"
         ],
+        "sia": [
+            "Cyrl",
+            [
+                "EU"
+            ],
+            "аккала"
+        ],
         "simple": [
             "en-simple"
         ],
@@ -3260,12 +3281,26 @@
             ],
             "bidumsámegiella"
         ],
+        "sjk": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "kemi"
+        ],
         "sjo": [
             "Mong",
             [
                 "AS"
             ],
             "ᠰᡞᠪᡝ ᡤᡞᠰᡠᠨ"
+        ],
+        "sjt": [
+            "Cyrl",
+            [
+                "EU"
+            ],
+            "тер"
         ],
         "sju": [
             "Latn",
