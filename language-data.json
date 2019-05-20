@@ -557,15 +557,12 @@
             ],
             "Kaqchikel"
         ],
-        "cbk": [
+        "cbk-zam": [
             "Latn",
             [
                 "AS"
             ],
             "Chavacano de Zamboanga"
-        ],
-        "cbk-zam": [
-            "cbk"
         ],
         "cdo": [
             "Latn",
@@ -801,9 +798,6 @@
             "Schweizer Hochdeutsch"
         ],
         "de-formal": [
-            "de-x-formal"
-        ],
-        "de-x-formal": [
             "Latn",
             [
                 "EU"
@@ -918,13 +912,6 @@
             ],
             "British English"
         ],
-        "en-simple": [
-            "Latn",
-            [
-                "WW"
-            ],
-            "Simple English"
-        ],
         "en": [
             "Latn",
             [
@@ -953,9 +940,6 @@
             "español de América Latina"
         ],
         "es-formal": [
-            "es-x-formal"
-        ],
-        "es-x-formal": [
             "Latn",
             [
                 "EU",
@@ -1484,9 +1468,6 @@
             "Kreyòl ayisyen"
         ],
         "hu-formal": [
-            "hu-x-formal"
-        ],
-        "hu-x-formal": [
             "Latn",
             [
                 "EU"
@@ -1671,13 +1652,6 @@
                 "PA"
             ],
             "ꦗꦮ"
-        ],
-        "jv-x-bms": [
-            "Latn",
-            [
-                "AS"
-            ],
-            "Basa Banyumasan"
         ],
         "ka": [
             "Geor",
@@ -2234,7 +2208,11 @@
             "मैथिली"
         ],
         "map-bms": [
-            "jv-x-bms"
+            "Latn",
+            [
+                "AS"
+            ],
+            "Basa Banyumasan"
         ],
         "mdf": [
             "Cyrl",
@@ -2343,7 +2321,11 @@
             "ဘာသာ မန်"
         ],
         "mo": [
-            "ro-cyrl-md"
+            "Cyrl",
+            [
+                "EU"
+            ],
+            "молдовеняскэ"
         ],
         "moe": [
             "Latn",
@@ -2476,13 +2458,6 @@
             ],
             "Napulitano"
         ],
-        "nap-x-tara": [
-            "Latn",
-            [
-                "EU"
-            ],
-            "tarandíne"
-        ],
         "nb": [
             "Latn",
             [
@@ -2547,9 +2522,6 @@
             "Ao"
         ],
         "nl-informal": [
-            "nl-x-informal"
-        ],
-        "nl-x-informal": [
             "Latn",
             [
                 "EU",
@@ -2607,15 +2579,12 @@
             ],
             "isiNdebele seSewula"
         ],
-        "nrf": [
+        "nrm": [
             "Latn",
             [
                 "EU"
             ],
             "Nouormand"
-        ],
-        "nrm": [
-            "nrf"
         ],
         "nso": [
             "Latn",
@@ -3004,18 +2973,15 @@
             ],
             "română"
         ],
-        "ro-cyrl-md": [
-            "Cyrl",
-            [
-                "EU"
-            ],
-            "молдовеняскэ"
-        ],
         "roa-rup": [
             "rup"
         ],
         "roa-tara": [
-            "nap-x-tara"
+            "Latn",
+            [
+                "EU"
+            ],
+            "tarandíne"
         ],
         "rtm": [
             "Latn",
@@ -3244,7 +3210,11 @@
             "සිංහල"
         ],
         "simple": [
-            "en-simple"
+            "Latn",
+            [
+                "WW"
+            ],
+            "Simple English"
         ],
         "sjd": [
             "Cyrl",
@@ -4026,28 +3996,11 @@
             "lzh"
         ],
         "zh-cn": [
-            "zh-hans-cn"
-        ],
-        "zh-hans-cn": [
             "Hans",
             [
                 "AS"
             ],
             "中文（中国大陆）"
-        ],
-        "zh-hans-my": [
-            "Hans",
-            [
-                "AS"
-            ],
-            "中文（马来西亚）"
-        ],
-        "zh-hans-sg": [
-            "Hans",
-            [
-                "AS"
-            ],
-            "中文（新加坡）"
         ],
         "zh-hans": [
             "Hans",
@@ -4055,27 +4008,6 @@
                 "AS"
             ],
             "中文（简体）"
-        ],
-        "zh-hant-hk": [
-            "Hant",
-            [
-                "AS"
-            ],
-            "中文（香港）"
-        ],
-        "zh-hant-mo": [
-            "Hant",
-            [
-                "AS"
-            ],
-            "中文（澳門）"
-        ],
-        "zh-hant-tw": [
-            "Hant",
-            [
-                "AS"
-            ],
-            "中文（台灣）"
         ],
         "zh-hant": [
             "Hant",
@@ -4085,22 +4017,42 @@
             "中文（繁體）"
         ],
         "zh-hk": [
-            "zh-hant-hk"
+            "Hant",
+            [
+                "AS"
+            ],
+            "中文（香港）"
         ],
         "zh-min-nan": [
             "nan"
         ],
         "zh-mo": [
-            "zh-hant-mo"
+            "Hant",
+            [
+                "AS"
+            ],
+            "中文（澳門）"
         ],
         "zh-my": [
-            "zh-hans-my"
+            "Hans",
+            [
+                "AS"
+            ],
+            "中文（马来西亚）"
         ],
         "zh-sg": [
-            "zh-hans-sg"
+            "Hans",
+            [
+                "AS"
+            ],
+            "中文（新加坡）"
         ],
         "zh-tw": [
-            "zh-hant-tw"
+            "Hant",
+            [
+                "AS"
+            ],
+            "中文（台灣）"
         ],
         "zh-yue": [
             "yue"
