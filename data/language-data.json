@@ -640,6 +640,20 @@
             ],
             "Mìng-dĕ̤ng-ngṳ̄"
         ],
+        "cdo-latn": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Mìng-dĕ̤ng-ngṳ̄ Bàng-uâ-cê"
+        ],
+        "cdo-hani": [
+            "Hani",
+            [
+                "AS"
+            ],
+            "閩東語漢字"
+        ],
         "ce": [
             "Cyrl",
             [
@@ -4223,6 +4237,9 @@
         "zh-yue": [
             "yue"
         ],
+        "zh-cdo": [
+            "cdo"
+        ],
         "zu": [
             "Latn",
             [
@@ -4288,6 +4305,7 @@
             "Cyrl"
         ],
         "CJK": [
+            "Hani",
             "Hans",
             "Hant",
             "Kana",
@@ -5332,7 +5350,6 @@
         "MY": [
             "ms",
             "en",
-            "zh-hant",
             "zh",
             "ta",
             "jv",

@@ -101,7 +101,10 @@ languages:
   cbk: [Latn, [AS], Chavacano de Zamboanga]
   cbk-zam: [cbk]
   ccp: [Cakm, [AS], 𑄌𑄋𑄴𑄟𑄳𑄦]
+ # FIXME cdo will be modified later to split to Latin and Chinese more cleanly
   cdo: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄]
+  cdo-latn: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄ Bàng-uâ-cê]
+  cdo-hani: [Hani, [AS], 閩東語漢字]
   ce: [Cyrl, [EU], нохчийн]
   ceb: [Latn, [AS], Cebuano]
   ch: [Latn, [PA], Chamoru]
@@ -651,6 +654,7 @@ languages:
   zh-sg: [Hans, [AS], 中文（新加坡）]
   zh-tw: [Hant, [AS], 中文（台灣）]
   zh-yue: [yue]
+  zh-cdo: [cdo]
   zu: [Latn, [AF], isiZulu]
   zun: [Latn, [AM], "Shiwi'ma"]
 
@@ -690,7 +694,7 @@ scriptgroups:
  # the Brahmic family.
   SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Saur, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
-  CJK: [Hans, Hant, Kana, Kore, Jpan, Yiii]
+  CJK: [Hani, Hans, Hant, Kana, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Mymr, Thai]
   Mongolian: [Mong]
   SignWriting: [Sgnw]
