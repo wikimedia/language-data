@@ -669,7 +669,7 @@ scriptgroups:
  # the Brahmic family.
   SouthAsian: [Beng, Deva, Gujr, Guru, Knda, Mlym, Olck, Orya, Saur, Sinh, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
-  CJK: [Hans, Hant, Kana, Kore, Jpan, Yiii]
+  CJK: [Hans, Hant, Hani, Kana, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Mymr, Thai]
   Mongolian: [Mong]
   SignWriting: [Sgnw]
