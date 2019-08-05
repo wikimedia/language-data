@@ -91,7 +91,9 @@ languages:
   ca: [Latn, [EU], català]
   cak: [Latn, [AM], Kaqchikel]
   cbk-zam: [Latn, [AS], Chavacano de Zamboanga]
-  cdo: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄]
+  cdo: [Latn, [AS], 閩東語/Mìng-dĕ̤ng-ngṳ̄]
+  cdo-latn: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄ Bàng-uâ-cê]
+  cdo-hani: [Hani, [AS], 閩東語漢字]
   ce: [Cyrl, [EU], нохчийн]
   ceb: [Latn, [AS], Cebuano]
   ch: [Latn, [PA], Chamoru]
@@ -627,6 +629,7 @@ languages:
   zh-sg: [Hans, [AS], 中文（新加坡）]
   zh-tw: [Hant, [AS], 中文（台灣）]
   zh-yue: [yue]
+  zh-cdo: [cdo]
   zu: [Latn, [AF], isiZulu]
   zun: [Latn, [AM], "Shiwi'ma"]
 

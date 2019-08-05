@@ -569,7 +569,21 @@
             [
                 "AS"
             ],
-            "Mìng-dĕ̤ng-ngṳ̄"
+            "閩東語/Mìng-dĕ̤ng-ngṳ̄"
+        ],
+        "cdo-latn": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Mìng-dĕ̤ng-ngṳ̄ Bàng-uâ-cê"
+        ],
+        "cdo-hani": [
+            "Hani",
+            [
+                "AS"
+            ],
+            "閩東語漢字"
         ],
         "ce": [
             "Cyrl",
@@ -4060,6 +4074,9 @@
         "zh-yue": [
             "yue"
         ],
+        "zh-cdo": [
+            "cdo"
+        ],
         "zu": [
             "Latn",
             [
@@ -4434,6 +4451,7 @@
             "yue",
             "hsn",
             "hak",
+            "cdo",
             "nan",
             "gan",
             "ii",
