@@ -2314,6 +2314,13 @@
             "ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ"
         ],
         "mni": [
+            "Mtei",
+            [
+                "AS"
+            ],
+            "ꯃꯤꯇꯩ ꯂꯣꯟ"
+        ],
+        "mni-beng": [
             "Beng",
             [
                 "AS"
@@ -4108,6 +4115,7 @@
             "Guru",
             "Knda",
             "Mlym",
+            "Mtei",
             "Olck",
             "Orya",
             "Saur",
