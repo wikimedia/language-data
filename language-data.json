@@ -247,6 +247,13 @@
             ],
             "Kotava"
         ],
+        "awa": [
+            "Deva",
+            [
+                "AS"
+            ],
+            "अवधी"
+        ],
         "ay": [
             "Latn",
             [
@@ -4842,6 +4849,7 @@
             "or",
             "pa-guru",
             "bho",
+            "awa",
             "as",
             "mai",
             "hne",
@@ -5239,6 +5247,7 @@
             "new",
             "en",
             "dty",
+            "awa",
             "hi",
             "bo",
             "bn"
