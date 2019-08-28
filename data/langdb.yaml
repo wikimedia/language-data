@@ -370,6 +370,7 @@ languages:
   moe: [Latn, [AM], Innu-aimun]
   mr: [Deva, [AS, ME], मराठी]
   mrj: [Cyrl, [EU], кырык мары]
+  mrv: [Latn, [PA], Magareva]
   ms: [Latn, [AS], Bahasa Melayu]
   ms-arab: [Arab, [AS], بهاس ملايو]
   mt: [Latn, [EU], Malti]
