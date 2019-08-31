@@ -418,6 +418,7 @@ languages:
   ood: [Latn, [AM], "ʼOʼodham ha-ñeʼokĭ"]
   or: [Orya, [AS], ଓଡ଼ିଆ]
   os: [Cyrl, [EU], Ирон]
+  osi: [Latn, [AS], using]
  # Bug: 60815
   ota: [Arab, [AS, EU], لسان عثمانى]
   ovd: [Latn, [EU], övdalsk]
