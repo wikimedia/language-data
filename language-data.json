@@ -571,6 +571,13 @@
             ],
             "Chavacano de Zamboanga"
         ],
+        "ccp": [
+            "Cakm",
+            [
+                "AS"
+            ],
+            "𑄌𑄋𑄴𑄟𑄳𑄦"
+        ],
         "cdo": [
             "Latn",
             [
@@ -4131,6 +4138,7 @@
         ],
         "SouthAsian": [
             "Beng",
+            "Cakm",
             "Deva",
             "Gujr",
             "Guru",
@@ -4301,6 +4309,7 @@
         "BD": [
             "bn",
             "en",
+            "ccp",
             "my",
             "mni"
         ],
@@ -4879,6 +4888,7 @@
             "mni",
             "hoc",
             "saz",
+            "ccp",
             "bfq",
             "njo",
             "bo",
