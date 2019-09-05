@@ -629,7 +629,6 @@ languages:
   zh-sg: [Hans, [AS], 中文（新加坡）]
   zh-tw: [Hant, [AS], 中文（台灣）]
   zh-yue: [yue]
-  zh-cdo: [cdo]
   zu: [Latn, [AF], isiZulu]
   zun: [Latn, [AM], "Shiwi'ma"]
 
