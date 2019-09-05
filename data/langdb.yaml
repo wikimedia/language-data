@@ -92,6 +92,7 @@ languages:
   ca: [Latn, [EU], català]
   cak: [Latn, [AM], Kaqchikel]
   cbk-zam: [Latn, [AS], Chavacano de Zamboanga]
+  ccp: [Cakm, [AS], 𑄌𑄋𑄴𑄟𑄳𑄦]
   cdo: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄]
   ce: [Cyrl, [EU], нохчийн]
   ceb: [Latn, [AS], Cebuano]
@@ -668,7 +669,7 @@ scriptgroups:
  # Tibetan (Tibt) is here, even though it's classified as "Central Asian" by
  # Unicode, because linguistically and geographically it's closely related to
  # the Brahmic family.
-  SouthAsian: [Beng, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Saur, Sinh, Taml, Telu, Tibt, Thaa, Wara]
+  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Saur, Sinh, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
   CJK: [Hans, Hant, Kana, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Mymr, Thai]
