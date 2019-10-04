@@ -27,7 +27,7 @@ languages:
   arn: [Latn, [AM], mapudungun]
   aro: [Latn, [AM], Araona]
   arq: [Arab, [AF], جازايرية]
-  ary: [Latn, [ME], الدارجة]
+  ary: [Arab, [AF], الدارجة]
   arz: [Arab, [ME], مصرى]
   as: [Beng, [AS], অসমীয়া]
   ase: [Sgnw, [AM], American sign language]
