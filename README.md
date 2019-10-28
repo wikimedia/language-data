@@ -25,3 +25,13 @@ The list of region codes appears at the end of data/langdb.yaml.
 The autonym is the name of the language in the language itself. In some cases, for example for extinct languages such as Jewish Babylonian Aramaic (tmr), the name can be something that is useful for modern users, but in most cases it should be the natural name in the language itself. Please do your best to verify that it's spelled correctly in reliable sources.
 
 After adding a language to data/langdb.yaml, run `php ulsdata2json.php` in the data/ directory to generate the language-data.json file. Don't edit language-data.json manually.
+
+Example:
+`myv: [Cyrl, [EU], эрзянь]`
+
+This is the [Erzya language](https://en.wikipedia.org/wiki/Erzya_language). Its writing system is Cyrillic (ISO 15924: Cyrl). It's spoken in Europe (EU). Its autonym is "эрзянь".
+
+Some languages are listed as redirects. In this case, the only value in the square brackets is the target language code. For example:
+`fil: [tl]`
+
+This is the Filipino language, which is a redirect to Tagalog (tl).
