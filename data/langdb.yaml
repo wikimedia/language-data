@@ -261,6 +261,7 @@ languages:
   jbo: [Latn, [WW], lojban]
   jdt: [jdt-cyrl]
   jdt-cyrl: [Cyrl, [EU, AS], жугьури]
+  jje: [Kore, [AS], 제주말]
   jut: [Latn, [EU], jysk]
   jv: [Latn, [AS, PA], Jawa]
  # For support in webfonts.
