@@ -1,7 +1,9 @@
-CLDR based language data and utilities
-======================================
+# CLDR based language data and utilities
+
+[![npm][npm]][npm-url]
 
 The language data with following details are populated from the current version of [CLDR supplemental data](http://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml)
+
 1. The script in which a language is written.
 2. The script code
 3. The language code
@@ -9,8 +11,7 @@ The language data with following details are populated from the current version 
 5. The autonym - language name written in its own script
 6. The directionality of the text
 
-Adding languages
-================
+## Adding languages
 
 New languages must be added to the data/langdb.yaml file.
 
@@ -35,3 +36,6 @@ Some languages are listed as redirects. In this case, the only value in the squa
 `fil: [tl]`
 
 This is the Filipino language, which is a redirect to Tagalog (tl).
+
+[npm]: https://img.shields.io/npm/v/@wikimedia/language-data.svg
+[npm-url]: https://npmjs.com/package/@wikimedia/language-data
