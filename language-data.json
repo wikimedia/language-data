@@ -3258,6 +3258,16 @@
             ],
             "လိၵ်ႈတႆး"
         ],
+        "shy-latn": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "tacawit"
+        ],
+        "shy": [
+            "shy-latn"
+        ],
         "si": [
             "Sinh",
             [
@@ -3512,6 +3522,13 @@
                 "EU"
             ],
             "ślůnski"
+        ],
+        "szy": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Sakizaya"
         ],
         "ta": [
             "Taml",
@@ -4595,6 +4612,7 @@
             "ar",
             "fr",
             "kab",
+            "shy-latn",
             "en"
         ],
         "EA": [
@@ -5676,6 +5694,7 @@
         "TW": [
             "zh-hant",
             "zh",
+            "szy",
             "trv"
         ],
         "TZ": [
