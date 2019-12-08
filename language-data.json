@@ -3258,9 +3258,6 @@
             ],
             "tacawit"
         ],
-        "shy": [
-            "shy-latn"
-        ],
         "si": [
             "Sinh",
             [
@@ -4605,7 +4602,6 @@
             "ar",
             "fr",
             "kab",
-            "shy-latn",
             "en"
         ],
         "EA": [
@@ -5687,7 +5683,6 @@
         "TW": [
             "zh-hant",
             "zh",
-            "szy",
             "trv"
         ],
         "TZ": [
