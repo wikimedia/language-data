@@ -93,13 +93,6 @@
             ],
             "अहिराणी"
         ],
-        "ais": [
-            "Latn",
-            [
-                "AS"
-            ],
-            "Sakizaya"
-        ],
         "ak": [
             "Latn",
             [
@@ -247,6 +240,13 @@
             ],
             "Kotava"
         ],
+        "awa": [
+            "Deva",
+            [
+                "AS"
+            ],
+            "अवधी"
+        ],
         "ay": [
             "Latn",
             [
@@ -352,6 +352,13 @@
             ],
             "Bikol Central"
         ],
+        "bdr": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Bajau Sama"
+        ],
         "be-tarask": [
             "Cyrl",
             [
@@ -434,7 +441,7 @@
             [
                 "AS"
             ],
-            "Bahasa Banjar"
+            "Banjar"
         ],
         "bm": [
             "Latn",
@@ -564,6 +571,13 @@
             ],
             "Chavacano de Zamboanga"
         ],
+        "ccp": [
+            "Cakm",
+            [
+                "AS"
+            ],
+            "𑄌𑄋𑄴𑄟𑄳𑄦"
+        ],
         "cdo": [
             "Latn",
             [
@@ -667,6 +681,13 @@
                 "ME"
             ],
             "کوردی"
+        ],
+        "ckt": [
+            "Cyrl",
+            [
+                "AS"
+            ],
+            "ԓыгъоравэтԓьэн"
         ],
         "cnh": [
             "Latn",
@@ -1651,6 +1672,13 @@
             ],
             "жугьури"
         ],
+        "jje": [
+            "Kore",
+            [
+                "AS"
+            ],
+            "제주말"
+        ],
         "jut": [
             "Latn",
             [
@@ -2289,7 +2317,7 @@
             [
                 "AS"
             ],
-            "Baso Minangkabau"
+            "Minangkabau"
         ],
         "miq": [
             "Latn",
@@ -2328,6 +2356,13 @@
             "ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ"
         ],
         "mni": [
+            "Mtei",
+            [
+                "AS"
+            ],
+            "ꯃꯤꯇꯩ ꯂꯣꯟ"
+        ],
+        "mni-beng": [
             "Beng",
             [
                 "AS"
@@ -2369,6 +2404,13 @@
                 "EU"
             ],
             "кырык мары"
+        ],
+        "mrv": [
+            "Latn",
+            [
+                "PA"
+            ],
+            "Magareva"
         ],
         "ms": [
             "Latn",
@@ -2684,6 +2726,13 @@
                 "EU"
             ],
             "Ирон"
+        ],
+        "osi": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Using"
         ],
         "ota": [
             "Arab",
@@ -3223,6 +3272,13 @@
             ],
             "လိၵ်ႈတႆး"
         ],
+        "shy-latn": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "tacawit"
+        ],
         "si": [
             "Sinh",
             [
@@ -3259,7 +3315,7 @@
             [
                 "EU"
             ],
-            "ubmejensámien giella"
+            "ubmejesámiengiälla"
         ],
         "sk": [
             "Latn",
@@ -3441,7 +3497,7 @@
             [
                 "AS"
             ],
-            "Basa Sunda"
+            "Sunda"
         ],
         "sv": [
             "Latn",
@@ -3477,6 +3533,13 @@
                 "EU"
             ],
             "ślůnski"
+        ],
+        "szy": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Sakizaya"
         ],
         "ta": [
             "Taml",
@@ -4117,11 +4180,13 @@
         ],
         "SouthAsian": [
             "Beng",
+            "Cakm",
             "Deva",
             "Gujr",
             "Guru",
             "Knda",
             "Mlym",
+            "Mtei",
             "Olck",
             "Orya",
             "Saur",
@@ -4287,6 +4352,7 @@
         "BD": [
             "bn",
             "en",
+            "ccp",
             "my",
             "mni"
         ],
@@ -4600,7 +4666,8 @@
             "gl",
             "eu",
             "ast",
-            "ext"
+            "ext",
+            "an"
         ],
         "ET": [
             "en",
@@ -4850,6 +4917,7 @@
             "or",
             "pa-guru",
             "bho",
+            "awa",
             "as",
             "mai",
             "hne",
@@ -4865,6 +4933,7 @@
             "mni",
             "hoc",
             "saz",
+            "ccp",
             "bfq",
             "njo",
             "bo",
@@ -5247,6 +5316,7 @@
             "new",
             "en",
             "dty",
+            "awa",
             "hi",
             "bo",
             "bn"
