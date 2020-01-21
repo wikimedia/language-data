@@ -6,26 +6,20 @@
  * Niklas Laxström, Pau Giner, Santhosh Thottingal, Siebrand Mazeland and other
  * contributors. See CREDITS for a list.
  *
- * UniversalLanguageSelector is dual licensed GPLv2 or later and MIT. You don't
- * have to do anything special to choose one license or the other and you don't
- * have to notify anyone which license you are using. You are free to use
- * UniversalLanguageSelector in commercial projects as long as the copyright
- * header is left intact. See files GPL-LICENSE and MIT-LICENSE for details.
- *
  * @file
  * @ingroup Extensions
- * @licence GNU General Public Licence 2.0 or later
- * @licence MIT License
+ * @license GPL-2.0-or-later
  */
 
 include __DIR__ . '/spyc.php';
 
 print "Reading langdb.yaml...\n";
-$yamlLangdb = file_get_contents( 'langdb.yaml' );
+$yamlLangdb = file_get_contents( __DIR__ . '/../../data/langdb.yaml' );
 $parsedLangdb = spyc_load( $yamlLangdb );
 
 $supplementalDataFilename = 'supplementalData.xml';
 $supplementalDataUrl =
+	// phpcs:ignore Generic.Files.LineLength
 	"https://raw.githubusercontent.com/unicode-org/cldr/master/common/supplemental/supplementalData.xml";
 
 $curl = curl_init( $supplementalDataUrl );
@@ -51,13 +45,13 @@ if ( !( $supplementalData instanceof SimpleXMLElement ) ) {
 }
 
 print "CLDR supplemental data parsed successfully, reading territories info...\n";
-$parsedLangdb['territories'] = array();
+$parsedLangdb['territories'] = [];
 
 foreach ( $supplementalData->territoryInfo->territory as $territoryRecord ) {
 	$territoryAtributes = $territoryRecord->attributes();
 	$territoryCodeAttr = $territoryAtributes['type'];
-	$territoryCode = (string) $territoryCodeAttr[0];
-	$parsedLangdb['territories'][$territoryCode] = array();
+	$territoryCode = (string)$territoryCodeAttr[0];
+	$parsedLangdb['territories'][$territoryCode] = [];
 
 	foreach ( $territoryRecord->languagePopulation as $languageRecord ) {
 		$languageAttributes = $languageRecord->attributes();
@@ -65,7 +59,7 @@ foreach ( $supplementalData->territoryInfo->territory as $territoryRecord ) {
 		// Lower case is a convention for language codes in ULS.
 		// '_' is used in CLDR for compound codes and it's replaced with '-' here.
 
-		$normalisedCode = strtr( strtolower( (string) $languageCodeAttr[0] ), '_', '-' );
+		$normalisedCode = strtr( strtolower( (string)$languageCodeAttr[0] ), '_', '-' );
 
 		$parsedLangdb['territories'][$territoryCode][] = $normalisedCode;
 
@@ -103,7 +97,6 @@ foreach ( $parsedLangdb['territories'] as $territoryCode => $languages ) {
 	// Remove duplicates we might have created
 	$parsedLangdb['territories'][$territoryCode] =
 		array_unique( $parsedLangdb['territories'][$territoryCode] );
-
 
 	// We need to renumber or json conversion thinks these are objects
 	$parsedLangdb['territories'][$territoryCode] =

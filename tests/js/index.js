@@ -1,4 +1,4 @@
-var languageData = require( '../index' ),
+var languageData = require( __dirname + '/../../src/index' ),
 	assert = require( 'assert' );
 
 describe( 'languagedata', function () {

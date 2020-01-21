@@ -1,0 +1,42 @@
+{
+    "name": "wikimedia/language-data",
+    "description": "CLDR based language data and utilities.",
+    "keywords": [
+        "cldr", "cldr-data", "internationalization", "localization", "l10n"
+    ],
+    "license": "GPL-2.0-or-later",
+    "authors": [{
+        "name": "Santhosh Thottingal",
+        "email": "santhosh.thottingal@gmail.com"
+    }, {
+        "name": "Amir Aharoni"
+    }, {
+        "name": "Niklas Laxström",
+        "email": "niklas.laxstrom@gmail.com"
+    }],
+    "type": "library",
+    "require": {
+		"php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.*",
+        "mediawiki/mediawiki-codesniffer": "29.0.0"
+    },
+    "support": {
+        "issues": "https://github.com/wikimedia/language-data/issues",
+        "irc": "irc://irc.freenode.net/mediawiki-i18n"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wikimedia\\LanguageData\\": "src/"
+        }
+	},
+	"scripts": {
+		"fix": "phpcbf",
+		"test": [
+		  "composer validate --no-interaction",
+		  "phpunit tests/php/*",
+		  "phpcs -p"
+		]
+	}
+}

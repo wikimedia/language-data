@@ -34,8 +34,8 @@
   "engine": {
     "node": ">=6.0.0"
   },
-  "license": "(MIT OR GPL-2.0+)",
+  "license": "GPL-2.0-or-later",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha tests/js/*.js"
   }
 }
