@@ -1,0 +1,22 @@
+name: PHP build
+on:
+  [pull_request, push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: [7.2, 7.3]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-interaction --ansi
+
+      - name: Run tests
+        run: php${{ matrix.php }} ./vendor/bin/phpunit tests/php/*
+
+      - name: Running phpcs
+        run: composer run-script cs

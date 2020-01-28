@@ -36,6 +36,7 @@
   },
   "license": "GPL-2.0-or-later",
   "scripts": {
-    "test": "mocha tests/js/*.js"
+    "test": "mocha tests/js/*.js",
+    "lint": "eslint src/*.js"
   }
 }
