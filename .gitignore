@@ -16,3 +16,9 @@ yarn-error.log*
 
 # PHP
 vendor/
+
+# Docs
+docs/_build/
+docs/warnings.log
+docs/xml/
+docs/html/
