@@ -1,7 +1,6 @@
 <?php
 /**
  * Contains a utility class to query the language data.
- *
  * @file
  * @license GPL-2.0-or-later
  */
@@ -9,19 +8,36 @@
 namespace Wikimedia;
 
 /**
- * Utility class to query the language data.
+ * A singleton utility class to query the language data.
  */
 class LanguageData {
+	/**
+	 * Instance of the class.
+	 * @var LanguageData
+	 */
 	private static $instance;
 
+	/**
+	 * If language does not belong to a script group, this is returned instead.
+	 * @var string
+	 */
 	public const OTHER_SCRIPT_GROUP = 'Other';
 
+	/**
+	 * Path of the language data file
+	 * @var string
+	 */
 	private const LANGUAGE_DATA_PATH = '../data/language-data.json';
 
+	/**
+	 * Cached language data object
+	 * @var object
+	 */
 	private $data;
 
 	/**
-	 * Returns an instance of the class
+	 * Returns an instance of the class that can be used to then call the other methods in the
+	 * class.
 	 * @return LanguageData
 	 */
 	public static function get(): LanguageData {
@@ -39,7 +55,7 @@ class LanguageData {
 
 	/**
 	 * Checks if a language code is valid
-	 * @param string $languageCode
+	 * @param string $languageCode Language code
 	 * @return bool
 	 */
 	public function isKnown( string $languageCode ): bool {
@@ -47,7 +63,7 @@ class LanguageData {
 	}
 
 	/**
-	 * Is this language a redirect to another language?
+	 * Checks if the language is a redirect and returns the target language code
 	 * @param string $languageCode Language code
 	 * @return string|bool Target language code if it's a redirect or false if it's not
 	 */
@@ -63,7 +79,9 @@ class LanguageData {
 	}
 
 	/**
-	 * Get all the languages
+	 * Get all the languages. The properties in the returned object are ISO 639 language codes
+	 * The value of each property is an array that has,
+	 * [writing system code, [regions list], autonym]
 	 * @return object
 	 */
 	public function getLanguages() {
@@ -71,9 +89,9 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns the script of the language or false
-	 * @param string $languageCode
-	 * @return string|bool Language script if its a known language, else false.
+	 * Returns the script of the language
+	 * @param string $languageCode Language code
+	 * @return string|bool Language script or false if the language is unknown
 	 */
 	public function getScript( string $languageCode ) {
 		if ( !$this->isKnown( $languageCode ) ) {
@@ -89,9 +107,9 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns the regions in which a language is spoken.
-	 * @param string $languageCode
-	 * @return string[]|bool Array of regions or false if language is unknown.
+	 * Returns the regions in which a language is spoken
+	 * @param string $languageCode Language code
+	 * @return array|bool List of regions or false if language is unknown
 	 */
 	public function getRegions( string $languageCode ) {
 		if ( !$this->isKnown( $languageCode ) ) {
@@ -107,11 +125,11 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns the autonym of the language.
+	 * Returns the autonym of the language
 	 * @param string $languageCode Language code
-	 * @return string|bool
+	 * @return string|bool Autonym of the language or false if the language is unknown
 	 */
-	public function getAutonym( $languageCode ) {
+	public function getAutonym( string $languageCode ) {
 		if ( !$this->isKnown( $languageCode ) ) {
 			return false;
 		}
@@ -127,7 +145,8 @@ class LanguageData {
 
 	/**
 	 * Returns all language codes and corresponding autonyms
-	 * @return array
+	 * @return array The key is the language code, and the values are corresponding
+	 * autonym
 	 */
 	public function getAutonyms(): array {
 		$languages = $this->getLanguages();
@@ -143,9 +162,9 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns all languages written in the given scripts.
-	 * @param string[] $scripts
-	 * @return string[]
+	 * Returns all languages written in the given scripts
+	 * @param array $scripts List of strings, each being the name of a script
+	 * @return array
 	 */
 	public function getLanguagesInScripts( array $scripts ): array {
 		$languages = $this->getLanguages();
@@ -165,19 +184,18 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns all languages written in the given script.
-	 * @param string $script
-	 * @return string[]
+	 * Returns all languages written in the given script
+	 * @param string $script Name of the script
+	 * @return array
 	 */
 	public function getLanguagesInScript( string $script ): array {
 		return $this->getLanguagesInScripts( [ $script ] );
 	}
 
 	/**
-	 * Returns the script group of a script or 'Other' if it doesn't
-	 * belong to any group.
-	 * @param string $script Script code
-	 * @return string script group name
+	 * Returns the script group of a script or "Other" if it doesn't belong to any group
+	 * @param string $script Name of the script
+	 * @return string Script group name or "Other" if the script doesn't belong to any group
 	 */
 	public function getGroupOfScript( string $script ): string {
 		$scriptGroups = $this->data->scriptgroups;
@@ -191,7 +209,8 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns the script group of a language.
+	 * Returns the script group of a language. Language belongs to a script, and the script
+	 * belongs to a script group
 	 * @param string $languageCode Language code
 	 * @return string script group name
 	 */
@@ -200,9 +219,9 @@ class LanguageData {
 	}
 
 	/**
-	 * Return the list of languages passed, grouped by script.
-	 * @param string[] $languageCodes Array of language codes to group
-	 * @return array Array of language codes grouped by script
+	 * Return the list of languages passed, grouped by their script group
+	 * @param array $languageCodes List of language codes to group
+	 * @return array List of language codes grouped by script group
 	 */
 	public function getLanguagesByScriptGroup( array $languageCodes ): array {
 		$languagesByScriptGroup = [];
@@ -230,9 +249,10 @@ class LanguageData {
 
 	/**
 	 * Returns an associative array of languages in several regions,
-	 * grouped by script group.
-	 * @param string[] $regions array of region codes
-	 * @return array
+	 * grouped by script group
+	 * @param array $regions List of strings representing region codes
+	 * @return array Returns an associative array. They key is the script group name,
+	 * and the value is a list of language codes in that region.
 	 */
 	public function getLanguagesByScriptGroupInRegions( array $regions ): array {
 		$languagesByScriptGroupInRegions = [];
@@ -262,20 +282,21 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns an associative array of languages in a region, grouped by their script.
+	 * Returns an associative array of languages in a region, grouped by their script
+	 * @see LanguageData#getLanguagesByScriptGroupInRegions
 	 * @param string $region Region code
 	 * @return array
 	 */
-	public function  getLanguagesByScriptGroupInRegion( $region ): array {
+	public function  getLanguagesByScriptGroupInRegion( string $region ): array {
 		return $this->getLanguagesByScriptGroupInRegions( [ $region ] );
 	}
 
 	/**
-	 * Return the list of languages sorted by script groups.
-	 * @param string[] $languageCodes Array of language codes to sort
-	 * @return string[] Array of language codes
+	 * Return the list of languages sorted by their script groups
+	 * @param array $languageCodes List of language codes to sort
+	 * @return array Sorted list of strings containing language codes
 	 */
-	public function sortByScriptGroup( array $languageCodes ) {
+	public function sortByScriptGroup( array $languageCodes ): array {
 		$groupedLanguageData = $this->getLanguagesByScriptGroup( $languageCodes );
 		ksort( $groupedLanguageData, SORT_STRING | SORT_FLAG_CASE );
 
@@ -288,9 +309,9 @@ class LanguageData {
 	}
 
 	/**
-	 * Sort languages by their autonym.
-	 * @param string[] $languageCodes
-	 * @return string[]
+	 * Sort languages by their autonym
+	 * @param array $languageCodes List of language codes to sort
+	 * @return array List of sorted language codes returned by their autonym
 	 */
 	public function sortByAutonym( array $languageCodes ): array {
 		$sortedLanguages = [];
@@ -307,9 +328,10 @@ class LanguageData {
 	}
 
 	/**
-	 * Check if a language is right-to-left.
+	 * Check if a language is right-to-left
 	 * @param string $languageCode Language code
-	 * @return bool
+	 * @return bool true if it is an RTL language, else false. Returns false if an
+	 * unknown language code is passed.
 	 */
 	public function isRtl( string $languageCode ): bool {
 		$script = $this->getScript( $languageCode );
@@ -317,9 +339,10 @@ class LanguageData {
 	}
 
 	/**
-	 * Return the direction of the language. Returns false if the direction is unknown.
+	 * Return the direction of the language
 	 * @param string $languageCode Language code
-	 * @return string|bool
+	 * @return string|bool Returns 'rtl' or 'ltr'. If the language code is unknown,
+	 * returns false.
 	 */
 	public function getDir( string $languageCode ) {
 		if ( $this->isKnown( $languageCode ) ) {
@@ -330,9 +353,10 @@ class LanguageData {
 	}
 
 	/**
-	 * Returns the languages spoken in a territory.
+	 * Returns the languages spoken in a territory
 	 * @param string $territory Territory code
-	 * @return string[]|bool list of language codes
+	 * @return array|bool List of language codes in the territory, or else false if invalid
+	 * territory is passed
 	 */
 	public function getLanguagesInTerritory( string $territory ) {
 		if ( isset( $this->data->territories->$territory ) ) {
@@ -345,7 +369,7 @@ class LanguageData {
 	/**
 	 * Adds a language in run time and sets its options as provided.
 	 * If the target option is provided, the language is defined as a redirect.
-	 * Other possible options are script, regions and autonym.
+	 * Other possible options are `script` (string), `regions` (array) and `autonym` (string).
 	 * @param string $languageCode New language code.
 	 * @param array $options Language properties.
 	 */
@@ -361,7 +385,7 @@ class LanguageData {
 
 	/**
 	 * Return the language data based on language code. Performs no check, meant for
-	 * internal use only.
+	 * internal use only
 	 * @param string $languageCode
 	 * @return array
 	 */
