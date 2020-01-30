@@ -2,7 +2,7 @@
   "name": "@wikimedia/language-data",
   "version": "0.1.2",
   "description": "Language data and utilities",
-  "homepage": "https://github.com/wikimedia/language-data",
+  "homepage": "https://language-data.readthedocs.io/en/latest/index.html",
   "keywords": [
     "cldr",
     "internationalization",
