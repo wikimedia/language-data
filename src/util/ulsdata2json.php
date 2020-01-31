@@ -11,7 +11,7 @@
  * @license GPL-2.0-or-later
  */
 
-include __DIR__ . '/spyc.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
 
 print "Reading langdb.yaml...\n";
 $yamlLangdb = file_get_contents( __DIR__ . '/../../data/langdb.yaml' );
