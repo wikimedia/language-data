@@ -12,7 +12,7 @@
  * @license GPL-2.0-or-later
  */
 
-include __DIR__ . '/spyc.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
 
 define( 'DATA_DIRECTORY', __DIR__ . '/../../data' );
 
