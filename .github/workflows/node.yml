@@ -1,0 +1,27 @@
+name: Node.js build
+on:
+  [pull_request, push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-v: [8.x, 10.x, 12.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-v }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-v }}
+
+      - name: Install package.json dependencies
+        run: npm install
+
+      - name: Run Node.js test suite
+        run: npm test
+
+      - name: Run linting
+        run: npm run lint

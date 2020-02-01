@@ -1,4 +1,4 @@
-var languageData = require( './language-data.json' );
+var languageData = require( '../data/language-data.json' );
 
 /**
  * Utility functions for querying language data.
@@ -21,7 +21,8 @@ function isKnown( languageCode ) {
  * @return {string} Target language code if it's a redirect or false if it's not
  */
 function isRedirect( language ) {
-	return ( isKnown( language ) && languageData.languages[ language ].length === 1 ) ? languageData.languages[ language ][ 0 ] : false;
+	return ( isKnown( language ) && languageData.languages[ language ].length === 1 ) ?
+		languageData.languages[ language ][ 0 ] : false;
 }
 
 /**
@@ -77,7 +78,7 @@ function getAutonym( language ) {
 
 /**
  * Returns all language codes and corresponding autonyms
- * @return {array}
+ * @return {Array}
  */
 function getAutonyms() {
 	var language,
@@ -152,21 +153,21 @@ function getScriptGroupOfLanguage( language ) {
  * @param {string[]} languages Array of language codes to group
  * @return {string[]} Array of language codes
  */
- function getLanguagesByScriptGroup( languages ) {
- 	var languagesByScriptGroup = {},
- 		languages, language, languageIndex, resolvedRedirect, langScriptGroup;
+function getLanguagesByScriptGroup( languages ) {
+	var languagesByScriptGroup = {},
+		language, languageIndex, resolvedRedirect, langScriptGroup;
 
- 	for ( languageIndex = 0; languageIndex < languages.length; languageIndex++ ) {
- 		language = languages[ languageIndex ];
- 		resolvedRedirect = isRedirect( language ) || language;
- 		langScriptGroup = getScriptGroupOfLanguage( resolvedRedirect );
- 		if ( !languagesByScriptGroup[ langScriptGroup ] ) {
- 			languagesByScriptGroup[ langScriptGroup ] = [];
- 		}
- 		languagesByScriptGroup[ langScriptGroup ].push( language );
- 	}
- 	return languagesByScriptGroup;
- }
+	for ( languageIndex = 0; languageIndex < languages.length; languageIndex++ ) {
+		language = languages[ languageIndex ];
+		resolvedRedirect = isRedirect( language ) || language;
+		langScriptGroup = getScriptGroupOfLanguage( resolvedRedirect );
+		if ( !languagesByScriptGroup[ langScriptGroup ] ) {
+			languagesByScriptGroup[ langScriptGroup ] = [];
+		}
+		languagesByScriptGroup[ langScriptGroup ].push( language );
+	}
+	return languagesByScriptGroup;
+}
 
 /**
  * Returns an associative array of languages in several regions,
@@ -218,7 +219,7 @@ function sortByScriptGroup( languages ) {
 	scriptGroups = Object.keys( groupedLanguages ).sort();
 
 	for ( i = 0; i < scriptGroups.length; i++ ) {
-		allLanguages = allLanguages.concat( groupedLanguages[ scriptGroups[i] ] );
+		allLanguages = allLanguages.concat( groupedLanguages[ scriptGroups[ i ] ] );
 	}
 
 	return allLanguages;
