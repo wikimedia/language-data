@@ -25,7 +25,6 @@
 			"email": "santhosh.thottingal@gmail.com"
 		}
 	],
-	"type": "library",
 	"require": {
 		"php": ">=7.2",
 		"mustangostang/spyc": "0.6.3"
@@ -45,11 +44,11 @@
 	},
 	"scripts": {
 		"fix": "phpcbf",
-		"cs": "phpcs -p",
+		"cs": "phpcs -sp",
 		"test": [
-			"composer validate --no-interaction",
-			"phpunit tests/php/*",
-			"phpcs -p"
+			"@composer validate --no-interaction",
+			"phpunit",
+			"@cs"
 		]
 	}
 }

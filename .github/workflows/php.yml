@@ -15,8 +15,8 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-interaction --ansi
 
-      - name: Run tests
-        run: php${{ matrix.php }} ./vendor/bin/phpunit tests/php/*
-
       - name: Running phpcs
         run: composer run-script cs
+
+      - name: Run tests
+        run: php${{ matrix.php }} ./vendor/bin/phpunit

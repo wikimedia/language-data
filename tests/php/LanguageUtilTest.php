@@ -1,6 +1,4 @@
 <?php
-require __DIR__ . '/../../src/LanguageUtil.php';
-
 use PHPUnit\Framework\TestCase;
 use Wikimedia\LanguageData\LanguageUtil;
 
