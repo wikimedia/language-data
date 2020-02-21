@@ -16,6 +16,7 @@ yarn-error.log*
 
 # PHP
 vendor/
+*.cache
 
 # Docs
 docs/_build/

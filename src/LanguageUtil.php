@@ -38,7 +38,7 @@ class LanguageUtil {
 	/**
 	 * Returns an instance of the class that can be used to then call the other methods in the
 	 * class.
-	 * @return LanguageUtil
+	 * @return self
 	 */
 	public static function get(): LanguageUtil {
 		if ( self::$instance === null ) {
