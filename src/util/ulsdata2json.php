@@ -2,9 +2,10 @@
 /**
  * Script to create the language data in JSON format for ULS.
  *
- * Copyright (C) 2012 Alolita Sharma, Amir Aharoni, Arun Ganesh, Brandon Harris,
+ * Copyright (C) 2020 Alolita Sharma, Amir Aharoni, Arun Ganesh, Brandon Harris,
  * Niklas Laxström, Pau Giner, Santhosh Thottingal, Siebrand Mazeland and other
- * contributors. See CREDITS for a list.
+ * contributors. See https://github.com/wikimedia/language-data/graphs/contributors
+ * for a list.
  *
  * @file
  * @ingroup Extensions
