@@ -14,8 +14,10 @@
 
 include __DIR__ . '/spyc.php';
 
+define( 'DATA_DIRECTORY', __DIR__ . '/../../data' );
+
 print "Reading langdb.yaml...\n";
-$yamlLangdb = file_get_contents( __DIR__ . '/../../data/langdb.yaml' );
+$yamlLangdb = file_get_contents( DATA_DIRECTORY . '/langdb.yaml' );
 $parsedLangdb = spyc_load( $yamlLangdb );
 
 $supplementalDataFilename = 'supplementalData.xml';
@@ -107,6 +109,6 @@ foreach ( $parsedLangdb['territories'] as $territoryCode => $languages ) {
 print "Writing JSON langdb...\n";
 $jsonVerbose = json_encode( $parsedLangdb, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
 // For making diff review easier.
-file_put_contents( '../language-data.json', $jsonVerbose );
+file_put_contents( DATA_DIRECTORY . '/language-data.json', $jsonVerbose );
 
 print "Done.\n";
