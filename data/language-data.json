@@ -187,12 +187,23 @@
             "جازايرية"
         ],
         "ary": [
+            "Arab",
+            [
+                "AF",
+                "ME"
+            ],
+            "الدارجة"
+        ],
+        "ary-arab": [
+            "ary"
+        ],
+        "ary-latn": [
             "Latn",
             [
                 "AF",
                 "ME"
             ],
-            "Maġribi"
+            "ed-dārija"
         ],
         "arz": [
             "Arab",
