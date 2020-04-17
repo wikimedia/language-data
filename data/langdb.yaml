@@ -364,8 +364,9 @@ languages:
   miq: [Latn, [AM], Mískitu]
   mk: [Cyrl, [EU], македонски]
   ml: [Mlym, [AS, ME], മലയാളം]
- # Hmm, can also have Mong some day in some way
   mn: [Cyrl, [AS], монгол]
+  mn-cyrl: [mn]
+  mn-mong: [mvf]
   mnc: [Mong, [AS], ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ]
   mni: [Mtei, [AS], ꯃꯤꯇꯩ ꯂꯣꯟ]
   mni-beng: [Beng, [AS], মেইতেই লোন্]
@@ -380,6 +381,7 @@ languages:
   mt: [Latn, [EU], Malti]
   mui: [Latn, [AS], Musi]
   mus: [Latn, [AM], Mvskoke]
+  mvf: [Mong, [AS], ᠮᠣᠩᠭᠣᠯ]
   mwl: [Latn, [EU], Mirandés]
   mwv: [Latn, [AS], Behase Mentawei]
   mww: [mww-latn]
