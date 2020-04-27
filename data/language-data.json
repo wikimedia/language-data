@@ -2380,7 +2380,7 @@
             [
                 "AM"
             ],
-            "Innu-aimun"
+            "innu-aimun"
         ],
         "mr": [
             "Deva",
@@ -3368,6 +3368,23 @@
             ],
             "ܣܘܪܝܝܐ"
         ],
+        "syl": [
+            "Sylo",
+            [
+                "AS"
+            ],
+            "ꠍꠤꠟꠐꠤ"
+        ],
+        "syl-beng": [
+            "Beng",
+            [
+                "AS"
+            ],
+            "সিলেটি"
+        ],
+        "syl-sylo": [
+            "syl"
+        ],
         "sm": [
             "Latn",
             [
@@ -4190,6 +4207,7 @@
             "Orya",
             "Saur",
             "Sinh",
+            "Sylo",
             "Taml",
             "Telu",
             "Tibt",
@@ -4350,6 +4368,7 @@
         "BD": [
             "bn",
             "en",
+            "syl",
             "ccp",
             "my",
             "mni"
@@ -4734,6 +4753,7 @@
             "bn",
             "zh-hant",
             "zh",
+            "syl",
             "el",
             "it",
             "ks-arab",
