@@ -601,7 +601,7 @@ languages:
   uz: [Latn, [AS], oʻzbekcha]
   ve: [Latn, [AF], Tshivenda]
   vai: [Vaii, [AF], ꕙꔤ]
-  vec: [Latn, [EU], vèneto]
+  vec: [Latn, [EU, AM], vèneto]
   vep: [Latn, [EU], vepsän kel’]
   vi: [Latn, [AS], Tiếng Việt]
   vls: [Latn, [EU], West-Vlams]
