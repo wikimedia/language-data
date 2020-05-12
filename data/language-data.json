@@ -152,6 +152,7 @@
         "ar": [
             "Arab",
             [
+                "AF",
                 "ME"
             ],
             "العربية"
@@ -180,20 +181,34 @@
         "arq": [
             "Arab",
             [
-                "AF"
+                "AF",
+                "ME"
             ],
             "جازايرية"
         ],
         "ary": [
-            "Latn",
+            "Arab",
             [
+                "AF",
                 "ME"
             ],
-            "Maġribi"
+            "الدارجة"
+        ],
+        "ary-arab": [
+            "ary"
+        ],
+        "ary-latn": [
+            "Latn",
+            [
+                "AF",
+                "ME"
+            ],
+            "ed-dārija"
         ],
         "arz": [
             "Arab",
             [
+                "AF",
                 "ME"
             ],
             "مصرى"
@@ -3892,7 +3907,8 @@
         "vec": [
             "Latn",
             [
-                "EU"
+                "EU",
+                "AM"
             ],
             "vèneto"
         ],
