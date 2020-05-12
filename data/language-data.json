@@ -152,6 +152,7 @@
         "ar": [
             "Arab",
             [
+                "AF",
                 "ME"
             ],
             "العربية"
@@ -180,20 +181,34 @@
         "arq": [
             "Arab",
             [
-                "AF"
+                "AF",
+                "ME"
             ],
             "جازايرية"
         ],
         "ary": [
-            "Latn",
+            "Arab",
             [
+                "AF",
                 "ME"
             ],
-            "Maġribi"
+            "الدارجة"
+        ],
+        "ary-arab": [
+            "ary"
+        ],
+        "ary-latn": [
+            "Latn",
+            [
+                "AF",
+                "ME"
+            ],
+            "ed-dārija"
         ],
         "arz": [
             "Arab",
             [
+                "AF",
                 "ME"
             ],
             "مصرى"
@@ -2374,7 +2389,7 @@
             [
                 "AM"
             ],
-            "Innu-aimun"
+            "innu-aimun"
         ],
         "mr": [
             "Deva",
@@ -3280,7 +3295,7 @@
             [
                 "EU"
             ],
-            "Кӣллт са̄мь кӣлл"
+            "кӣллт са̄мь кӣлл"
         ],
         "sje": [
             "Latn",
@@ -3354,6 +3369,23 @@
                 "ME"
             ],
             "ܣܘܪܝܝܐ"
+        ],
+        "syl": [
+            "Sylo",
+            [
+                "AS"
+            ],
+            "ꠍꠤꠟꠐꠤ"
+        ],
+        "syl-beng": [
+            "Beng",
+            [
+                "AS"
+            ],
+            "সিলেটি"
+        ],
+        "syl-sylo": [
+            "syl"
         ],
         "sm": [
             "Latn",
@@ -3862,7 +3894,8 @@
         "vec": [
             "Latn",
             [
-                "EU"
+                "EU",
+                "AM"
             ],
             "vèneto"
         ],
@@ -4177,6 +4210,7 @@
             "Orya",
             "Saur",
             "Sinh",
+            "Sylo",
             "Taml",
             "Telu",
             "Tibt",
@@ -4337,6 +4371,7 @@
         "BD": [
             "bn",
             "en",
+            "syl",
             "ccp",
             "my",
             "mni"
@@ -4720,6 +4755,7 @@
             "bn",
             "zh-hant",
             "zh",
+            "syl",
             "el",
             "it",
             "ks-arab",
@@ -4848,7 +4884,6 @@
             "id",
             "jv",
             "su",
-            "ms-arab",
             "ms",
             "min",
             "bew",
@@ -4856,6 +4891,7 @@
             "bug",
             "bjn",
             "ace",
+            "ms-arab",
             "bbc-latn",
             "zh-hant",
             "zh",

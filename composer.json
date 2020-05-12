@@ -11,15 +11,18 @@
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
-			"name": "Santhosh Thottingal",
-			"email": "santhosh.thottingal@gmail.com"
+			"name": "Amir E. Aharoni"
 		},
 		{
-			"name": "Amir Aharoni"
+			"name": "Kartik Mistry"
 		},
 		{
 			"name": "Niklas Laxström",
 			"email": "niklas.laxstrom@gmail.com"
+		},
+		{
+			"name": "Santhosh Thottingal",
+			"email": "santhosh.thottingal@gmail.com"
 		}
 	],
 	"type": "library",

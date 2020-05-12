@@ -2,7 +2,7 @@
   "name": "@wikimedia/language-data",
   "version": "0.1.2",
   "description": "Language data and utilities",
-  "homepage": "https://github.com/wikimedia/language-data",
+  "homepage": "https://language-data.readthedocs.io/en/latest/index.html",
   "keywords": [
     "cldr",
     "internationalization",
@@ -15,14 +15,14 @@
   },
   "contributors": [
     "Amir Aharoni",
-    "Niklas Laxström",
-    "Santhosh Thottingal"
+    "Kartik Mistry",
+    "Niklas Laxström"
   ],
   "devDependencies": {
-    "assert": "^2.0.0",
-    "eslint": "^6.2.0",
-    "eslint-config-wikimedia": "0.14.0",
-    "mocha": "^6.2.0"
+    "assert": "2.0.0",
+    "eslint": "6.8.0",
+    "eslint-config-wikimedia": "0.15.1",
+    "mocha": "7.1.1"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "url": "http://github.com/wikimedia/language-data/issues"
   },
   "engine": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "license": "GPL-2.0-or-later",
   "scripts": {
