@@ -43,13 +43,13 @@ The basic usage is like this:
 .. code-block:: php
 
 		<?php
-		use Wikimedia\LanguageData;
+		use Wikimedia\LanguageData\LanguageUtil;
 
-		$languageData = LanguageData::get();
+		$languageUtil = LanguageUtil::get();
 		// Returns English
-		$languageData->getAutonym( 'en' );
+		$languageUtil->getAutonym( 'en' );
 
-For a full list of methods see the documentation for the `LanguageData <api/languagedata.html>`_ class.
+For a full list of methods see the documentation for the `LanguageUtil <api/languagedata/languageutil.html>`_ class.
 
 Using the Node.js library
 ------------------------------
@@ -82,7 +82,7 @@ The basic usage is like this:
 		// Returns English
 		languageData.getAutonym( 'en');
 
-The exposed methods are similar to the methods present in the PHP `LanguageData <api/languagedata.html>`_ class.
+The exposed methods are similar to the methods present in the PHP `LanguageUtil <api/languagedata/languageutil.html>`_ class.
 
 Contribute
 ----------
@@ -103,7 +103,7 @@ Navigation
     :maxdepth: 2
     :caption: PHP API Documentation
 
-  	LanguageData class <api/languagedata.rst>
+  	LanguageUtil <api/languagedata/languageutil.rst>
 
 
 Indices and tables
