@@ -1,58 +1,58 @@
 <?php
-require __DIR__ . '/../../src/LanguageData.php';
+require __DIR__ . '/../../src/LanguageUtil.php';
 
 use PHPUnit\Framework\TestCase;
-use Wikimedia\LanguageData;
+use Wikimedia\LanguageData\LanguageUtil;
 
 /**
  * @coversDefaultClass \Wikimedia\LanguageData
  */
-class LanguageDataTest extends TestCase {
+class LanguageUtilTest extends TestCase {
 	/**
-	 * @var LanguageData
+	 * @var LanguageUtil
 	 */
-	protected $languageData;
+	protected $languageUtil;
 
 	private const UNKNOWN_LANGUAGE_CODE = 'xyz';
 
 	protected function setUp(): void {
 		parent::setUp();
-		$this->languageData = LanguageData::get();
+		$this->languageUtil = LanguageUtil::get();
 	}
 
 	/**
 	 * @covers isKnown
 	 */
 	public function testIsKnown() {
-		$this->assertTrue( $this->languageData->isKnown( 'en' ) );
-		$this->assertFalse( $this->languageData->isKnown( self::UNKNOWN_LANGUAGE_CODE ) );
+		$this->assertTrue( $this->languageUtil->isKnown( 'en' ) );
+		$this->assertFalse( $this->languageUtil->isKnown( self::UNKNOWN_LANGUAGE_CODE ) );
 	}
 
 	/**
 	 * @covers isRedirect
 	 */
 	public function testIsRedirect() {
-		$this->assertFalse( $this->languageData->isRedirect( 'en' ) );
-		$this->assertEquals( $this->languageData->isRedirect( 'aeb' ), 'aeb-arab' );
+		$this->assertFalse( $this->languageUtil->isRedirect( 'en' ) );
+		$this->assertEquals( $this->languageUtil->isRedirect( 'aeb' ), 'aeb-arab' );
 	}
 
 	/**
 	 * @covers getScript
 	 */
 	public function testGetScript() {
-		$this->assertEquals( $this->languageData->getScript( 'en' ), 'Latn' );
-		$this->assertFalse( $this->languageData->getScript( self::UNKNOWN_LANGUAGE_CODE ) );
+		$this->assertEquals( $this->languageUtil->getScript( 'en' ), 'Latn' );
+		$this->assertFalse( $this->languageUtil->getScript( self::UNKNOWN_LANGUAGE_CODE ) );
 	}
 
 	/**
 	 * @covers getRegions
 	 */
 	public function testGetRegions() {
-		$this->assertFalse( $this->languageData->getRegions( self::UNKNOWN_LANGUAGE_CODE ) );
-		$this->assertEquals( [ 'AF' ], $this->languageData->getRegions( 'aeb' ) );
+		$this->assertFalse( $this->languageUtil->getRegions( self::UNKNOWN_LANGUAGE_CODE ) );
+		$this->assertEquals( [ 'AF' ], $this->languageUtil->getRegions( 'aeb' ) );
 
 		$expected = [ 'EU', 'AM', 'AS' ];
-		$regions = $this->languageData->getRegions( 'en' );
+		$regions = $this->languageUtil->getRegions( 'en' );
 		foreach ( $expected as $region ) {
 			$this->assertContains( $region, $regions );
 		}
@@ -62,21 +62,21 @@ class LanguageDataTest extends TestCase {
 	 * @covers getAutonym
 	 */
 	public function testGetAutonym() {
-		$this->assertFalse( $this->languageData->getAutonym( self::UNKNOWN_LANGUAGE_CODE ) );
+		$this->assertFalse( $this->languageUtil->getAutonym( self::UNKNOWN_LANGUAGE_CODE ) );
 		$this->assertEquals(
 			'تونسي',
-			$this->languageData->getAutonym( 'aeb' ),
+			$this->languageUtil->getAutonym( 'aeb' ),
 			'Redirects return proper value in getAutonym.'
 		);
 
-		$this->assertEquals( 'English', $this->languageData->getAutonym( 'en' ) );
+		$this->assertEquals( 'English', $this->languageUtil->getAutonym( 'en' ) );
 	}
 
 	/**
 	 * @covers getAutonyms
 	 */
 	public function testGetAutonyms() {
-		$autonyms = $this->languageData->getAutonyms();
+		$autonyms = $this->languageUtil->getAutonyms();
 		$this->assertEquals( 'English', $autonyms['en'] );
 		$this->assertFalse(
 			isset( $autonyms['aeb'] ),
@@ -89,10 +89,10 @@ class LanguageDataTest extends TestCase {
 	 */
 	public function testGetLanguagesInScripts() {
 		$this->assertEmpty(
-			$this->languageData->getLanguagesInScripts( [ self::UNKNOWN_LANGUAGE_CODE ] )
+			$this->languageUtil->getLanguagesInScripts( [ self::UNKNOWN_LANGUAGE_CODE ] )
 		);
 
-		$expectedValues = $this->languageData->getLanguagesInScripts( [ 'Latn', 'Grek' ] );
+		$expectedValues = $this->languageUtil->getLanguagesInScripts( [ 'Latn', 'Grek' ] );
 
 		$this->assertContains( 'zu', $expectedValues );
 		$this->assertContains( 'pnt', $expectedValues );
@@ -107,10 +107,10 @@ class LanguageDataTest extends TestCase {
 	 * @covers getGroupOfScript
 	 */
 	public function testGetGroupOfScript() {
-		$this->assertEquals( 'Latin', $this->languageData->getGroupOfScript( 'Latn' ) );
+		$this->assertEquals( 'Latin', $this->languageUtil->getGroupOfScript( 'Latn' ) );
 		$this->assertEquals(
-			LanguageData::OTHER_SCRIPT_GROUP,
-			$this->languageData->getGroupOfScript( self::UNKNOWN_LANGUAGE_CODE )
+			LanguageUtil::OTHER_SCRIPT_GROUP,
+			$this->languageUtil->getGroupOfScript( self::UNKNOWN_LANGUAGE_CODE )
 		);
 	}
 
@@ -119,13 +119,13 @@ class LanguageDataTest extends TestCase {
 	 */
 	public function testGetScriptGroupOfLanguage() {
 		$this->assertEquals(
-			LanguageData::OTHER_SCRIPT_GROUP,
-			$this->languageData->getScriptGroupOfLanguage( self::UNKNOWN_LANGUAGE_CODE )
+			LanguageUtil::OTHER_SCRIPT_GROUP,
+			$this->languageUtil->getScriptGroupOfLanguage( self::UNKNOWN_LANGUAGE_CODE )
 		);
 
 		$this->assertEquals(
 			'Latin',
-			$this->languageData->getScriptGroupOfLanguage( 'en' )
+			$this->languageUtil->getScriptGroupOfLanguage( 'en' )
 		);
 	}
 
@@ -133,7 +133,7 @@ class LanguageDataTest extends TestCase {
 	 * @covers getLanguagesByScriptGroup
 	 */
 	public function testGetLanguagesByScriptGroup() {
-		$actuals = $this->languageData->getLanguagesByScriptGroup( [ 'en', 'sr-el', 'tt-cyrl' ] );
+		$actuals = $this->languageUtil->getLanguagesByScriptGroup( [ 'en', 'sr-el', 'tt-cyrl' ] );
 
 		$this->assertContains( 'tt-cyrl', $actuals['Cyrillic'] );
 		$this->assertContains( 'en', $actuals['Latin'] );
@@ -144,7 +144,7 @@ class LanguageDataTest extends TestCase {
 	 * @covers getLanguagesByScriptGroupInRegions
 	 */
 	public function testGetLanguagesByScriptGroupInRegions() {
-		$actuals = $this->languageData->getLanguagesByScriptGroupInRegions( [ 'AS', 'PA' ] );
+		$actuals = $this->languageUtil->getLanguagesByScriptGroupInRegions( [ 'AS', 'PA' ] );
 
 		$this->assertContains( 'tpi', $actuals['Latin'] );
 		$this->assertContains( 'ug-arab', $actuals['Arabic'] );
@@ -160,7 +160,7 @@ class LanguageDataTest extends TestCase {
 	 * @covers sortByAutonym
 	 */
 	public function testSortByAutonym() {
-		$sorted = $this->languageData->sortByAutonym(
+		$sorted = $this->languageUtil->sortByAutonym(
 			[
 				'atj', 'chr', 'chy',
 				'cr', 'en', 'es',
@@ -188,8 +188,8 @@ class LanguageDataTest extends TestCase {
 	 * @covers sortByScriptGroup
 	 */
 	public function testSortByScriptGroup() {
-		$sorted = $this->languageData->sortByScriptGroup(
-			$this->languageData->sortByAutonym(
+		$sorted = $this->languageUtil->sortByScriptGroup(
+			$this->languageUtil->sortByAutonym(
 				[
 					'atj', 'chr', 'chy',
 					'cr', 'en', 'es',
@@ -218,26 +218,26 @@ class LanguageDataTest extends TestCase {
 	 * @covers isRtl
 	 */
 	public function testIsRtl() {
-		$this->assertFalse( $this->languageData->isRtl( 'en' ) );
-		$this->assertFalse( $this->languageData->isRtl( self::UNKNOWN_LANGUAGE_CODE ) );
-		$this->assertTrue( $this->languageData->isRtl( 'he' ) );
+		$this->assertFalse( $this->languageUtil->isRtl( 'en' ) );
+		$this->assertFalse( $this->languageUtil->isRtl( self::UNKNOWN_LANGUAGE_CODE ) );
+		$this->assertTrue( $this->languageUtil->isRtl( 'he' ) );
 	}
 
 	/**
 	 * @covers getDir
 	 */
 	public function testGetDir() {
-		$this->assertEquals( 'ltr', $this->languageData->getDir( 'en' ) );
-		$this->assertEquals( 'rtl', $this->languageData->getDir( 'he' ) );
-		$this->assertFalse( $this->languageData->getDir( self::UNKNOWN_LANGUAGE_CODE ) );
+		$this->assertEquals( 'ltr', $this->languageUtil->getDir( 'en' ) );
+		$this->assertEquals( 'rtl', $this->languageUtil->getDir( 'he' ) );
+		$this->assertFalse( $this->languageUtil->getDir( self::UNKNOWN_LANGUAGE_CODE ) );
 	}
 
 	/**
 	 * @covers getLanguagesInTerritory
 	 */
 	public function testGetLanguagesInTerritory() {
-		$actualsAFG = $this->languageData->getLanguagesInTerritory( 'AF' );
-		$actualsAT = $this->languageData->getLanguagesInTerritory( 'AT' );
+		$actualsAFG = $this->languageUtil->getLanguagesInTerritory( 'AF' );
+		$actualsAT = $this->languageUtil->getLanguagesInTerritory( 'AT' );
 
 		$this->assertContains( 'de', $actualsAT );
 		$this->assertContains( 'bar', $actualsAT );
@@ -252,13 +252,13 @@ class LanguageDataTest extends TestCase {
 	 * @covers addLanguage
 	 */
 	public function testAddLanguage() {
-		$this->assertFalse( $this->languageData->isKnown( 'xyz' ) );
+		$this->assertFalse( $this->languageUtil->isKnown( 'xyz' ) );
 		$this->assertNotContains(
 			'xyz',
-			$this->languageData->getLanguagesByScriptGroupInRegion( 'AF' )['Latin']
+			$this->languageUtil->getLanguagesByScriptGroupInRegion( 'AF' )['Latin']
 		);
 
-		$this->languageData->addLanguage( self::UNKNOWN_LANGUAGE_CODE, [
+		$this->languageUtil->addLanguage( self::UNKNOWN_LANGUAGE_CODE, [
 			'script' => "Latn",
 			'regions' => [
 				"AF"
@@ -266,10 +266,10 @@ class LanguageDataTest extends TestCase {
 			'autonym' => "Test Language"
 		] );
 
-		$this->assertTrue( $this->languageData->isKnown( self::UNKNOWN_LANGUAGE_CODE ) );
+		$this->assertTrue( $this->languageUtil->isKnown( self::UNKNOWN_LANGUAGE_CODE ) );
 		$this->assertContains(
 			self::UNKNOWN_LANGUAGE_CODE,
-			$this->languageData->getLanguagesByScriptGroupInRegion( 'AF' )['Latin']
+			$this->languageUtil->getLanguagesByScriptGroupInRegion( 'AF' )['Latin']
 		);
 	}
 }

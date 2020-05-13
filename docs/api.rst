@@ -5,6 +5,5 @@ API documentation
    :glob:
 
    api/*
+   api/languagedata/*
 
-
-    

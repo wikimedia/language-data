@@ -5,15 +5,15 @@
  * @license GPL-2.0-or-later
  */
 
-namespace Wikimedia;
+namespace Wikimedia\LanguageData;
 
 /**
  * A singleton utility class to query the language data.
  */
-class LanguageData {
+class LanguageUtil {
 	/**
 	 * Instance of the class.
-	 * @var LanguageData
+	 * @var self
 	 */
 	private static $instance;
 
@@ -38,11 +38,11 @@ class LanguageData {
 	/**
 	 * Returns an instance of the class that can be used to then call the other methods in the
 	 * class.
-	 * @return LanguageData
+	 * @return self
 	 */
-	public static function get(): LanguageData {
+	public static function get(): LanguageUtil {
 		if ( self::$instance === null ) {
-			self::$instance = new LanguageData();
+			self::$instance = new LanguageUtil();
 			self::$instance->loadData();
 		}
 
@@ -283,7 +283,7 @@ class LanguageData {
 
 	/**
 	 * Returns an associative array of languages in a region, grouped by their script
-	 * @see LanguageData#getLanguagesByScriptGroupInRegions
+	 * @see LanguageUtil#getLanguagesByScriptGroupInRegions
 	 * @param string $region Region code
 	 * @return array
 	 */
