@@ -33,3 +33,11 @@ This data is populated from the current version of
 [node-build-url]: https://github.com/wikimedia/language-data/actions?query=workflow%3A%22Node.js+build%22
 [php-build]: https://github.com/wikimedia/language-data/workflows/PHP%20build/badge.svg
 [php-build-url]: https://github.com/wikimedia/language-data/actions?query=workflow%3A%22PHP+build%22
+
+## Release schedule
+Similar to [MLEB](https://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle), this library
+will have a quarterly release schedule, and will be released along with MLEB. Intermediate releases
+will be made incase a major bug is identified.
+
+## Changelog
+The full changelog is available [here](https://github.com/wikimedia/language-data/blob/master/CHANGELOG.md).
