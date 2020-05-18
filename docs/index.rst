@@ -25,8 +25,8 @@ Using the PHP library
 ----------------------------
 |php-build|
 
-.. |php-build| image:: https://github.com/Abijeet/language-data/workflows/PHP%20build/badge.svg
-		 :target: https://github.com/Abijeet/language-data/actions?query=workflow%3A%22PHP+build%22
+.. |php-build| image:: https://github.com/wikimedia/language-data/workflows/PHP%20build/badge.svg
+		 :target: https://github.com/wikimedia/language-data/actions?query=workflow%3A%22PHP+build%22
 
 Installation
 ^^^^^^^^^^^^^
@@ -60,8 +60,8 @@ Using the Node.js library
       :target: https://npmjs.com/package/@wikimedia/language-data
 
 
-.. |npm-build| image:: https://github.com/Abijeet/language-data/workflows/Node.js%20build/badge.svg
-      :target: https://github.com/Abijeet/language-data/actions?query=workflow%3A%22Node.js+build%22
+.. |npm-build| image:: https://github.com/wikimedia/language-data/workflows/Node.js%20build/badge.svg
+      :target: https://github.com/wikimedia/language-data/actions?query=workflow%3A%22Node.js+build%22
 
 Installation
 ^^^^^^^^^^^^^
