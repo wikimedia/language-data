@@ -29,7 +29,7 @@ This data is populated from the current version of
 
 [npm]: https://img.shields.io/npm/v/@wikimedia/language-data.svg
 [npm-url]: https://npmjs.com/package/@wikimedia/language-data
-[node-build]: https://github.com/Abijeet/language-data/workflows/Node.js%20build/badge.svg
-[node-build-url]: https://github.com/Abijeet/language-data/actions?query=workflow%3A%22Node.js+build%22
-[php-build]: https://github.com/Abijeet/language-data/workflows/PHP%20build/badge.svg
-[php-build-url]: https://github.com/Abijeet/language-data/actions?query=workflow%3A%22PHP+build%22
+[node-build]: https://github.com/wikimedia/language-data/workflows/Node.js%20build/badge.svg
+[node-build-url]: https://github.com/wikimedia/language-data/actions?query=workflow%3A%22Node.js+build%22
+[php-build]: https://github.com/wikimedia/language-data/workflows/PHP%20build/badge.svg
+[php-build-url]: https://github.com/wikimedia/language-data/actions?query=workflow%3A%22PHP+build%22
