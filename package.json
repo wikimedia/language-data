@@ -16,7 +16,8 @@
   "contributors": [
     "Amir Aharoni",
     "Kartik Mistry",
-    "Niklas Laxström"
+    "Niklas Laxström",
+    "Abijeet Patro"
   ],
   "devDependencies": {
     "assert": "2.0.0",
