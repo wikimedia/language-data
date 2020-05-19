@@ -22,7 +22,7 @@ Language data related changes,
 ## PHP
 ### PHP 1.0.0 (2020-05-20)
 - See [language updates 2020-05-20](#2020-05-20).
-- Add PHP support. Documentation is [here](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). Packagist is [here](https://example.com).
+- Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
 ### Node.js 0.2.0 (2020-05-20)
