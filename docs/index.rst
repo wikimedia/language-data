@@ -84,6 +84,10 @@ The basic usage is like this:
 
 The exposed methods are similar to the methods present in the PHP `LanguageUtil <api/languagedata/languageutil.html>`_ class.
 
+Changelog
+----------
+The full changelog is available `here <https://github.com/wikimedia/language-data/blob/master/CHANGELOG.md>`_.
+
 Contribute
 ----------
 
