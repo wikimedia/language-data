@@ -1,6 +1,6 @@
 {
 	"name": "wikimedia/language-data",
-	"description": "CLDR based language data and utilities.",
+	"description": "Language data and utilities.",
 	"keywords": [
 		"cldr",
 		"cldr-data",
@@ -39,7 +39,8 @@
 	},
 	"support": {
 		"issues": "https://github.com/wikimedia/language-data/issues",
-		"irc": "irc://irc.freenode.net/mediawiki-i18n"
+		"irc": "irc://irc.freenode.net/mediawiki-i18n",
+		"docs": "https://language-data.readthedocs.io/en/latest/index.html"
 	},
 	"autoload": {
 		"psr-4": {
