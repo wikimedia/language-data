@@ -1,4 +1,4 @@
-# CLDR based language data and utilities
+# Language data and utilities
 
 [![npm][npm]][npm-url]
 [![node-build][node-build]][node-build-url]
@@ -17,7 +17,8 @@ The language related data comprises of the following,
 6. The directionality of the text
 
 This data is populated from the current version of
-[CLDR supplemental data](http://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml).
+[CLDR supplemental data](http://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml)
+and various other sources.
 
 ## Documentation
 
