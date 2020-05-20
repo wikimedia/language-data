@@ -1,10 +1,11 @@
 {
   "name": "@wikimedia/language-data",
-  "version": "0.1.2",
-  "description": "Language data and utilities",
+  "version": "0.2.0",
+  "description": "Language data and utilities.",
   "homepage": "https://language-data.readthedocs.io/en/latest/index.html",
   "keywords": [
     "cldr",
+    "cldr-data",
     "internationalization",
     "localization",
     "l10n"
