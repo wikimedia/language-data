@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-CLDR based language data and utilities
+Language data and utilities
 ========================================
 
 This library contains language related data, and utility libraries written in PHP and Node.js to
@@ -19,7 +19,8 @@ The language related data comprises of the following,
 6. The directionality of the text
 
 This data is populated from the current version of
-`CLDR supplemental data <http://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml>`_.
+`CLDR supplemental data <http://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml>`_
+and various other sources.
 
 Using the PHP library
 ----------------------------
