@@ -2250,6 +2250,13 @@
             ],
             "Lazuri"
         ],
+        "mad": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "madhurâ"
+        ],
         "mai": [
             "Deva",
             [
@@ -4898,6 +4905,7 @@
             "id",
             "jv",
             "su",
+            "mad",
             "ms",
             "min",
             "bew",
