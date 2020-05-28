@@ -353,7 +353,7 @@ languages:
   lzh: [Hant, [AS], 文言]
  # Also Geor, but the incubator is in Latn
   lzz: [Latn, [EU, ME], Lazuri]
-  mad: [Latn, [AS], madhurâ]
+  mad: [Latn, [AS], Madhurâ]
   mai: [Deva, [AS], मैथिली]
   map-bms: [Latn, [AS], Basa Banyumasan]
   mdf: [Cyrl, [EU], мокшень]
