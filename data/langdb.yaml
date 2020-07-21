@@ -63,6 +63,7 @@ languages:
   bbc-batk: [Batk, [AS], ᯅᯖᯂ᯲ ᯖᯬᯅ]
   bbc: [bbc-latn]
   bcc: [Arab, [AS, ME], جهلسری بلوچی]
+  bci: [Latn, [AF], wawle]
   bcl: [Latn, [AS], Bikol Central]
   bdr: [Latn, [AS], Bajau Sama]
   be-tarask: [Cyrl, [EU], беларуская (тарашкевіца)]
