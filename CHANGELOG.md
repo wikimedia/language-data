@@ -1,12 +1,20 @@
 # Changelog
 
-Documentation can be found [here](https://language-data.readthedocs.io/en/latest/). Changelog is divided into the following,
+Documentation can be found [here](https://language-data.readthedocs.io/en/latest/). Changelog is divided into the following sections,
 
 - [Language updates](#language-updates)
-- [PHP](#php)
-- [Node.js](#nodejs)
+- [PHP library updates](#php)
+- [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2020-07-23
+Language data related changes,
+1. [Change Madurese autonym to capital](https://github.com/wikimedia/language-data/pull/106)
+2. [Add Nuxalk language](https://github.com/wikimedia/language-data/pull/108)
+3. [Add Altay languages](https://github.com/wikimedia/language-data/pull/107)
+4. [Add Obolo (ann) and Mara (mrh)](https://github.com/wikimedia/language-data/pull/109)
+5. [Add Baoule (bci)](https://github.com/wikimedia/language-data/pull/110)
+
 ### 2020-05-26
 Language data related changes,
 1. [Add shy-latn and szy](https://github.com/wikimedia/language-data/pull/76)
@@ -21,11 +29,19 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
+### PHP 1.0.1 (2020-07-23)
+- See [language updates 2020-07-23](#2020-07-23).
+- No other changes
+
 ### PHP 1.0.0 (2020-05-26)
 - See [language updates 2020-05-20](#2020-05-20).
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+### Node.js 0.2.1 (2020-07-23)
+- See [language updates 2020-07-23](#2020-07-23).
+- Fix `npm audit` warnings.
+
 ### Node.js 0.2.0 (2020-05-26)
 - See [language updates 2020-05-20](#2020-05-20).
 - Fix `npm audit` warnings.
