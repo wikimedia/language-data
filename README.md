@@ -24,7 +24,7 @@ and various other sources.
 
 1. [Full documentation](https://language-data.readthedocs.io/en/latest/index.html)
 2. [Using the PHP library](https://language-data.readthedocs.io/en/latest/index.html#using-the-php-library)
-   * [PHP API documentation](https://language-data.readthedocs.io/en/latest/api/languageutil.html)
+   * [PHP API documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html)
 3. [Using the Node.js library](https://language-data.readthedocs.io/en/latest/index.html#using-the-node-js-library)
 4. [Adding Languages](https://language-data.readthedocs.io/en/latest/user/adding_new_language.html)
 
