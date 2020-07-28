@@ -38,6 +38,9 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+### Node.js 0.2.2 (2020-07-28)
+- [Fix entrypoint in package.json](https://github.com/wikimedia/language-data/pull/116)
+
 ### Node.js 0.2.1 (2020-07-23)
 - See [language updates 2020-07-23](#2020-07-23).
 - Fix `npm audit` warnings.
