@@ -616,12 +616,15 @@
             ],
             "Kaqchikel"
         ],
-        "cbk-zam": [
+        "cbk": [
             "Latn",
             [
                 "AS"
             ],
             "Chavacano de Zamboanga"
+        ],
+        "cbk-zam": [
+            "cbk"
         ],
         "ccp": [
             "Cakm",
