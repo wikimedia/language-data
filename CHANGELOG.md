@@ -7,6 +7,11 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2020-10-27
+Langauge data related changes,
+1. [Add a redirect from cbk-zam to cbk](https://github.com/wikimedia/language-data/pull/119)
+2. [Reorder language code "ko"](https://github.com/wikimedia/language-data/pull/118)
+
 ### 2020-07-23
 Language data related changes,
 1. [Change Madurese autonym to capital](https://github.com/wikimedia/language-data/pull/106)
@@ -29,6 +34,10 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
+### PHP 1.0.3 (2020-10-27)
+- See [language updates 2020-10-27](#2020-10-27).
+- Update mediawiki-codesniffer to 31.0.0
+
 ### PHP 1.0.1 (2020-07-23)
 - See [language updates 2020-07-23](#2020-07-23).
 - No other changes
@@ -38,6 +47,11 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+### Node.js 1.0.0 (2020-10-27)
+- See [language updates 2020-10-27](#2020-10-27).
+- Bump eslint-config-wikimedia to 0.17.0
+- Bump minimum Node.js version to 10.x
+
 ### Node.js 0.2.2 (2020-07-28)
 - [Fix entrypoint in package.json](https://github.com/wikimedia/language-data/pull/116)
 
