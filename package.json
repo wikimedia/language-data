@@ -35,7 +35,7 @@
     "url": "http://github.com/wikimedia/language-data/issues"
   },
   "engine": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "license": "GPL-2.0-or-later",
   "scripts": {
