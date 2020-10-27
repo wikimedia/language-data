@@ -5,18 +5,20 @@ var languageData = require( '../data/language-data.json' );
  */
 
 /**
-  * Check whether the languageCode is known to the language database.
-  * For practical purposes it may be same as checking if given language code is valid,
-  * but not guaranteed that all valid language codes are in our database.
-  * @param {string} languageCode language code
-  * @return {boolean}
-  */
+ * Check whether the languageCode is known to the language database.
+ * For practical purposes it may be same as checking if given language code is valid,
+ * but not guaranteed that all valid language codes are in our database.
+ *
+ * @param {string} languageCode language code
+ * @return {boolean}
+ */
 function isKnown( languageCode ) {
 	return !!languageData.languages[ languageCode ];
 }
 
 /**
  * Is this language a redirect to another language?
+ *
  * @param {string} language  Language code
  * @return {string} Target language code if it's a redirect or false if it's not
  */
@@ -27,6 +29,7 @@ function isRedirect( language ) {
 
 /**
  * Get all the languages
+ *
  * @return {Object}
  */
 function getLanguages() {
@@ -35,6 +38,7 @@ function getLanguages() {
 
 /**
  * Returns the script of the language.
+ *
  * @param {string} language Language code
  * @return {string}
  */
@@ -52,6 +56,7 @@ function getScript( language ) {
 
 /**
  * Returns the regions in which a language is spoken.
+ *
  * @param {string} language Language code
  * @return {string[]} 'UNKNOWN'
  */
@@ -65,6 +70,7 @@ function getRegions( language ) {
 
 /**
  * Returns the autonym of the language.
+ *
  * @param {string} language Language code
  * @return {string}
  */
@@ -78,6 +84,7 @@ function getAutonym( language ) {
 
 /**
  * Returns all language codes and corresponding autonyms
+ *
  * @return {Array}
  */
 function getAutonyms() {
@@ -94,6 +101,7 @@ function getAutonyms() {
 
 /**
  * Returns all languages written in the given scripts.
+ *
  * @param {string[]} scripts
  * @return {string[]} languages codes
  */
@@ -116,6 +124,7 @@ function getLanguagesInScripts( scripts ) {
 
 /**
  * Returns all languages written in script.
+ *
  * @param {string} script
  * @return {string[]} array of strings (languages codes)
  */
@@ -126,6 +135,7 @@ function getLanguagesInScript( script ) {
 /**
  * Returns the script group of a script or 'Other' if it doesn't
  * belong to any group.
+ *
  * @param {string} script Script code
  * @return {string} script group name
  */
@@ -141,6 +151,7 @@ function getGroupOfScript( script ) {
 
 /**
  * Returns the script group of a language.
+ *
  * @param {string} language Language code
  * @return {string} script group name
  */
@@ -150,6 +161,7 @@ function getScriptGroupOfLanguage( language ) {
 
 /**
  * Get the given list of languages grouped by script.
+ *
  * @param {string[]} languages Array of language codes to group
  * @return {string[]} Array of language codes
  */
@@ -172,6 +184,7 @@ function getLanguagesByScriptGroup( languages ) {
 /**
  * Returns an associative array of languages in several regions,
  * grouped by script group.
+ *
  * @param {string[]} regions array of region codes
  * @return {Object}
  */
@@ -199,6 +212,7 @@ function getLanguagesByScriptGroupInRegions( regions ) {
 /**
  * Returns an associative array of languages in a region,
  * grouped by script group.
+ *
  * @param {string} region Region code
  * @return {Object}
  */
@@ -208,6 +222,7 @@ function getLanguagesByScriptGroupInRegion( region ) {
 
 /**
  * Return the list of languages sorted by script groups.
+ *
  * @param {string[]} languages Array of language codes to sort
  * @return {string[]} Array of language codes
  */
@@ -228,6 +243,7 @@ function sortByScriptGroup( languages ) {
 /**
  * A callback for sorting languages by autonym.
  * Can be used as an argument to a sort function.
+ *
  * @param {string} a Language code
  * @param {string} b Language code
  * @return {number}
@@ -240,6 +256,7 @@ function sortByAutonym( a, b ) {
 
 /**
  * Check if a language is right-to-left.
+ *
  * @param {string} language Language code
  * @return {boolean}
  */
@@ -249,6 +266,7 @@ function isRtl( language ) {
 
 /**
  * Return the direction of the language
+ *
  * @param {string} language Language code
  * @return {string}
  */
@@ -258,6 +276,7 @@ function getDir( language ) {
 
 /**
  * Returns the languages spoken in a territory.
+ *
  * @param {string} territory Territory code
  * @return {string[]} list of language codes
  */
