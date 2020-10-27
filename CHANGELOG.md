@@ -8,9 +8,8 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 ### 2020-10-27
-Langauge data related changes,
+Language data related changes,
 1. [Add a redirect from cbk-zam to cbk](https://github.com/wikimedia/language-data/pull/119)
-2. [Reorder language code "ko"](https://github.com/wikimedia/language-data/pull/118)
 
 ### 2020-07-23
 Language data related changes,
