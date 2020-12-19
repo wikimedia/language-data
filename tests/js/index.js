@@ -33,6 +33,22 @@ describe( 'languagedata', function () {
 		return result;
 	};
 	/*
+	 * Runs over all languages and checks that all redirects have a valid target.
+	 */
+	invalidCodes = function () {
+		var languageCode,
+			invalidCharsRe = /[^0-9a-z-]/,
+			result = [];
+
+		for ( languageCode in languageData.getLanguages() ) {
+			if ( languageCode.match( invalidCharsRe ) ) {
+				result.push( languageCode );
+			}
+		}
+
+		return result;
+	};
+	/*
 	 * Runs over all languages and checks that all redirects point to a language.
 	 * There's no reason to have double redirects.
 	 */
@@ -89,6 +105,7 @@ describe( 'languagedata', function () {
 	it( 'language tags', function () {
 		assert.ok( languageData.isKnown( 'ar' ), 'Language is unknown' );
 		assert.ok( !languageData.isKnown( 'unknownLanguageCode!' ), 'Language is known' );
+		assert.deepEqual( invalidCodes(), [], 'All language codes have no invalid characters.' );
 	} );
 
 	it( 'autonyms', function () {
