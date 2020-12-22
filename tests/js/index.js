@@ -2,7 +2,8 @@ var languageData = require( __dirname + '/../../src/index' ),
 	assert = require( 'assert' );
 
 describe( 'languagedata', function () {
-	var orphanScripts, badRedirects, doubleRedirects, doubleAutonyms, languagesWithoutAutonym;
+	var orphanScripts, badRedirects, invalidCodes,
+		doubleRedirects, doubleAutonyms, languagesWithoutAutonym;
 	/*
 	 * Runs over all script codes mentioned in langdb and checks whether
 	 * they belong to the 'Other' group.
