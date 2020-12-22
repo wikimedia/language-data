@@ -2,7 +2,8 @@ var languageData = require( __dirname + '/../../src/index' ),
 	assert = require( 'assert' );
 
 describe( 'languagedata', function () {
-	var orphanScripts, badRedirects, doubleRedirects, doubleAutonyms, languagesWithoutAutonym;
+	var orphanScripts, badRedirects, invalidCodes,
+		doubleRedirects, doubleAutonyms, languagesWithoutAutonym;
 	/*
 	 * Runs over all script codes mentioned in langdb and checks whether
 	 * they belong to the 'Other' group.
@@ -30,6 +31,22 @@ describe( 'languagedata', function () {
 				result.push( language );
 			}
 		}
+		return result;
+	};
+	/*
+	 * Runs over all languages and checks that all redirects have a valid target.
+	 */
+	invalidCodes = function () {
+		var languageCode,
+			invalidCharsRe = /[^0-9a-z-]/,
+			result = [];
+
+		for ( languageCode in languageData.getLanguages() ) {
+			if ( languageCode.match( invalidCharsRe ) ) {
+				result.push( languageCode );
+			}
+		}
+
 		return result;
 	};
 	/*
@@ -89,6 +106,7 @@ describe( 'languagedata', function () {
 	it( 'language tags', function () {
 		assert.ok( languageData.isKnown( 'ar' ), 'Language is unknown' );
 		assert.ok( !languageData.isKnown( 'unknownLanguageCode!' ), 'Language is known' );
+		assert.deepEqual( invalidCodes(), [], 'All language codes have no invalid characters.' );
 	} );
 
 	it( 'autonyms', function () {
