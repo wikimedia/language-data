@@ -281,7 +281,7 @@ function getDir( language ) {
  * @return {string[]} list of language codes
  */
 function getLanguagesInTerritory( territory ) {
-	return languageData.territories[ territory ];
+	return languageData.territories[ territory ] || [];
 }
 
 /**

@@ -142,6 +142,11 @@ describe( 'languagedata', function () {
 		], 'Correct regions of the Laz language were selected' );
 		assert.strictEqual( languageData.getRegions( 'no-such-language' ), 'UNKNOWN', 'The region of an invalid language is "UNKNOWN"' );
 		assert.ok( languageData.getLanguagesInTerritory( 'RU' ).includes( 'sah' ), 'Sakha language is spoken in Russia' );
+		assert.deepEqual(
+			languageData.getLanguagesInTerritory( 'no-such-country' ),
+			[],
+			'An invalid country has no languages and returns an empty array'
+		);
 
 		languagesAM = [ 'atj', 'chr', 'chy', 'cr', 'en', 'es', 'fr', 'gn', 'haw', 'ike-cans', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'yi' ];
 		assert.deepEqual(
