@@ -161,6 +161,7 @@ languages:
   ee: [Latn, [AF], eʋegbe]
   egl: [Latn, [EU], Emiliàn]
   el: [Grek, [EU], Ελληνικά]
+  elm: [Latn, [AF], Eleme]
   eml: [Latn, [EU], emiliàn e rumagnòl]
   en-ca: [Latn, [AM], Canadian English]
   en-gb: [Latn, [EU, AS, PA], British English]
@@ -267,6 +268,7 @@ languages:
   is: [Latn, [EU], íslenska]
   it: [Latn, [EU], italiano]
   iu: [ike-cans]
+  izh: [Latn, [EU], ižoran keel]
   ja: [Jpan, [AS], 日本語]
   jam: [Latn, [AM], Patois]
   jbo: [Latn, [WW], lojban]
@@ -423,6 +425,7 @@ languages:
  # There's also nb for Bokmål and nn for Nynorsk
   "no": [Latn, [EU], norsk]
   nod: [Thai, [AS], คำเมือง]
+  nog: [Cyrl, [EU], ногайша]
   nov: [Latn, [WW], Novial]
   nqo: [Nkoo, [AF], ߒߞߏ]
   nr: [Latn, [AF], isiNdebele seSewula]
