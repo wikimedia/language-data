@@ -212,6 +212,7 @@ languages:
   gd: [Latn, [EU], Gàidhlig]
   gez: [Ethi, [AF], ግዕዝ]
   gl: [Latn, [EU], galego]
+  gld: [Cyrl, [AS], на̄ни]
   glk: [Arab, [AS, ME], گیلکی]
   gn: [Latn, [AM], "Avañe'ẽ"]
   gom: [gom-deva]
@@ -225,6 +226,7 @@ languages:
   guc: [Latn, [AM], Wayúu]
   gum: [Latn, [AM], Namtrik]
   gur: [Latn, [AF], Gurenɛ]
+  guw: [Latn, [AF], gungbe]
   gv: [Latn, [EU], Gaelg]
  # CLDR uses ha-latn and ha-arab. Latin is more common and is used in Wikipedia.
   ha-arab: [Arab, [AF], هَوُسَ]
