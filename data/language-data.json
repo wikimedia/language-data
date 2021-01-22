@@ -2787,6 +2787,13 @@
             ],
             "Sesotho sa Leboa"
         ],
+        "nus": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Thok Naath"
+        ],
         "nv": [
             "Latn",
             [
@@ -5784,7 +5791,8 @@
         ],
         "SS": [
             "ar",
-            "en"
+            "en",
+            "nus"
         ],
         "ST": [
             "pt"
