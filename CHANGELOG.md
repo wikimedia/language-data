@@ -7,6 +7,16 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2021-01-27
+Language data related changes,
+1. [Update Min Dong Chinese languages](https://github.com/wikimedia/language-data/commit/190423dd29d16fcb44645313b864d794f6a4df36)
+2. [Add the Tyap language (kcg)](https://github.com/wikimedia/language-data/commit/69074e24757a59ad9a20be4a28ddbe4285ae06a6)
+3. [Change capitalization for koi, olo, and vro ](https://github.com/wikimedia/language-data/commit/17280471ccf691b4bd60970bfdada4d5a035d220)
+4. [Add the Nias (nia) language](https://github.com/wikimedia/language-data/commit/762b7c5e0c93e1e7a61f16c6fbeef83d9139c7fb)
+5. [Update the autonym of language shi](https://github.com/wikimedia/language-data/commit/4b7cee6c3d4c5ae67f1e4b80f9594fafc92cf8d1)
+6. [Add Nanai and Gungbe languages](https://github.com/wikimedia/language-data/commit/c0f628fb15d9910982829904c17597583828cd9c)
+7. [Add Rohingya language (rhg)](https://github.com/wikimedia/language-data/commit/f8bc4b8cd49a4964e8a5161a81c730037c8c30ed)
+
 ### 2020-10-27
 Language data related changes,
 1. [Add a redirect from cbk-zam to cbk](https://github.com/wikimedia/language-data/pull/119)
@@ -33,6 +43,9 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
+### PHP 1.0.4 (2021-01-27)
+- See [language updates 2021-01-27](#2021-01-27).
+
 ### PHP 1.0.3 (2020-10-27)
 - See [language updates 2020-10-27](#2020-10-27).
 - Update mediawiki-codesniffer to 31.0.0
@@ -46,6 +59,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+### Node.js 1.0.1 (2021-01-27)
+- See [language updates 2021-01-27](#2021-01-27).
+- [Return an empty array if there are no languages in territory](https://github.com/wikimedia/language-data/commit/4a6136095000a4ea9e9171dad36739a68861b24a)
+
 ### Node.js 1.0.0 (2020-10-27)
 - See [language updates 2020-10-27](#2020-10-27).
 - Bump eslint-config-wikimedia to 0.17.0
