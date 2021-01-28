@@ -82,7 +82,7 @@ class LanguageUtil {
 	 * Get all the languages. The properties in the returned object are ISO 639 language codes
 	 * The value of each property is an array that has,
 	 * [writing system code, [regions list], autonym]
-	 * @return object
+	 * @return stdClass
 	 */
 	public function getLanguages() {
 		return $this->data->languages;
