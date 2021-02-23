@@ -481,6 +481,7 @@ languages:
   rcf: [Latn, [AF], Kreol Réyoné]
   rej: [Latn, [AS, PA], Jang]
   rgn: [Latn, [EU], Rumagnôl]
+  rhg: [Rohg, [AS], 𐴌𐴟𐴇𐴥𐴝𐴚𐴒𐴙𐴝]
   rif: [Latn, [AF], Tarifit]
   rki: [Mymr, [AS], ရခိုင်]
   rm: [Latn, [EU], rumantsch]
@@ -700,7 +701,7 @@ scriptgroups:
  # Tibetan (Tibt) is here, even though it's classified as "Central Asian" by
  # Unicode, because linguistically and geographically it's closely related to
  # the Brahmic family.
-  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Saur, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
+  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Rohg, Saur, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
   CJK: [Hani, Hans, Hant, Kana, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Mymr, Thai]
@@ -711,7 +712,7 @@ scriptgroups:
   Special: [Zyyy]
 
 rtlscripts:
-  [Arab, Hebr, Syrc, Nkoo, Thaa]
+  [Arab, Hebr, Syrc, Nkoo, Rohg, Thaa]
 
  # The numbers are also used in HTML id attributes
 regiongroups:
