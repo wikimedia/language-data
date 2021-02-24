@@ -452,6 +452,7 @@ languages:
   pag: [Latn, [AS], Pangasinan]
   pam: [Latn, [AS], Kapampangan]
   pap: [Latn, [AM], Papiamentu]
+  pap-aw: [Latn, [AM], Papiamento]
   pbb: [Latn, [AM], Nasa Yuwe]
   pcd: [Latn, [EU], Picard]
   pdc: [Latn, [EU, AM], Deitsch]
