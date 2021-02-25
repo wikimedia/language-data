@@ -3160,6 +3160,13 @@
             ],
             "rumantsch"
         ],
+        "rmc": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "romaňi čhib"
+        ],
         "rmf": [
             "Latn",
             [
@@ -4406,6 +4413,7 @@
         "Hebr",
         "Syrc",
         "Nkoo",
+        "Rohg",
         "Thaa"
     ],
     "regiongroups": {
