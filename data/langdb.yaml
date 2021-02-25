@@ -587,8 +587,8 @@ languages:
   tk: [Latn, [AS], Türkmençe]
   tkr: [Cyrl, [AS], ЦӀаӀхна миз]
   tl: [Latn, [AS], Tagalog]
- # A very complicated case. Names.php is Cyrl. In TWN they argue about Cyrl, Latn, and Arab. I can't find reliable external sources. --Amir
-  tly: [Cyrl, [EU, AS, ME], толышә зывон]
+  tly: [Latn, [EU, AS, ME], tolışi]
+  tly-cyrl: [Cyrl, [EU, AS, ME], толыши]
   tmr: [Hebr, [ME, EU, AM], ארמית בבלית]
   tn: [Latn, [AF], Setswana]
   to: [Latn, [PA], lea faka-Tonga]

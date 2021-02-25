@@ -3806,13 +3806,22 @@
             "Tagalog"
         ],
         "tly": [
+            "Latn",
+            [
+                "EU",
+                "AS",
+                "ME"
+            ],
+            "tolışi"
+        ],
+        "tly-cyrl": [
             "Cyrl",
             [
                 "EU",
                 "AS",
                 "ME"
             ],
-            "толышә зывон"
+            "толыши"
         ],
         "tmr": [
             "Hebr",
@@ -4413,6 +4422,7 @@
         "Hebr",
         "Syrc",
         "Nkoo",
+        "Rohg",
         "Thaa"
     ],
     "regiongroups": {
