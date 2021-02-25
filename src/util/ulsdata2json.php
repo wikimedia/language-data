@@ -107,7 +107,7 @@ foreach ( $parsedLangdb['territories'] as $territoryCode => $languages ) {
 }
 
 print "Writing JSON langdb...\n";
-$jsonVerbose = json_encode( $parsedLangdb, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
+$jsonVerbose = json_encode( $parsedLangdb, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) . "\n";
 // For making diff review easier.
 file_put_contents( DATA_DIRECTORY . '/language-data.json', $jsonVerbose );
 
