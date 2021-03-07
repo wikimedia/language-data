@@ -104,7 +104,7 @@ languages:
  # FIXME cdo will be modified later to split to Latin and Chinese more cleanly
   cdo: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄]
   cdo-latn: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄ Bàng-uâ-cê]
-  cdo-hani: [Hani, [AS], 閩東語漢字]
+  cdo-hani: [Hani, [AS], 閩東語（漢字）]
   ce: [Cyrl, [EU], нохчийн]
   ceb: [Latn, [AS], Cebuano]
   ch: [Latn, [PA], Chamoru]
@@ -121,7 +121,7 @@ languages:
   chy: [Latn, [AM], Tsetsêhestâhese]
   ciw: [Latn, [AM], Ojibwemowin]
   cjy: [cjy-hant]
-  cjy-hans: [Hans, [AS], 晋语（简化字)]
+  cjy-hans: [Hans, [AS], 晋语（简化字）]
   cjy-hant: [Hant, [AS], 晉語]
   ckb: [Arab, [ME], کوردی]
   ckt: [Cyrl, [AS], ԓыгъоравэтԓьэн]
