@@ -410,6 +410,7 @@ languages:
   na: [Latn, [PA], Dorerin Naoero]
   nah: [Latn, [AM], Nāhuatl]
   nan: [Latn, [AS], Bân-lâm-gú]
+  nan-hani: [Hani, [AS], 閩南語（漢字）]
   nap: [Latn, [EU], Napulitano]
   nb: [Latn, [EU], norsk (bokmål)]
   nd: [Latn, [AF], siNdebele saseNyakatho]
