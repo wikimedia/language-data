@@ -110,7 +110,8 @@ describe( 'languagedata', function () {
 	} );
 
 	it( 'autonyms', function () {
-		var autonyms;
+		var autonyms, chineseScriptLanguages, i,
+			languagesWithParentheses = [];
 		// Add a language in run time.
 		// This is done early to make sure that it doesn't break other functions.
 		languageData.addLanguage( 'qqq', {
@@ -130,6 +131,14 @@ describe( 'languagedata', function () {
 		assert.deepEqual( [ 'de', 'fi', 'gn', 'hu' ].sort( languageData.sortByAutonym ), [
 			'gn', 'de', 'hu', 'fi'
 		], 'Languages are correctly sorted by autonym' );
+
+		chineseScriptLanguages = languageData.getLanguagesInScripts( [ 'Hans', 'Hant', 'Hani' ] );
+		for ( i = 0; i < chineseScriptLanguages.length; ++i ) {
+			if ( languageData.getAutonym( chineseScriptLanguages[i] ).match( /[()]/ ) ) {
+				languagesWithParentheses.push( chineseScriptLanguages[i] );
+			}
+		}
+		assert.deepEqual( languagesWithParentheses, [], 'Chinese script languages\' autonyms don\'t have Western parentheses' );
 	} );
 	it( 'regions and groups', function () {
 		var languagesAM;
