@@ -58,6 +58,7 @@ languages:
  # For support in webfonts.
   ban-bali: [Bali, [AS, PA], ᬩᬮᬶ]
   bar: [Latn, [EU], Boarisch]
+  bas: [Latn, [AF], ɓasaá]
   bat-smg: [sgs]
   bbc-latn: [Latn, [AS], Batak Toba]
   bbc-batk: [Batk, [AS], ᯅᯖᯂ᯲ ᯖᯬᯅ]

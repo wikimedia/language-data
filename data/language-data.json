@@ -355,6 +355,13 @@
             ],
             "Boarisch"
         ],
+        "bas": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "ɓasaá"
+        ],
         "bat-smg": [
             "sgs"
         ],
@@ -4705,6 +4712,7 @@
             "fr",
             "en",
             "ff",
+            "bas",
             "ar",
             "ksf",
             "ha-arab",
