@@ -7,6 +7,20 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2021-04-01
+Language data related changes,
+1. [Add Carpathian Romani](https://github.com/wikimedia/language-data/pull/140)
+2. [Cleanup the data for the Talysh language](https://github.com/wikimedia/language-data/pull/142)
+3. [Add Aruba Papiamento](https://github.com/wikimedia/language-data/pull/143)
+4. [Add Rohg to rtlscripts](https://github.com/wikimedia/language-data/pull/144)
+5. [Add Nuer language (nus)](https://github.com/wikimedia/language-data/pull/145)
+6. [Update the autonym for guc](https://github.com/wikimedia/language-data/pull/147)
+7. [Consistently use parentheses in Chinese-script autonyms](https://github.com/wikimedia/language-data/pull/148)
+8. [Add nan-hani](https://github.com/wikimedia/language-data/pull/149)
+9. [Add Belizean Creole (bzj)](https://github.com/wikimedia/language-data/pull/150)
+10. [Add the Basaa language (bas)](https://github.com/wikimedia/language-data/pull/151)
+11. [Add the Kom language (bkm)](https://github.com/wikimedia/language-data/pull/152)
+
 ### 2021-01-27
 Language data related changes,
 1. [Update Min Dong Chinese languages](https://github.com/wikimedia/language-data/commit/190423dd29d16fcb44645313b864d794f6a4df36)
@@ -43,6 +57,9 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
+### PHP 1.0.5 (2021-04-01)
+- See [language updates 2021-04-01](#2021-04-01).
+
 ### PHP 1.0.4 (2021-01-27)
 - See [language updates 2021-01-27](#2021-01-27).
 
@@ -59,6 +76,11 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.0.2 (2021-04-01)
+- See [language updates 2021-04-01](#2021-04-01).
+- [Fix y18n (required by mocha) related security warning](https://github.com/wikimedia/language-data/pull/153)
+
 ### Node.js 1.0.1 (2021-01-27)
 - See [language updates 2021-01-27](#2021-01-27).
 - [Return an empty array if there are no languages in territory](https://github.com/wikimedia/language-data/commit/4a6136095000a4ea9e9171dad36739a68861b24a)
