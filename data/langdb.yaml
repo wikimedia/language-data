@@ -232,10 +232,11 @@ languages:
   gur: [Latn, [AF], Gurenɛ]
   guw: [Latn, [AF], gungbe]
   gv: [Latn, [EU], Gaelg]
- # CLDR uses ha-latn and ha-arab. Latin is more common and is used in Wikipedia.
+ # CLDR uses ha for Latin script and ha-arab for Arabic script.
+ # Latin is more common and is used in Wikipedia.
+  ha: [Latn, [AF], Hausa]
   ha-arab: [Arab, [AF], هَوُسَ]
-  ha-latn: [Latn, [AF], Hausa]
-  ha: [ha-latn]
+  ha-latn: [ha]
   hai: [Latn, [AM], X̱aat Kíl]
   hak: [Latn, [AS], Hak-kâ-fa]
   haw: [Latn, [AM, PA], Hawai`i]
