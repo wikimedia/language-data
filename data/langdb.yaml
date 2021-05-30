@@ -482,6 +482,7 @@ languages:
   ps: [Arab, [AS, ME], پښتو]
   pt-br: [Latn, [AM], português do Brasil]
   pt: [Latn, [EU, AM, AS, PA, AF, WW], português]
+  pwn: [Latn, [AS], pinayuanan]
   qu: [Latn, [AM], Runa Simi]
   quc: [Latn, [AM], "K'iche'"]
   qug: [Latn, [AM], Runa shimi]
