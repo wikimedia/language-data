@@ -1879,7 +1879,7 @@
             [
                 "AF"
             ],
-            "Kabuverdianu"
+            "kabuverdianu"
         ],
         "kg": [
             "Latn",
@@ -3569,6 +3569,13 @@
         ],
         "skr": [
             "skr-arab"
+        ],
+        "srq": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "mbia cheë"
         ],
         "syc": [
             "Syrc",
