@@ -7,6 +7,17 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+
+### 2021-07-16
+Language data related changes,
+1. [Add Levantive Arabic](https://github.com/wikimedia/language-data/pull/166)
+2. [Add Siriono (srq) and update Cape Verdean (kea) capitalization](https://github.com/wikimedia/language-data/pull/163)
+3. [Change lmo language name](https://github.com/wikimedia/language-data/pull/160)
+4. [Add Rohingya as a language of Bangladesh and Burma](https://github.com/wikimedia/language-data/pull/162)
+5. [Add the Paiwan language (pwn)](https://github.com/wikimedia/language-data/pull/161)
+6. [Make 'ha' the primary code for Hausa](https://github.com/wikimedia/language-data/pull/158)
+7. [Split language ciw to ciw and ojb](https://github.com/wikimedia/language-data/pull/157)
+
 ### 2021-04-01
 Language data related changes,
 1. [Add Carpathian Romani](https://github.com/wikimedia/language-data/pull/140)
@@ -57,6 +68,10 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
+
+### PHP 1.0.6 (2021-07-16)
+- See [language updates 2021-04-01](#2021-07-16).
+
 ### PHP 1.0.5 (2021-04-01)
 - See [language updates 2021-04-01](#2021-04-01).
 
@@ -76,6 +91,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.0.3 (2021-07-16)
+- See [language updates 2021-04-01](#2021-07-16).
+- [Security fix: Update glob-parent to 5.1.2](https://github.com/wikimedia/language-data/pull/164)
 
 ### Node.js 1.0.2 (2021-04-01)
 - See [language updates 2021-04-01](#2021-04-01).
