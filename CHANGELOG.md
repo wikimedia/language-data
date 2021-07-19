@@ -70,7 +70,7 @@ Language data related changes,
 ## PHP
 
 ### PHP 1.0.6 (2021-07-16)
-- See [language updates 2021-04-01](#2021-07-16).
+- See [language updates 2021-07-16](#2021-07-16).
 
 ### PHP 1.0.5 (2021-04-01)
 - See [language updates 2021-04-01](#2021-04-01).
@@ -93,7 +93,7 @@ Language data related changes,
 ## Node.js
 
 ### Node.js 1.0.3 (2021-07-16)
-- See [language updates 2021-04-01](#2021-07-16).
+- See [language updates 2021-07-16](#2021-07-16).
 - [Security fix: Update glob-parent to 5.1.2](https://github.com/wikimedia/language-data/pull/164)
 
 ### Node.js 1.0.2 (2021-04-01)
