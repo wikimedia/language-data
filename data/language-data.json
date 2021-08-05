@@ -4167,6 +4167,13 @@
             ],
             "Mainfränkisch"
         ],
+        "vmw": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "emakhuwa"
+        ],
         "vo": [
             "Latn",
             [
@@ -5525,6 +5532,7 @@
         ],
         "MZ": [
             "pt",
+            "vmw",
             "ts",
             "ny",
             "sw",
