@@ -1677,7 +1677,8 @@
         "id": [
             "Latn",
             [
-                "AS"
+                "AS",
+                "PA"
             ],
             "Bahasa Indonesia"
         ],
@@ -3179,6 +3180,7 @@
         "rap": [
             "Latn",
             [
+                "PA",
                 "AM"
             ],
             "arero rapa nui"
@@ -4334,7 +4336,9 @@
         "zh": [
             "Hans",
             [
-                "AS"
+                "AS",
+                "PA",
+                "AM"
             ],
             "中文"
         ],
@@ -4351,14 +4355,18 @@
         "zh-hans": [
             "Hans",
             [
-                "AS"
+                "AS",
+                "PA",
+                "AM"
             ],
             "中文（简体）"
         ],
         "zh-hant": [
             "Hant",
             [
-                "AS"
+                "AS",
+                "PA",
+                "AM"
             ],
             "中文（繁體）"
         ],
