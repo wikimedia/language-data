@@ -23,9 +23,16 @@ This is the `Erzya language <https://en.wikipedia.org/wiki/Erzya_language>`_. It
 is Cyrillic (ISO 15924: Cyrl). It's spoken in Europe (EU). Its autonym is "эрзянь".
 
 Some languages are listed as redirects. In this case, the only value in the square brackets is
-the target language code. For example: fil: [tl]
+the target language code.
 
-This is the Filipino language, which is a redirect to Tagalog (tl).
+Example: ``fil: [tl]``
 
-After adding a language to ``data/langdb.yaml``, run ``php src/util/ulsdata2json.php`` in the
+This is the Filipino language (fil), which is a redirect to Tagalog (tl).
+
+After adding a language to ``data/langdb.yaml``, run: ``php src/util/ulsdata2json.php`` in the
 base directory to generate the ``language-data.json`` file. Don't edit ``language-data.json`` manually.
+
+Before running ``php src/util/ulsdata2json.php`` for the first time on your machine,
+you also need to run ``composer install`` in the base directory to install
+some dependencies. You also need to install PHP curl support on your machine
+to allow downloading the CLDR language data file.
