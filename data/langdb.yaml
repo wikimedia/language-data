@@ -467,6 +467,7 @@ languages:
   pap-aw: [Latn, [AM], Papiamento]
   pbb: [Latn, [AM], Nasa Yuwe]
   pcd: [Latn, [EU], Picard]
+  pcm: [Latn, [AF], Naijá]
   pdc: [Latn, [EU, AM], Deitsch]
   pdt: [Latn, [EU, AM], Plautdietsch]
   pfl: [Latn, [EU], Pälzisch]
