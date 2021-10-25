@@ -8,6 +8,18 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2021-10-25
+Language data related changes,
+1. [Add yrl to CO and VE countries](https://github.com/wikimedia/language-data/pull/170)
+2. [Add Makhuwa (vmw)](https://github.com/wikimedia/language-data/pull/169)
+3. [Add Pacific or America regions to rap, id, and zh](https://github.com/wikimedia/language-data/pull/171)
+4. [Add the Pa'O language](https://github.com/wikimedia/language-data/pull/174)
+5. [Update blk autonym](https://github.com/wikimedia/language-data/pull/177)
+6. [Add Nigerian Pidgin (pcm)](https://github.com/wikimedia/language-data/pull/178)
+7. [Rename gur to "farefare"](https://github.com/wikimedia/language-data/pull/176)
+8. [Change the autonym for S'gaw Karen](https://github.com/wikimedia/language-data/pull/179)
+
+
 ### 2021-07-16
 Language data related changes,
 1. [Add Levantive Arabic](https://github.com/wikimedia/language-data/pull/166)
@@ -69,6 +81,9 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.0.7 (2021-10-25)
+- See [language updates 2021-10-25](#2021-10-25).
+
 ### PHP 1.0.6 (2021-07-16)
 - See [language updates 2021-07-16](#2021-07-16).
 
@@ -91,6 +106,14 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.0.4 (2021-10-25)
+- See [language updates 2021-10-25](#2021-10-25)
+- [Update dependencies to add support for Node.js 14.x, 16.x](https://github.com/wikimedia/language-data/pull/173)
+- Security fixes for dev dependencies:
+    - [Update ansi-regex for CVE-2021-3807](https://github.com/wikimedia/language-data/pull/180)
+    - [Update path-parse for CVE-2021-23343](https://github.com/wikimedia/language-data/pull/172).
+
 
 ### Node.js 1.0.3 (2021-07-16)
 - See [language updates 2021-07-16](#2021-07-16).
