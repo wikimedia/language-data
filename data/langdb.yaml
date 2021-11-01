@@ -436,6 +436,7 @@ languages:
   njo: [Latn, [AS], Ao]
   nl-informal: [Latn, [EU, AM], Nederlands (informeel)]
   nl: [Latn, [EU, AM], Nederlands]
+  nmz: [Latn, [AF], nawdm]
   nn: [Latn, [EU], norsk (nynorsk)]
  # There's also nb for Bokmål and nn for Nynorsk
   "no": [Latn, [EU], norsk]
