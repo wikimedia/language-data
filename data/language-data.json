@@ -86,6 +86,13 @@
             ],
             "Afrikaans"
         ],
+        "agq": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "aghɨ̂m"
+        ],
         "ahr": [
             "Deva",
             [
@@ -2412,6 +2419,13 @@
                 "AS"
             ],
             "Basa Banyumasan"
+        ],
+        "mcn": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "vùn màsànà"
         ],
         "mdf": [
             "Cyrl",
@@ -4805,6 +4819,7 @@
             "bas",
             "ar",
             "ksf",
+            "agq",
             "ha-arab",
             "ha"
         ],
