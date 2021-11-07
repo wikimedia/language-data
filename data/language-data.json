@@ -2813,6 +2813,13 @@
             "norsk"
         ],
         "nod": [
+            "Lana",
+            [
+                "AS"
+            ],
+            "ᨣᩴᩤᨾᩮᩥᩬᨦ"
+        ],
+        "nod-thai": [
             "Thai",
             [
                 "AS"
@@ -4523,6 +4530,7 @@
             "Java",
             "Khmr",
             "Laoo",
+            "Lana",
             "Mymr",
             "Thai"
         ],

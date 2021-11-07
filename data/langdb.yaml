@@ -438,7 +438,8 @@ languages:
   nn: [Latn, [EU], norsk (nynorsk)]
  # There's also nb for Bokmål and nn for Nynorsk
   "no": [Latn, [EU], norsk]
-  nod: [Thai, [AS], คำเมือง]
+  nod: [Lana, [AS], ᨣᩴᩤᨾᩮᩥᩬᨦ]
+  nod-thai: [Thai, [AS], คำเมือง]
   nog: [Cyrl, [EU], ногайша]
   nov: [Latn, [WW], Novial]
   nqo: [Nkoo, [AF], ߒߞߏ]
@@ -723,7 +724,7 @@ scriptgroups:
   SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Rohg, Saur, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
   CJK: [Hani, Hans, Hant, Kana, Kore, Jpan, Yiii]
-  SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Mymr, Thai]
+  SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Lana, Mymr, Thai]
   Mongolian: [Mong]
   SignWriting: [Sgnw]
   NativeAmerican: [Cher, Cans]
