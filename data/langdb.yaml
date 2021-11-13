@@ -14,6 +14,7 @@ languages:
   af: [Latn, [AF], Afrikaans]
   agq: [Latn, [AF], aghɨ̂m]
   ahr: [Deva, [AS], अहिराणी]
+  ajg: [Latn, [AF], ajagbe]
   ajp: [Arab, [ME], شامي]
   ajp-arab: [ajp]
   ajp-latn: [Latn, [ME], šāmi]
