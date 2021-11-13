@@ -1447,6 +1447,13 @@
             ],
             "𐌲𐌿𐍄𐌹𐍃𐌺"
         ],
+        "gpe": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Ghanaian Pidgin"
+        ],
         "grc": [
             "Grek",
             [
@@ -2805,6 +2812,13 @@
             ],
             "Nederlands"
         ],
+        "nmz": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "nawdm"
+        ],
         "nn": [
             "Latn",
             [
@@ -2820,6 +2834,13 @@
             "norsk"
         ],
         "nod": [
+            "Lana",
+            [
+                "AS"
+            ],
+            "ᨣᩴᩤᨾᩮᩥᩬᨦ"
+        ],
+        "nod-thai": [
             "Thai",
             [
                 "AS"
@@ -4530,6 +4551,7 @@
             "Java",
             "Khmr",
             "Laoo",
+            "Lana",
             "Mymr",
             "Thai"
         ],
