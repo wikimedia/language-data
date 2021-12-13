@@ -3584,6 +3584,9 @@
             ],
             "လိၵ်ႈတႆး"
         ],
+        "shy": [
+            "shy-latn"
+        ],
         "shy-latn": [
             "Latn",
             [
@@ -4203,6 +4206,16 @@
                 "AS"
             ],
             "oʻzbekcha"
+        ],
+        "uz-cyrl": [
+            "Cyrl",
+            [
+                "AS"
+            ],
+            "ўзбекча"
+        ],
+        "uz-latn": [
+            "uz"
         ],
         "ve": [
             "Latn",
