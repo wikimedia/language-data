@@ -20,6 +20,8 @@ languages:
   ajp-latn: [Latn, [ME], šāmi]
   ak: [Latn, [AF], Akan]
   akz: [Latn, [AM], Albaamo innaaɬiilka]
+  ale: [Latn, [AM, AS], unangam tunuu]
+  ale-cyrl: [Cyrl, [AS], унаӈам тунуу]
   aln: [Latn, [EU], Gegë]
   alt: [Cyrl, [EU, AS], алтай тил]
   am: [Ethi, [AF], አማርኛ]
