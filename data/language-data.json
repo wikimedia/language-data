@@ -2925,6 +2925,13 @@
             ],
             "Chi-Chewa"
         ],
+        "nyn": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "runyankore"
+        ],
         "nys": [
             "Latn",
             [
@@ -6105,6 +6112,7 @@
         "UG": [
             "sw",
             "lg",
+            "nyn",
             "en",
             "rw",
             "hi"
