@@ -31,7 +31,7 @@ class LanguageUtil {
 
 	/**
 	 * Cached language data object
-	 * @var object
+	 * @var stdClass
 	 */
 	private $data;
 
@@ -287,7 +287,7 @@ class LanguageUtil {
 	 * @param string $region Region code
 	 * @return array
 	 */
-	public function  getLanguagesByScriptGroupInRegion( string $region ): array {
+	public function getLanguagesByScriptGroupInRegion( string $region ): array {
 		return $this->getLanguagesByScriptGroupInRegions( [ $region ] );
 	}
 
