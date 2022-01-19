@@ -126,10 +126,11 @@ Language data related changes,
 
 ## Node.js
 
-### Node.js 1.0.5 (2022-01-18)
+### Node.js 1.0.8 (2022-01-18)
 - See [language updates 2022-01-18](#2022-01-18).
 - Update minimum supported Node.js version to 12.0.0.
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/196)
+- Bump version from 1.0.4 to 1.0.8 to be same as the PHP library.
 
 ### Node.js 1.0.4 (2021-10-25)
 - See [language updates 2021-10-25](#2021-10-25)
