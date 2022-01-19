@@ -8,6 +8,21 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2022-01-18
+Language data related changes,
+1. [Add Aghem (agq) and Masana (mcn)](https://github.com/wikimedia/language-data/pull/183)
+2. [Change names of Cyrillic-script languages to lowercase](https://github.com/wikimedia/language-data/pull/184)
+3. [Add Ghanaian Pidgin (gpe)](https://github.com/wikimedia/language-data/pull/187)
+4. [Split Northern Thai to nod and nod-thai](https://github.com/wikimedia/language-data/pull/186)
+5. [Add Nawdm (nmz)](https://github.com/wikimedia/language-data/pull/185)
+6. [Add Aja (ajg)](https://github.com/wikimedia/language-data/pull/188)
+7. [Add Logooli (rag)](https://github.com/wikimedia/language-data/pull/189)
+8. [Add Aleut languages](https://github.com/wikimedia/language-data/pull/192)
+9. [Update Abkhaz autonym](https://github.com/wikimedia/language-data/pull/191)
+10. [Update Nheengatu (yrl) autonym](https://github.com/wikimedia/language-data/pull/193)
+11. [Fix the Angika (anp) autonym](https://github.com/wikimedia/language-data/pull/194)
+12. [Add the Nyankore language (nyn)](https://github.com/wikimedia/language-data/pull/195)
+
 ### 2021-10-25
 Language data related changes,
 1. [Add yrl to CO and VE countries](https://github.com/wikimedia/language-data/pull/170)
@@ -81,6 +96,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.0.8 (2022-01-18)
+- See [language updates 2022-01-18](#2022-01-18).
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/197)
+
 ### PHP 1.0.7 (2021-10-25)
 - See [language updates 2021-10-25](#2021-10-25).
 
@@ -107,13 +126,18 @@ Language data related changes,
 
 ## Node.js
 
+### Node.js 1.0.8 (2022-01-18)
+- See [language updates 2022-01-18](#2022-01-18).
+- Update minimum supported Node.js version to 12.0.0.
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/196)
+- Bump version from 1.0.4 to 1.0.8 to be same as the PHP library.
+
 ### Node.js 1.0.4 (2021-10-25)
 - See [language updates 2021-10-25](#2021-10-25)
 - [Update dependencies to add support for Node.js 14.x, 16.x](https://github.com/wikimedia/language-data/pull/173)
 - Security fixes for dev dependencies:
     - [Update ansi-regex for CVE-2021-3807](https://github.com/wikimedia/language-data/pull/180)
     - [Update path-parse for CVE-2021-23343](https://github.com/wikimedia/language-data/pull/172).
-
 
 ### Node.js 1.0.3 (2021-07-16)
 - See [language updates 2021-07-16](#2021-07-16).
