@@ -1308,6 +1308,13 @@
             ],
             "furlan"
         ],
+        "fvr": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "poor’íŋ belé’ŋ"
+        ],
         "fy": [
             "Latn",
             [
@@ -5914,6 +5921,7 @@
         "SD": [
             "ar",
             "en",
+            "fvr",
             "ha-arab",
             "ha"
         ],
