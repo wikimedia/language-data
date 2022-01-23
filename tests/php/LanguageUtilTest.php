@@ -31,14 +31,14 @@ class LanguageUtilTest extends TestCase {
 	 */
 	public function testIsRedirect() {
 		$this->assertFalse( $this->languageUtil->isRedirect( 'en' ) );
-		$this->assertEquals( $this->languageUtil->isRedirect( 'aeb' ), 'aeb-arab' );
+		$this->assertEquals( 'aeb-arab', $this->languageUtil->isRedirect( 'aeb' ) );
 	}
 
 	/**
 	 * @covers getScript
 	 */
 	public function testGetScript() {
-		$this->assertEquals( $this->languageUtil->getScript( 'en' ), 'Latn' );
+		$this->assertEquals( 'Latn', $this->languageUtil->getScript( 'en' ) );
 		$this->assertFalse( $this->languageUtil->getScript( self::UNKNOWN_LANGUAGE_CODE ) );
 	}
 
