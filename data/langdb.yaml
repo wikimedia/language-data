@@ -623,6 +623,7 @@ languages:
   tn: [Latn, [AF], Setswana]
   to: [Latn, [PA], lea faka-Tonga]
   tok: [Latn, [WW], toki pona]
+  tokipona: [tok]
   tpi: [Latn, [PA, AS], Tok Pisin]
   tr: [Latn, [EU, ME], Türkçe]
   trp: [Latn, [AS], Kokborok (Tripuri)]
