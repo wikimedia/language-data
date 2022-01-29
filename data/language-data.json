@@ -3612,15 +3612,15 @@
             ],
             "လိၵ်ႈတႆး"
         ],
-        "shy": [
-            "shy-latn"
-        ],
         "shy-latn": [
             "Latn",
             [
                 "AF"
             ],
             "tacawit"
+        ],
+        "shy": [
+            "shy-latn"
         ],
         "si": [
             "Sinh",
@@ -4946,6 +4946,7 @@
             "en",
             "ru",
             "vi",
+            "uz-cyrl",
             "uz",
             "lzh"
         ],
@@ -6195,6 +6196,7 @@
         ],
         "UZ": [
             "uz",
+            "uz-cyrl",
             "ru",
             "kaa",
             "tr"
