@@ -3612,15 +3612,15 @@
             ],
             "လိၵ်ႈတႆး"
         ],
-        "shy": [
-            "shy-latn"
-        ],
         "shy-latn": [
             "Latn",
             [
                 "AF"
             ],
             "tacawit"
+        ],
+        "shy": [
+            "shy-latn"
         ],
         "si": [
             "Sinh",
@@ -4044,12 +4044,15 @@
             ],
             "lea faka-Tonga"
         ],
-        "tokipona": [
+        "tok": [
             "Latn",
             [
                 "WW"
             ],
-            "Toki Pona"
+            "toki pona"
+        ],
+        "tokipona": [
+            "tok"
         ],
         "tpi": [
             "Latn",
@@ -4943,6 +4946,7 @@
             "en",
             "ru",
             "vi",
+            "uz-cyrl",
             "uz",
             "lzh"
         ],
@@ -6192,6 +6196,7 @@
         ],
         "UZ": [
             "uz",
+            "uz-cyrl",
             "ru",
             "kaa",
             "tr"
