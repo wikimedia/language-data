@@ -523,6 +523,7 @@ languages:
   ro: [Latn, [EU], română]
   roa-rup: [rup]
   roa-tara: [Latn, [EU], tarandíne]
+  rsk: [Cyrl, [EU], руски]
   rtm: [Latn, [PA], Faeag Rotuma]
  # world?
   ru: [Cyrl, [EU, AS, ME], русский]
