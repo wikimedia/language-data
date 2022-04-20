@@ -681,7 +681,7 @@ languages:
   xh: [Latn, [AF], isiXhosa]
   xmf: [Geor, [EU], მარგალური]
   xsy: [Latn, [AS], SaiSiyat]
-  ydd: [Hebr, [AS, EU], Eastern Yiddish]
+  ydd: [yi]
   yi: [Hebr, [ME, EU, AM], ייִדיש]
   yo: [Latn, [AF], Yorùbá]
   yrk: [Cyrl, [AS], ненэцяʼ вада]
