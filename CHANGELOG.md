@@ -8,6 +8,23 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2022-04-20
+1. [Auto-update of region-language information](https://github.com/wikimedia/language-data/pull/200)
+2. [Add shy-latn, uz-cyrl and uz-latn](https://github.com/wikimedia/language-data/pull/190)
+3. [Add Fur (fvr)](https://github.com/wikimedia/language-data/pull/201)
+4. [Add se-fi, se-no and se-se](https://github.com/wikimedia/language-data/pull/202)
+5. [Update Toki Pona](https://github.com/wikimedia/language-data/pull/205)
+6. [Rename Seediq (trv)](https://github.com/wikimedia/language-data/pull/207)
+7. [Add the Moore language (mos)](https://github.com/wikimedia/language-data/pull/208)
+8. [Add [ken] Kenyang](https://github.com/wikimedia/language-data/pull/210)
+9. [Add the Bulu language (bum)](https://github.com/wikimedia/language-data/pull/211)
+10. [Add Fante (fat)](https://github.com/wikimedia/language-data/pull/213)
+11. [Add Pannonian Rusyn](https://github.com/wikimedia/language-data/pull/214)
+12. [Fix the autonym for Rundi (rn)](https://github.com/wikimedia/language-data/pull/215)
+13. [Add Efik (efi)](https://github.com/wikimedia/language-data/pull/217)
+14. [Fix the geo data of Karay-a (krj)](https://github.com/wikimedia/language-data/pull/218)
+15. [Redirect "Eastern Yiddish" (ydd) to Yiddish (yi)](https://github.com/wikimedia/language-data/pull/220)
+
 ### 2022-01-18
 Language data related changes,
 1. [Add Aghem (agq) and Masana (mcn)](https://github.com/wikimedia/language-data/pull/183)
@@ -96,6 +113,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.0.9 (2022-04-20)
+- See [language updates 2022-04-20](#2022-04-20).
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/219)
+
 ### PHP 1.0.8 (2022-01-18)
 - See [language updates 2022-01-18](#2022-01-18).
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/197)
@@ -125,6 +146,13 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.0.9 (2022-04-20)
+- See [language updates 2022-04-20](#2022-04-20).
+- Update DEV dependencies to address security issues
+	- https://github.com/wikimedia/language-data/pull/196
+	- https://github.com/wikimedia/language-data/pull/204
+	- https://github.com/wikimedia/language-data/pull/216
 
 ### Node.js 1.0.8 (2022-01-18)
 - See [language updates 2022-01-18](#2022-01-18).
