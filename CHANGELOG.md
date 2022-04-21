@@ -24,6 +24,8 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 13. [Add Efik (efi)](https://github.com/wikimedia/language-data/pull/217)
 14. [Fix the geo data of Karay-a (krj)](https://github.com/wikimedia/language-data/pull/218)
 15. [Redirect "Eastern Yiddish" (ydd) to Yiddish (yi)](https://github.com/wikimedia/language-data/pull/220)
+16. [Change trp autonym](https://github.com/wikimedia/language-data/pull/223)
+17. [Remove Livvi Karelian from Asia](https://github.com/wikimedia/language-data/pull/222)
 
 ### 2022-01-18
 Language data related changes,
