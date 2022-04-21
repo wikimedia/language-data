@@ -632,7 +632,7 @@ languages:
   tokipona: [tok]
   tpi: [Latn, [PA, AS], Tok Pisin]
   tr: [Latn, [EU, ME], Türkçe]
-  trp: [Latn, [AS], Kokborok (Tripuri)]
+  trp: [Latn, [AS], Kokborok]
   tru: [Latn, [AS], Ṫuroyo]
   trv: [Latn, [AS], Seediq]
   ts: [Latn, [AF], Xitsonga]
