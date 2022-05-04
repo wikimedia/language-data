@@ -536,7 +536,7 @@ languages:
   ruq-grek: [Grek, [EU], Megleno-Romanian (Greek script)]
   ruq-latn: [Latn, [EU], Vlăheşte]
   rut: [Cyrl, [EU], мыхаӀбишды]
-  rw: [Latn, [AF], Kinyarwanda]
+  rw: [Latn, [AF], Ikinyarwanda]
  # Bug: 60815
   rwr: [Deva, [AS], मारवाड़ी]
   ryu: [Jpan, [AS], うちなーぐち]
