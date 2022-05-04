@@ -539,7 +539,7 @@ languages:
   rw: [Latn, [AF], Ikinyarwanda]
  # Bug: 60815
   rwr: [Deva, [AS], मारवाड़ी]
-  ryu: [Kana, [AS], ʔucināguci]
+  ryu: [Jpan, [AS], うちなーぐち]
   sa: [Deva, [AS], संस्कृतम्]
   sah: [Cyrl, [EU, AS], саха тыла]
   sat: [Olck, [AS], ᱥᱟᱱᱛᱟᱲᱤ]
@@ -744,7 +744,7 @@ scriptgroups:
  # the Brahmic family.
   SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Rohg, Saur, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
-  CJK: [Hani, Hans, Hant, Kana, Kore, Jpan, Yiii]
+  CJK: [Hani, Hans, Hant, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Lana, Mymr, Thai]
   Mongolian: [Mong]
   SignWriting: [Sgnw]
