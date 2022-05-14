@@ -598,6 +598,7 @@ languages:
   sr-el: [sr-latn]
   sr-latn: [Latn, [EU], srpski]
   srn: [Latn, [AM, EU], Sranantongo]
+  sro: [Latn, [EU], sardu campidanesu]
   ss: [Latn, [AF], SiSwati]
   st: [Latn, [AF], Sesotho]
   stq: [Latn, [EU], Seeltersk]
