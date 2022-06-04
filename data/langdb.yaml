@@ -523,6 +523,12 @@ languages:
   rif: [Latn, [AF], Tarifit]
   rki: [Mymr, [AS], ရခိုင်]
   rm: [Latn, [EU], rumantsch]
+  rm-puter: [Latn, [EU], puter]
+  rm-rumgr: [Latn, [EU], rumantsch grischun]
+  rm-surmiran: [Latn, [EU], surmiran]
+  rm-sursilv: [Latn, [EU], sursilvan]
+  rm-sutsilv: [Latn, [EU], sutsilvan]
+  rm-vallader: [Latn, [EU], vallader]
   rmc: [Latn, [EU], romaňi čhib]
  # Also known as Fíntika Rómma
   rmf: [Latn, [EU], kaalengo tšimb]
