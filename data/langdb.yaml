@@ -370,6 +370,7 @@ languages:
   lg: [Latn, [AF], Luganda]
   li: [Latn, [EU], Limburgs]
   lij: [Latn, [EU], Ligure]
+  lij-mc: [Latn, [EU], munegascu]
   liv: [Latn, [EU], Līvõ kēļ]
   lki: [Arab, [AS, ME], لەکی]
   lkt: [Latn, [AM], Lakȟótiyapi]
