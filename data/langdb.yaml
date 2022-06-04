@@ -468,6 +468,8 @@ languages:
   nov: [Latn, [WW], Novial]
   nqo: [Nkoo, [AF], ߒߞߏ]
   nr: [Latn, [AF], isiNdebele seSewula]
+  nrf-gg: [Latn, [EU], Guernésiais]
+  nrf-je: [Latn, [EU], Jèrriais]
   nrm: [Latn, [EU], Nouormand]
   nso: [Latn, [AF], Sesotho sa Leboa]
   nus: [Latn, [AF], Thok Naath]
