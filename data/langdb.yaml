@@ -333,7 +333,7 @@ languages:
   ko: [Kore, [AS], 한국어]
   koi: [Cyrl, [EU], перем коми]
   koy: [Latn, [AM], "Denaakkenaageʼ"]
-  kr: [Latn, [AF], Kanuri]
+  kr: [Latn, [AF], kanuri]
   krc: [Cyrl, [EU], къарачай-малкъар]
   kri: [Latn, [AF], Krio]
   krj: [Latn, [AS], Kinaray-a]
