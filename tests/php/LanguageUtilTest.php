@@ -86,8 +86,8 @@ class LanguageUtilTest extends TestCase {
 	 * @covers getLanguagesInScripts
 	 */
 	public function testGetLanguagesInScripts() {
-		$this->assertEmpty(
-			$this->languageUtil->getLanguagesInScripts( [ self::UNKNOWN_LANGUAGE_CODE ] )
+		$this->assertCount(
+			0, $this->languageUtil->getLanguagesInScripts( [ self::UNKNOWN_LANGUAGE_CODE ] )
 		);
 
 		$expectedValues = $this->languageUtil->getLanguagesInScripts( [ 'Latn', 'Grek' ] );
