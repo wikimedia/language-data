@@ -7,6 +7,15 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2022-07-07
+1. [Rename Okinawan](https://github.com/wikimedia/language-data/pull/225)
+2. [Update Kinyarwanda autonym](https://github.com/wikimedia/language-data/pull/227)
+3. [Add Campidanese Sardinian (sro)](https://github.com/wikimedia/language-data/pull/228)
+4. [Update autonym for the Efik language](https://github.com/wikimedia/language-data/pull/231)
+5. [Add Tai Nüa (tdd)](https://github.com/wikimedia/language-data/pull/233)
+6. [Add Bura](https://github.com/wikimedia/language-data/pull/237)
+7. [Change Kanuri autonym to lowercase](https://github.com/wikimedia/language-data/pull/238)
+
 
 ### 2022-04-20
 1. [Auto-update of region-language information](https://github.com/wikimedia/language-data/pull/200)
@@ -115,6 +124,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.0 (2022-07-07)
+- See [language updates 2022-07-07](#2022-07-07).
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/239)
+
 ### PHP 1.0.9 (2022-04-20)
 - See [language updates 2022-04-20](#2022-04-20).
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/219)
@@ -148,6 +161,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.1.0 (2022-07-07)
+- See [language updates 2022-07-07](#2022-07-07).
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/240)
 
 ### Node.js 1.0.9 (2022-04-20)
 - See [language updates 2022-04-20](#2022-04-20).
