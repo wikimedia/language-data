@@ -1970,6 +1970,13 @@
             ],
             "Tyap"
         ],
+        "kck": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "tjikalanga"
+        ],
         "kea": [
             "Latn",
             [
@@ -6380,6 +6387,7 @@
             "sn",
             "en",
             "nd",
+            "kck",
             "ny",
             "ve",
             "tn"
