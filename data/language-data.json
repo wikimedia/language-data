@@ -1970,6 +1970,13 @@
             ],
             "Tyap"
         ],
+        "kck": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "tjikalanga"
+        ],
         "kea": [
             "Latn",
             [
@@ -4394,6 +4401,13 @@
             ],
             "walon"
         ],
+        "wal": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Wolaytta"
+        ],
         "war": [
             "Latn",
             [
@@ -5189,6 +5203,7 @@
             "om",
             "so",
             "ti",
+            "wal",
             "aa"
         ],
         "FI": [
@@ -6379,6 +6394,7 @@
             "sn",
             "en",
             "nd",
+            "kck",
             "ny",
             "ve",
             "tn"
