@@ -4394,6 +4394,13 @@
             ],
             "walon"
         ],
+        "wal": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Wolaytta"
+        ],
         "war": [
             "Latn",
             [
@@ -5182,6 +5189,7 @@
             "om",
             "so",
             "ti",
+            "wal",
             "aa"
         ],
         "FI": [
