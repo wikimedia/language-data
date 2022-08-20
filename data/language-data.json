@@ -2497,6 +2497,22 @@
             ],
             "मैथिली"
         ],
+        "mak": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Mangkasarak"
+        ],
+        "mak-bugi": [
+            "Bugi",
+            [
+                "AS",
+                "PA"
+            ],
+            "ᨆᨀᨔᨑ"
+        ],
         "map-bms": [
             "Latn",
             [
@@ -5422,6 +5438,7 @@
             "bbc-latn",
             "zh-hant",
             "zh",
+            "mak",
             "rej",
             "gor",
             "sly",

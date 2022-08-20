@@ -387,6 +387,8 @@ languages:
   lzz: [Latn, [EU, ME], Lazuri]
   mad: [Latn, [AS], Madhurâ]
   mai: [Deva, [AS], मैथिली]
+  mak: [Latn, [AS, PA], Mangkasarak]
+  mak-bugi: [Bugi, [AS, PA], ᨆᨀᨔᨑ]
   map-bms: [Latn, [AS], Basa Banyumasan]
   mcn: [Latn, [AF], vùn màsànà]
   mdf: [Cyrl, [EU], мокшень]
