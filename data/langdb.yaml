@@ -5,6 +5,7 @@ languages:
   abs: [Latn, [AS], Bahasa Ambon]
   ace: [Latn, [AS, PA], Acèh]
   acf: [Latn, [AM], kwéyòl]
+  acm: [Arab, [ME], عراقي]
   ady: [Cyrl, [EU, ME], адыгабзэ]
   ady-cyrl: [ady]
   ady-latn: [Latn, [EU, ME], Adygabze]
