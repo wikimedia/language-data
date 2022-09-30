@@ -453,6 +453,7 @@ languages:
   nl: [Latn, [EU, AM], Nederlands]
   nmz: [Latn, [AF], nawdm]
   nn: [Latn, [EU], norsk (nynorsk)]
+  nn-hognorsk: [Latn, [EU], norsk (høgnorsk)]
  # There's also nb for Bokmål and nn for Nynorsk
   "no": [Latn, [EU], norsk]
   nod: [Lana, [AS], ᨣᩴᩤᨾᩮᩥᩬᨦ]
