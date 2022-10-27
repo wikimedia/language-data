@@ -7,6 +7,19 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+
+### 2022-10-27
+1. [Add Wolaytta](https://github.com/wikimedia/language-data/pull/245)
+2. [Add Kalanga (kck)](https://github.com/wikimedia/language-data/pull/244)
+3. [Add Yonaguni (yoi)](https://github.com/wikimedia/language-data/pull/242)
+4. [Fix Wolaytta autonym](https://github.com/wikimedia/language-data/pull/246)
+5. [Fix Bunun autonym](https://github.com/wikimedia/language-data/pull/247)
+6. [Add Esan language](https://github.com/wikimedia/language-data/pull/248)
+7. [Fix the autonym of the Iñupiaq language](https://github.com/wikimedia/language-data/pull/250)
+8. [Add Makassarese (mak)](https://github.com/wikimedia/language-data/pull/251)
+9. [Add Iraqi Arabic (acm)](https://github.com/wikimedia/language-data/pull/252)
+10. [Add Magahi](https://github.com/wikimedia/language-data/pull/254)
+
 ### 2022-07-07
 1. [Rename Okinawan](https://github.com/wikimedia/language-data/pull/225)
 2. [Update Kinyarwanda autonym](https://github.com/wikimedia/language-data/pull/227)
@@ -124,6 +137,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.1 (2022-10-27)
+- See [language updates 2022-10-27](#2022-10-27).
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/256)
+
 ### PHP 1.1.0 (2022-07-07)
 - See [language updates 2022-07-07](#2022-07-07).
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/239)
@@ -161,6 +178,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.1.1 (2022-10-27)
+- See [language updates 2022-10-27](#2022-10-27).
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/255)
 
 ### Node.js 1.1.0 (2022-07-07)
 - See [language updates 2022-07-07](#2022-07-07).
