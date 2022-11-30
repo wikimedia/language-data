@@ -1003,6 +1003,13 @@
             ],
             "Deutsch"
         ],
+        "dga": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Dagaare"
+        ],
         "din": [
             "Latn",
             [
@@ -2248,6 +2255,13 @@
                 "ME"
             ],
             "kurdî"
+        ],
+        "kus": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Kʋsaal"
         ],
         "kum": [
             "Cyrl",
