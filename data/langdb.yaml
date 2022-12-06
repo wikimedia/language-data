@@ -688,6 +688,7 @@ languages:
   xal: [Cyrl, [EU], хальмг]
   xh: [Latn, [AF], isiXhosa]
   xmf: [Geor, [EU], მარგალური]
+  xmm: [Latn, [AS, PA], Manado]
   xsy: [Latn, [AS], SaiSiyat]
   ydd: [yi]
   yi: [Hebr, [ME, EU, AM], ייִדיש]
