@@ -634,6 +634,8 @@ languages:
   sg: [Latn, [AF], Sängö]
   sgs: [Latn, [EU], žemaitėška]
   sh: [Latn, [EU], srpskohrvatski]
+  sh-cyrl: [Cyrl, [EU], српскохрватски]
+  sh-latn: [sh]
   shi-latn: [Latn, [AF], Taclḥit]
   shi-tfng: [Tfng, [AF], ⵜⴰⵛⵍⵃⵉⵜ]
   shi: [shi-latn]
