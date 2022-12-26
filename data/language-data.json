@@ -3986,6 +3986,16 @@
             ],
             "srpskohrvatski"
         ],
+        "sh-cyrl": [
+            "Cyrl",
+            [
+                "EU"
+            ],
+            "српскохрватски"
+        ],
+        "sh-latn": [
+            "sh"
+        ],
         "shi-latn": [
             "Latn",
             [
