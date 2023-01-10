@@ -280,6 +280,7 @@ languages:
   id: [Latn, [AS, PA], Bahasa Indonesia]
   ie: [Latn, [WW], Interlingue]
   ig: [Latn, [AF], Igbo]
+  igl: [Latn, [AF], Igala]
   ii: [Yiii, [AS], ꆇꉙ]
   ik: [Latn, [AM], Iñupiatun]
   ike-cans: [Cans, [AM], ᐃᓄᒃᑎᑐᑦ]
