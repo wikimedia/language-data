@@ -30,7 +30,7 @@
 		}
 	],
 	"require": {
-		"php": ">=7.2",
+		"php": ">=7.3",
 		"mustangostang/spyc": "0.6.3"
 	},
 	"require-dev": {
