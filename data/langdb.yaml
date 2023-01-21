@@ -50,11 +50,11 @@ languages:
   avk: [Latn, [WW], Kotava]
   awa: [Deva, [AS], अवधी]
   ay: [Latn, [AM], Aymar aru]
- # The Latin script is the default in the North Azerbaijani Wikipedia,
- # which uses the macro code 'az'. Its own standard code is 'azj'.
- # The Arabic script is the default in the South Azerbaijani Wikipedia,
- # which correctly uses the code 'azb'.
- # CLDR uses az-latn and az-arab.
+  # The Latin script is the default in the North Azerbaijani Wikipedia,
+  # which uses the macro code 'az'. Its own standard code is 'azj'.
+  # The Arabic script is the default in the South Azerbaijani Wikipedia,
+  # which correctly uses the code 'azb'.
+  # CLDR uses az-latn and az-arab.
   az: [az-latn]
   az-arab: [Arab, [AS, ME], تۆرکجه]
   az-latn: [Latn, [EU, ME], azərbaycanca]
@@ -62,9 +62,9 @@ languages:
   azb: [az-arab]
   azj: [az-latn]
   ba: [Cyrl, [EU], башҡортса]
- # The common modern default.
+  # The common modern default.
   ban: [Latn, [AS, PA], Bali]
- # For support in webfonts.
+  # For support in webfonts.
   ban-bali: [Bali, [AS, PA], ᬩᬮᬶ]
   bar: [Latn, [EU], Boarisch]
   bas: [Latn, [AF], ɓasaá]
@@ -85,7 +85,7 @@ languages:
   bfq: [Taml, [AS], படகா]
   bg: [Cyrl, [EU], български]
   bgn: [Arab, [AS, ME], روچ کپتین بلوچی]
- # FIXME - currently says Bhojpuri, but it's a macrolanguage.
+  # FIXME - currently says Bhojpuri, but it's a macrolanguage.
   bh: [bho]
   bho: [Deva, [AS], भोजपुरी]
   bi: [Latn, [PA], Bislama]
@@ -117,19 +117,19 @@ languages:
   cbk: [Latn, [AS], Chavacano de Zamboanga]
   cbk-zam: [cbk]
   ccp: [Cakm, [AS], 𑄌𑄋𑄴𑄟𑄳𑄦]
- # FIXME cdo will be modified later to split to Latin and Chinese more cleanly
+  # FIXME cdo will be modified later to split to Latin and Chinese more cleanly
   cdo: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄]
   cdo-latn: [Latn, [AS], Mìng-dĕ̤ng-ngṳ̄ Bàng-uâ-cê]
   cdo-hani: [Hani, [AS], 閩東語（漢字）]
   ce: [Cyrl, [EU], нохчийн]
   ceb: [Latn, [AS], Cebuano]
   ch: [Latn, [PA], Chamoru]
- # FIXME chm is actually a macro language that includes
- # mhr and mrj, but CLDR Territory-Language information
- # uses chm instead of mhr, so for practical reasons
- # it should redirect there.
- # A better fix would be this:
- # https://phabricator.wikimedia.org/T136164
+  # FIXME chm is actually a macro language that includes
+  # mhr and mrj, but CLDR Territory-Language information
+  # uses chm instead of mhr, so for practical reasons
+  # it should redirect there.
+  # A better fix would be this:
+  # https://phabricator.wikimedia.org/T136164
   chm: [mhr]
   chn: [Latn, [AM], chinuk wawa]
   cho: [Latn, [AM], Choctaw]
@@ -156,7 +156,7 @@ languages:
   crh-latn: [crh]
   cs: [Latn, [EU], čeština]
   csb: [Latn, [EU], kaszëbsczi]
- # FIXME: which script to prefer?..
+  # FIXME: which script to prefer?..
   cu: [Cyrl, [EU], словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ]
   cv: [Cyrl, [EU], чӑвашла]
   cy: [Latn, [EU], Cymraeg]
@@ -248,8 +248,8 @@ languages:
   gur: [Latn, [AF], farefare]
   guw: [Latn, [AF], gungbe]
   gv: [Latn, [EU], Gaelg]
- # CLDR uses ha for Latin script and ha-arab for Arabic script.
- # Latin is more common and is used in Wikipedia.
+  # CLDR uses ha for Latin script and ha-arab for Arabic script.
+  # Latin is more common and is used in Wikipedia.
   ha: [Latn, [AF], Hausa]
   ha-arab: [Arab, [AF], هَوُسَ]
   ha-latn: [ha]
@@ -302,11 +302,11 @@ languages:
   jje: [Kore, [AS], 제주말]
   jut: [Latn, [EU], jysk]
   jv: [Latn, [AS, PA], Jawa]
- # For support in webfonts.
+  # For support in webfonts.
   jv-java: [Java, [AS, PA], ꦗꦮ]
   ka: [Geor, [EU], ქართული]
   kaa: [Latn, [AS], Qaraqalpaqsha]
- # Can also be Tfng, but the Wikipedia is mostly Latn
+  # Can also be Tfng, but the Wikipedia is mostly Latn
   kab: [Latn, [AF, EU], Taqbaylit]
   kac: [Latn, [AS], Jinghpaw]
   kbd-cyrl: [kbd]
@@ -351,7 +351,7 @@ languages:
   ksf: [Latn, [AF], Bafia]
   ksh: [Latn, [EU], Ripoarisch]
   ksw: [Mymr, [AS], စှီၤ]
- # CLDR uses ku-latn and ku-arab. Latin is more common and is used in Wikipedia.
+  # CLDR uses ku-latn and ku-arab. Latin is more common and is used in Wikipedia.
   ku: [ku-latn]
   ku-arab: [Arab, [EU, ME], كوردي]
   ku-latn: [Latn, [EU, ME], kurdî]
@@ -390,7 +390,7 @@ languages:
   luz: [Arab, [ME], لئری دوٙمینی]
   lv: [Latn, [EU], latviešu]
   lzh: [Hant, [AS], 文言]
- # Also Geor, but the incubator is in Latn
+  # Also Geor, but the incubator is in Latn
   lzz: [Latn, [EU, ME], Lazuri]
   mad: [Latn, [AS], Madhurâ]
   mag: [Deva, [AS], मगही]
@@ -457,7 +457,7 @@ languages:
   nmz: [Latn, [AF], nawdm]
   nn: [Latn, [EU], norsk (nynorsk)]
   nn-hognorsk: [Latn, [EU], norsk (høgnorsk)]
- # There's also nb for Bokmål and nn for Nynorsk
+  # There's also nb for Bokmål and nn for Nynorsk
   "no": [Latn, [EU], norsk]
   nod: [Lana, [AS], ᨣᩴᩤᨾᩮᩥᩬᨦ]
   nod-thai: [Thai, [AS], คำเมือง]
@@ -533,7 +533,7 @@ languages:
   rm-sutsilv: [Latn, [EU], sutsilvan]
   rm-vallader: [Latn, [EU], vallader]
   rmc: [Latn, [EU], romaňi čhib]
- # Also known as Fíntika Rómma
+  # Also known as Fíntika Rómma
   rmf: [Latn, [EU], kaalengo tšimb]
   rmy: [Latn, [EU], Romani]
   rn: [Latn, [AF], ikirundi]
@@ -547,12 +547,12 @@ languages:
   rup: [Latn, [EU], armãneashti]
   ruq: [Cyrl, [EU], Влахесте]
   ruq-cyrl: [ruq]
- # FIXME: broken autonym
+  # FIXME: broken autonym
   ruq-grek: [Grek, [EU], Megleno-Romanian (Greek script)]
   ruq-latn: [Latn, [EU], Vlăheşte]
   rut: [Cyrl, [EU], мыхаӀбишды]
   rw: [Latn, [AF], Ikinyarwanda]
- # Bug: 60815
+  # Bug: 60815
   rwr: [Deva, [AS], मारवाड़ी]
   ryu: [Jpan, [AS], うちなーぐち]
   sa: [Deva, [AS], संस्कृतम्]
@@ -666,8 +666,8 @@ languages:
   tzl: [Latn, [WW], Talossan]
   tzm: [Tfng, [AF], ⵜⴰⵎⴰⵣⵉⵖⵜ]
   udm: [Cyrl, [EU], удмурт]
- # CLDR uses ug-arab, ug-latn and ug-cyrl.
- # Arabic seems to have the largest number of users and is the main script in the Wikipedia.
+  # CLDR uses ug-arab, ug-latn and ug-cyrl.
+  # Arabic seems to have the largest number of users and is the main script in the Wikipedia.
   ug: [ug-arab]
   ug-arab: [Arab, [AS], ئۇيغۇرچە]
   ug-latn: [Latn, [AS], uyghurche]
@@ -711,85 +711,106 @@ languages:
   za: [Latn, [AS], Vahcuengh]
   zea: [Latn, [EU], Zeêuws]
   zgh: [Tfng, [AF], ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ]
- # world? (may apply to many varieties of Chinese)
-  zh: [Hans, [AS, PA, AM], 中文]
+  # world? (may apply to many varieties of Chinese)
+  zh: [Hani, [AS, PA, AM], 中文]
   zh-classical: [lzh]
-  zh-cn: [Hans, [AS], 中文（中国大陆）]
-  zh-hans: [Hans, [AS, PA, AM], 中文（简体）]
+  zh-cn: [Hani, [AS], 中文（中国大陆）]
+  zh-hans: [Hani, [AS, PA, AM], 中文（简体）]
   zh-hant: [Hant, [AS, PA, AM], 中文（繁體）]
   zh-hk: [Hant, [AS], 中文（香港）]
   zh-min-nan: [nan]
   zh-mo: [Hant, [AS], 中文（澳門）]
-  zh-my: [Hans, [AS], 中文（马来西亚）]
-  zh-sg: [Hans, [AS], 中文（新加坡）]
+  zh-my: [Hani, [AS], 中文（马来西亚）]
+  zh-sg: [Hani, [AS], 中文（新加坡）]
   zh-tw: [Hant, [AS], 中文（台灣）]
   zh-yue: [yue]
   zh-cdo: [cdo]
   zu: [Latn, [AF], isiZulu]
   zun: [Latn, [AM], "Shiwi'ma"]
 
- # All the supported scripts, grouped logically.
- #
- # The codes are taken from http://unicode.org/iso15924/iso15924-codes.html .
- #
- # The classification is roughly based on http://www.unicode.org/charts/
- # with some practical corrections.
- #
- # The order of the groups affects display. Pau Giner suggested the order;
- # the rationale of the order is to distance the largest groups from
- # one another to improve discoverability.
- #
- # The group name "Other" is reserved.
+  # All the supported scripts, grouped logically.
+  #
+  # The codes are taken from http://unicode.org/iso15924/iso15924-codes.html .
+  #
+  # The classification is roughly based on http://www.unicode.org/charts/
+  # with some practical corrections.
+  #
+  # The order of the groups affects display. Pau Giner suggested the order;
+  # the rationale of the order is to distance the largest groups from
+  # one another to improve discoverability.
+  #
+  # The group name "Other" is reserved.
 scriptgroups:
- # It's hard to find a better place for Goth except the Latin group.
+  # It's hard to find a better place for Goth except the Latin group.
   Latin: [Latn, Goth]
- # Greek is probably different enough from Latin and Cyrillic, but user testing
- # may prove otherwise.
+  # Greek is probably different enough from Latin and Cyrillic, but user testing
+  # may prove otherwise.
   Greek: [Grek]
   WestCaucasian: [Armn, Geor]
   Arabic: [Arab]
- # Maybe MiddleEastern can be unified with Arabic.
- # Maybe Thaana can be moved here from SouthAsian.
- # Maybe it can be unified with African.
+  # Maybe MiddleEastern can be unified with Arabic.
+  # Maybe Thaana can be moved here from SouthAsian.
+  # Maybe it can be unified with African.
   MiddleEastern: [Hebr, Syrc]
   African: [Copt, Ethi, Nkoo, Tfng, Vaii]
- # India, Nepal, Bangladesh, Sri-Lanka, Bhutan, Maldives.
- #
- # Thaana (Thaa, the script of Maldives) is here, even though it's RTL,
- # because it's closer geographically to India. Maybe it should be moved
- # to MiddleEastern or to Arabic, if that would be easier to users.
- #
- # Tibetan (Tibt) is here, even though it's classified as "Central Asian" by
- # Unicode, because linguistically and geographically it's closely related to
- # the Brahmic family.
-  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Rohg, Saur, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
+  # India, Nepal, Bangladesh, Sri-Lanka, Bhutan, Maldives.
+  #
+  # Thaana (Thaa, the script of Maldives) is here, even though it's RTL,
+  # because it's closer geographically to India. Maybe it should be moved
+  # to MiddleEastern or to Arabic, if that would be easier to users.
+  #
+  # Tibetan (Tibt) is here, even though it's classified as "Central Asian" by
+  # Unicode, because linguistically and geographically it's closely related to
+  # the Brahmic family.
+  SouthAsian:
+    [
+      Beng,
+      Cakm,
+      Deva,
+      Gujr,
+      Guru,
+      Knda,
+      Mlym,
+      Mtei,
+      Olck,
+      Orya,
+      Rohg,
+      Saur,
+      Sinh,
+      Sylo,
+      Taml,
+      Telu,
+      Tibt,
+      Thaa,
+      Wara,
+    ]
   Cyrillic: [Cyrl]
   CJK: [Hani, Hans, Hant, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Java, Khmr, Laoo, Lana, Mymr, Thai, Tale]
   Mongolian: [Mong]
   SignWriting: [Sgnw]
   NativeAmerican: [Cher, Cans]
- # Undetermined script
+  # Undetermined script
   Special: [Zyyy]
 
 rtlscripts:
   [Arab, Hebr, Syrc, Nkoo, Rohg, Thaa]
 
- # The numbers are also used in HTML id attributes
+  # The numbers are also used in HTML id attributes
 regiongroups:
- # Worldwide, international
+  # Worldwide, international
   WW: 1
- # Special languages. To be shown near Worldwide when relevant.
+  # Special languages. To be shown near Worldwide when relevant.
   SP: 1
- # America
+  # America
   AM: 2
- # Europe
+  # Europe
   EU: 3
- # Middle East
+  # Middle East
   ME: 3
- # Africa
+  # Africa
   AF: 3
- # Asia
+  # Asia
   AS: 4
- # Pacific
+  # Pacific
   PA: 4
