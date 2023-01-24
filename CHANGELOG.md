@@ -8,6 +8,18 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2023-01-24
+1. [Add ajp language](https://github.com/wikimedia/language-data/pull/266)
+2. [Add Kʋsaal and Dagaare languages](https://github.com/wikimedia/language-data/pull/265)
+3. [Add Nzema (nzi) and bèrom (bom) languages](https://github.com/wikimedia/language-data/pull/268)
+4. [Add Høgnorsk (nn-hognorsk)](https://github.com/wikimedia/language-data/pull/260)
+5. [Add Romansh variants](https://github.com/wikimedia/language-data/pull/262)
+6. [Add Monégasque (lij-mc)](https://github.com/wikimedia/language-data/pull/261)
+7. [Add Manado language (xmm)](https://github.com/wikimedia/language-data/pull/269)
+8. [Add Igala](https://github.com/wikimedia/language-data/pull/270)
+9. [Fix Hawaiian (haw) autonym](https://github.com/wikimedia/language-data/pull/258)
+10. [Add Arbëresh language (aae)](https://github.com/wikimedia/language-data/pull/272)
+
 ### 2022-10-27
 1. [Add Wolaytta](https://github.com/wikimedia/language-data/pull/245)
 2. [Add Kalanga (kck)](https://github.com/wikimedia/language-data/pull/244)
@@ -137,6 +149,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.2 (2023-01-24)
+- See [language updates 2023-01-24](#2023-01-24)
+- [Drop support for PHP 7.2, and update dependencies](https://github.com/wikimedia/language-data/pull/275)
+
 ### PHP 1.1.1 (2022-10-27)
 - See [language updates 2022-10-27](#2022-10-27).
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/256)
@@ -178,6 +194,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.1.2 (2023-01-24)
+- See [language updates 2023-01-24](#2023-01-24)
+- [Drop support for Node.js 12 and update dependencies](https://github.com/wikimedia/language-data/pull/273)
 
 ### Node.js 1.1.1 (2022-10-27)
 - See [language updates 2022-10-27](#2022-10-27).
