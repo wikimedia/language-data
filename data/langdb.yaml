@@ -265,6 +265,7 @@ languages:
   hif-latn: [hif]
   hil: [Latn, [AS], Ilonggo]
   hne: [Deva, [AS], छत्तीसगढ़ी]
+  hno: [Arab, [AS], ہندکو]
   ho: [Latn, [PA], Hiri Motu]
   hoc: [Wara, [AS], 𑢹𑣉𑣉]
   hr: [Latn, [EU], hrvatski]
