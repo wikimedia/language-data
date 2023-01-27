@@ -401,6 +401,7 @@ languages:
   map-bms: [Latn, [AS], Basa Banyumasan]
   mcn: [Latn, [AF], vùn màsànà]
   mdf: [Cyrl, [EU], мокшень]
+  mey: [Arab, [AF], الحسانية]
   mfe: [Latn, [AM], Morisyen]
   mg: [Latn, [AF], Malagasy]
   mh: [Latn, [PA], Ebon]
