@@ -369,6 +369,7 @@ languages:
   lag: [Latn, [AF], Kilaangi]
   lb: [Latn, [EU], Lëtzebuergesch]
   lbe: [Cyrl, [EU], лакку]
+  ldn: [Latn, [WW], Láadan]
   lez: [Cyrl, [EU], лезги]
   lfn: [Latn, [WW], Lingua Franca Nova]
   lg: [Latn, [AF], Luganda]
