@@ -1146,6 +1146,13 @@
             ],
             "Simple English"
         ],
+        "en-us": [
+            "Latn",
+            [
+                "AM"
+            ],
+            "American English"
+        ],
         "en": [
             "Latn",
             [
@@ -3051,6 +3058,20 @@
                 "AF"
             ],
             "isiNdebele seSewula"
+        ],
+        "nrf-gg": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "Guernésiais"
+        ],
+        "nrf-je": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "Jèrriais"
         ],
         "nrm": [
             "Latn",
@@ -5595,7 +5616,6 @@
             "he",
             "en",
             "ar",
-            "ajp",
             "ru",
             "ro",
             "yi",
@@ -5719,7 +5739,6 @@
         ],
         "JO": [
             "ar",
-            "ajp",
             "en"
         ],
         "JP": [
@@ -6133,8 +6152,7 @@
             "en"
         ],
         "PS": [
-            "ar",
-            "ajp"
+            "ar"
         ],
         "PT": [
             "pt",
