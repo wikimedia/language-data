@@ -122,21 +122,13 @@
             "ajagbe"
         ],
         "ajp": [
-            "Arab",
-            [
-                "ME"
-            ],
-            "شامي"
+            "apc"
         ],
         "ajp-arab": [
-            "ajp"
+            "apc"
         ],
         "ajp-latn": [
-            "Latn",
-            [
-                "ME"
-            ],
-            "šāmi"
+            "apc-latn"
         ],
         "ak": [
             "Latn",
@@ -223,6 +215,23 @@
                 "AS"
             ],
             "अंगिका"
+        ],
+        "apc": [
+            "Arab",
+            [
+                "ME"
+            ],
+            "شامي"
+        ],
+        "apc-arab": [
+            "apc"
+        ],
+        "apc-latn": [
+            "Latn",
+            [
+                "ME"
+            ],
+            "šāmi"
         ],
         "ar": [
             "Arab",
@@ -5616,6 +5625,7 @@
             "he",
             "en",
             "ar",
+            "apc",
             "ru",
             "ro",
             "yi",
@@ -5739,6 +5749,7 @@
         ],
         "JO": [
             "ar",
+            "apc",
             "en"
         ],
         "JP": [
@@ -6152,7 +6163,8 @@
             "en"
         ],
         "PS": [
-            "ar"
+            "ar",
+            "apc"
         ],
         "PT": [
             "pt",
@@ -6354,6 +6366,7 @@
         ],
         "SY": [
             "ar",
+            "apc",
             "ku-latn",
             "fr",
             "hy"
