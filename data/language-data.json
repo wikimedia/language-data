@@ -5260,6 +5260,9 @@
             "guc",
             "yrl"
         ],
+        "CQ": [
+            "en"
+        ],
         "CR": [
             "es"
         ],
@@ -5723,6 +5726,7 @@
             "it",
             "en",
             "fr",
+            "lmo",
             "sc",
             "de",
             "vec",
@@ -5735,7 +5739,6 @@
             "egl",
             "ca",
             "el",
-            "lmo",
             "pms",
             "hr",
             "rgn"
@@ -5809,6 +5812,7 @@
             "lo"
         ],
         "LB": [
+            "apc",
             "ar",
             "en",
             "hy",
@@ -6365,8 +6369,8 @@
             "nl"
         ],
         "SY": [
-            "ar",
             "apc",
+            "ar",
             "ku-latn",
             "fr",
             "hy"
@@ -6435,6 +6439,7 @@
             "tr",
             "en",
             "ku-latn",
+            "apc",
             "kbd",
             "az-latn",
             "az-arab",
