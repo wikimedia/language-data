@@ -665,6 +665,7 @@ languages:
   trv: [Latn, [AS], Seediq]
   ts: [Latn, [AF], Xitsonga]
   tsd: [Grek, [EU], Τσακωνικά]
+  tsg: [Latn, [AS], Sinūg]
   tt: [Cyrl, [EU], татарча]
   tt-cyrl: [tt]
   tt-latn: [Latn, [EU], tatarça]
