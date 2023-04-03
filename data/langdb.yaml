@@ -169,6 +169,7 @@ languages:
   da: [Latn, [EU], dansk]
   dag: [Latn, [AF], dagbanli]
   dar: [Cyrl, [EU], дарган]
+  ddn: [Latn, [AF], dendi]
   de-at: [Latn, [EU], Österreichisches Deutsch]
   de-ch: [Latn, [EU], Schweizer Hochdeutsch]
   de-formal: [Latn, [EU], Deutsch (Sie-Form)]
