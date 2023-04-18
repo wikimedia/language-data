@@ -8,6 +8,18 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2023-04-17
+1. [Add Hindko (hno)](https://github.com/wikimedia/language-data/pull/277)
+2. [Add Hassaniya (mey)](https://github.com/wikimedia/language-data/pull/278)
+3. [Add American English (en-us)](https://github.com/wikimedia/language-data/pull/264)
+4. [Add Jèrriais (nrf-je) and Guernésiais (nrf-gg)](https://github.com/wikimedia/language-data/pull/259)
+5. [Add Láadan (ldn)](https://github.com/wikimedia/language-data/pull/279)
+6. [Add Levantine Arabic (apc)](https://github.com/wikimedia/language-data/pull/281)
+7. [Add Haryanvi (bgc)](https://github.com/wikimedia/language-data/pull/283)
+8. [Add Tausug (tsg)](https://github.com/wikimedia/language-data/pull/284)
+9. [Add Dendi (ddn)](https://github.com/wikimedia/language-data/pull/285)
+10. [Add Ibibio (ibb)](https://github.com/wikimedia/language-data/pull/286)
+
 ### 2023-01-24
 1. [Add ajp language](https://github.com/wikimedia/language-data/pull/266)
 2. [Add Kʋsaal and Dagaare languages](https://github.com/wikimedia/language-data/pull/265)
@@ -149,6 +161,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.3 (2023-04-17)
+- See [language updates 2023-04-17](#2023-04-17)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/288)
+
 ### PHP 1.1.2 (2023-01-24)
 - See [language updates 2023-01-24](#2023-01-24)
 - [Drop support for PHP 7.2, and update dependencies](https://github.com/wikimedia/language-data/pull/275)
@@ -194,6 +210,11 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+
+### Node.js 1.1.3 (2023-04-17)
+- See [language updates 2023-04-17](#2023-04-17)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/287)
 
 ### Node.js 1.1.2 (2023-01-24)
 - See [language updates 2023-01-24](#2023-01-24)
