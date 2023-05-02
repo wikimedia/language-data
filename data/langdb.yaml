@@ -160,6 +160,7 @@ languages:
   crh: [Latn, [EU], qırımtatarca]
   crh-cyrl: [Cyrl, [EU], къырымтатарджа]
   crh-latn: [crh]
+  crh-ro: [Latn, [EU], tatarşa]
   cs: [Latn, [EU], čeština]
   csb: [Latn, [EU], kaszëbsczi]
  # FIXME: which script to prefer?..
