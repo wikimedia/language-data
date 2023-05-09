@@ -7,6 +7,7 @@ languages:
   ace: [Latn, [AS, PA], Acèh]
   acf: [Latn, [AM], kwéyòl]
   acm: [Arab, [ME], عراقي]
+  acq: [Arab, [ME, AF], تعزية-عدنية]
   ady: [Cyrl, [EU, ME], адыгабзэ]
   ady-cyrl: [ady]
   ady-latn: [Latn, [EU, ME], Adygabze]
@@ -28,6 +29,7 @@ languages:
   ale-cyrl: [Cyrl, [AS], унаӈам тунуу]
   aln: [Latn, [EU], Gegë]
   alt: [Cyrl, [EU, AS], алтай тил]
+  als: [sq]
   am: [Ethi, [AF], አማርኛ]
   ami: [Latn, [AS], Pangcah]
   an: [Latn, [EU], aragonés]
@@ -84,6 +86,7 @@ languages:
   be-tarask: [Cyrl, [EU], беларуская (тарашкевіца)]
   be-x-old: [be-tarask]
   be: [Cyrl, [EU], беларуская]
+  bem: [Latn, [AF], IciBemba]
   bew: [Latn, [AS], Bahasa Betawi]
   bfa: [Latn, [AF], Bari]
   bft: [Arab, [AS], بلتی]
@@ -147,6 +150,7 @@ languages:
   cjy-hant: [Hant, [AS], 晉語]
   ckb: [Arab, [ME], کوردی]
   ckt: [Cyrl, [AS], ԓыгъоравэтԓьэн]
+  cjk: [Latn, [AF], cokwe]
   cnh: [Latn, [AS], Lai holh]
   cnr: [cnr-latn]
   cnr-cyrl: [Cyrl, [EU], црногорски]
@@ -176,6 +180,10 @@ languages:
   de-formal: [Latn, [EU], Deutsch (Sie-Form)]
   de: [Latn, [EU], Deutsch]
   dga: [Latn, [AF], Dagaare]
+ # In ISO 639, it refers to Rek Dinka. It may
+ # be changed like that here, too, but for
+ # now, redirect it to macro Dinka.
+  dik: [din]
   din: [Latn, [AF], Thuɔŋjäŋ]
   diq: [Latn, [EU, AS], Zazaki]
   doi: [Deva, [AS], डोगरी]
@@ -183,6 +191,7 @@ languages:
   dtp: [Latn, [AS], Dusun Bundu-liwan]
   dty: [Deva, [AS], डोटेली]
   dv: [Thaa, [AS], ދިވެހިބަސް]
+  dyu: [Latn, [AF], Julakan]
   dz: [Tibt, [AS], ཇོང་ཁ]
   ee: [Latn, [AF], eʋegbe]
   efi: [Latn, [AF], efịk]
@@ -224,6 +233,10 @@ languages:
   frr: [Latn, [EU], Nordfriisk]
   fuf: [Latn, [AF], Fuuta Jalon]
   fur: [Latn, [EU], furlan]
+ # In ISO 639, it refers to Nigerian Fula. It may
+ # be changed like that here, too, but for
+ # now, redirect it to macro Fula.
+  fuv: [ff]
   fvr: [Latn, [AF], poor’íŋ belé’ŋ]
   fy: [Latn, [EU], Frysk]
   ga: [Latn, [EU], Gaeilge]
@@ -233,6 +246,10 @@ languages:
   gan-hans: [Hans, [AS], 赣语（简体）]
   gan-hant: [gan]
   gan: [Hant, [AS], 贛語]
+ # In ISO 639, it refers to West Central Oromo. It may
+ # be changed like that here, too, but for
+ # now, redirect it to macro Oromo.
+  gaz: [om]
   gbm: [Deva, [AS], गढ़वळि]
   gbz: [Latn, [AS], Dari-e Mazdeyasnā]
   gcf: [Latn, [AM], Guadeloupean Creole French]
@@ -320,6 +337,7 @@ languages:
  # Can also be Tfng, but the Wikipedia is mostly Latn
   kab: [Latn, [AF, EU], Taqbaylit]
   kac: [Latn, [AS], Jinghpaw]
+  kam: [Latn, [AF], kĩkamba]
   kbd-cyrl: [kbd]
   kbd-latn: [Latn, [EU], Qabardjajəbza]
   kbd: [Cyrl, [EU, ME], адыгэбзэ]
@@ -330,6 +348,7 @@ languages:
   ken: [Latn, [AF], kɛ́nyáŋ]
   kg: [Latn, [AF], Kongo]
   kgp: [Latn, [AM], Kaingáng]
+  khk: [mn]
   khw: [Arab, [ME, AS], کھوار]
   ki: [Latn, [AF], Gĩkũyũ]
   kiu: [Latn, [EU, ME], Kırmancki]
@@ -345,7 +364,13 @@ languages:
   kk-tr: [kk-latn]
   kl: [Latn, [AM, EU], kalaallisut]
   km: [Khmr, [AS], ភាសាខ្មែរ]
+  kmb: [Latn, [AF], kimbundu]
+  kmr: [ku-latn]
   kn: [Knda, [AS], ಕನ್ನಡ]
+ # In ISO 639, it refers to Central Kanuri. It may
+ # be changed like that here, too, but for
+ # now, redirect it to macro Kanuri.
+  knc: [kr]
   knn: [Deva, [AS], महाराष्ट्रीय कोंकणी]
   ko-kp: [Kore, [AS], 조선말]
   ko: [Kore, [AS], 한국어]
@@ -396,11 +421,14 @@ languages:
   lt: [Latn, [EU], lietuvių]
   lrc: [Arab, [AS, ME], لۊری شومالی]
   ltg: [Latn, [EU], latgaļu]
+  lua: [Latn, [AF], ciluba]
   lud: [Latn, [EU], lüüdi]
+  luo: [Latn, [AF], dholuo]
   lus: [Latn, [AS], Mizo ţawng]
   lut: [Latn, [AM], dxʷləšucid]
   luz: [Arab, [ME], لئری دوٙمینی]
   lv: [Latn, [EU], latviešu]
+  lvs: [lv]
   lzh: [Hant, [AS], 文言]
  # Also Geor, but the incubator is in Latn
   lzz: [Latn, [EU, ME], Lazuri]
@@ -476,6 +504,7 @@ languages:
   nod-thai: [Thai, [AS], คำเมือง]
   nog: [Cyrl, [EU], ногайша]
   nov: [Latn, [WW], Novial]
+  npi: [ne]
   nqo: [Nkoo, [AF], ߒߞߏ]
   nr: [Latn, [AF], isiNdebele seSewula]
   nrf-gg: [Latn, [EU], Guernésiais]
@@ -495,6 +524,7 @@ languages:
   om: [Latn, [AF], Oromoo]
   ood: [Latn, [AM], "ʼOʼodham ha-ñeʼokĭ"]
   or: [Orya, [AS], ଓଡ଼ିଆ]
+  ory: [or]
   os: [Cyrl, [EU], ирон]
   osi: [Latn, [AS], Using]
   ota: [Arab, [AS, EU], لسان عثمانى]
@@ -506,10 +536,15 @@ languages:
   pap: [Latn, [AM], Papiamentu]
   pap-aw: [Latn, [AM], Papiamento]
   pbb: [Latn, [AM], Nasa Yuwe]
+ # In ISO 639, it refers to Southern Pashto. It may
+ # be changed like that here, too, but for
+ # now, redirect it to macro Pashto.
+  pbt: [ps]
   pcd: [Latn, [EU], Picard]
   pcm: [Latn, [AF], Naijá]
   pdc: [Latn, [EU, AM], Deitsch]
   pdt: [Latn, [EU, AM], Plautdietsch]
+  pes: [fa]
   pfl: [Latn, [EU], Pälzisch]
   pi: [Deva, [AS], पालि]
   pih: [Latn, [PA], Norfuk / Pitkern]
@@ -517,6 +552,7 @@ languages:
   pjt: [Latn, [PA], Pitjantjatjara]
   pko: [Latn, [AF], Pökoot]
   pl: [Latn, [EU], polski]
+  plt: [mg]
   pms: [Latn, [EU], Piemontèis]
   pnb: [Arab, [AS, ME], پنجابی]
   pnt: [Grek, [EU], Ποντιακά]
@@ -531,6 +567,10 @@ languages:
   qu: [Latn, [AM], Runa Simi]
   quc: [Latn, [AM], "K'iche'"]
   qug: [Latn, [AM], Runa shimi]
+ # In ISO 639, it refers to Chanka Quechua. It may
+ # be changed like that here, too, but for
+ # now, redirect it to macro Quechua.
+  quy: [qu]
   qwh: [Latn, [AM], anqash qichwa]
   rag: [Latn, [AF], Lologooli]
   rap: [Latn, [PA, AM], arero rapa nui]
@@ -636,11 +676,17 @@ languages:
   su: [Latn, [AS], Sunda]
   sv: [Latn, [EU], svenska]
   sw: [Latn, [AF], Kiswahili]
+  swh: [sw]
   swb: [Latn, [AF], Shikomoro]
   sxu: [Latn, [EU], Säggssch]
   szl: [Latn, [EU], ślůnski]
   szy: [Latn, [AS], Sakizaya]
   ta: [Taml, [AS], தமிழ்]
+ # This is initially added for Wikimiedia MinT, which outputs Tifinagh.
+ # Perhaps some day it can be changed to Latin as default.
+  taq-latn: [Latn, [AF], təmajəq]
+  taq-tfng: [Latn, [AF], ⵜⴰⵎⴰⵌⴰⵆ]
+  taq: [taq-tfng]
   tay: [Latn, [AS], Tayal]
   tcy: [Knda, [AS], ತುಳು]
   tdd: [Tale, [AS], ᥖᥭᥰᥖᥬᥳᥑᥨᥒᥰ]
@@ -689,11 +735,13 @@ languages:
   ug-latn: [Latn, [AS], uyghurche]
   ug-cyrl: [Cyrl, [AS], уйғурчә]
   uk: [Cyrl, [EU], українська]
+  umb: [Latn, [AF], umbundu]
   umu: [Latn, [AM], Huluníixsuwaakan]
   ur: [Arab, [AS, ME], اردو]
-  uz: [Latn, [AS], oʻzbekcha]
   uz-cyrl: [Cyrl, [AS], ўзбекча]
   uz-latn: [uz]
+  uz: [Latn, [AS], oʻzbekcha]
+  uzn: [uz]
   ve: [Latn, [AF], Tshivenda]
   vai: [Vaii, [AF], ꕙꔤ]
   vec: [Latn, [EU, AM], vèneto]
@@ -741,6 +789,7 @@ languages:
   zh-tw: [Hant, [AS], 中文（台灣）]
   zh-yue: [yue]
   zh-cdo: [cdo]
+  zsm: [ms]
   zu: [Latn, [AF], isiZulu]
   zun: [Latn, [AM], "Shiwi'ma"]
 
