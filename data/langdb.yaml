@@ -142,7 +142,7 @@ languages:
  # https://phabricator.wikimedia.org/T136164
   chm: [mhr]
   chn: [Latn, [AM], chinuk wawa]
-  cho: [Latn, [AM], Choctaw]
+  cho: [Latn, [AM], Chahta anumpa]
   chr: [Cher, [AM], ᏣᎳᎩ]
   chy: [Latn, [AM], Tsetsêhestâhese]
   ciw: [Latn, [AM], Anishinaabemowin]
