@@ -4820,6 +4820,20 @@
             ],
             "Wolof"
         ],
+        "wuu-hans": [
+            "Hans",
+            [
+                "AS"
+            ],
+            "吴语（简体）"
+        ],
+        "wuu-hant": [
+            "Hant",
+            [
+                "AS"
+            ],
+            "吳語（正體）"
+        ],
         "wuu": [
             "Hans",
             [
@@ -4909,6 +4923,20 @@
                 "AM"
             ],
             "Maaya T'aan"
+        ],
+        "yue-hans": [
+            "Hans",
+            [
+                "AS"
+            ],
+            "粵语（简体）"
+        ],
+        "yue-hant": [
+            "Hant",
+            [
+                "AS"
+            ],
+            "粵語（繁體）"
         ],
         "yue": [
             "Hant",
@@ -5444,6 +5472,7 @@
         "CN": [
             "zh",
             "wuu",
+            "yue-hans",
             "yue",
             "hsn",
             "hak",
