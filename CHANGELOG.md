@@ -8,6 +8,19 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2023-07-17
+1. [Add Crimean Tatar (Romania)](https://github.com/wikimedia/language-data/pull/290)
+2. [Add languages used in Wikimedia MinT](https://github.com/wikimedia/language-data/pull/292)
+3. [Add Brazilian Sign Language](https://github.com/wikimedia/language-data/pull/298)
+4. [Correct Choctaw autonym](https://github.com/wikimedia/language-data/pull/297)
+5. [Update the autonym for Guadeloupean Creole (gcf)](https://github.com/wikimedia/language-data/pull/296)
+6. [Add cpx with three variants](https://github.com/wikimedia/language-data/pull/299)
+7. [Update Betawi (bew) autonym](https://github.com/wikimedia/language-data/pull/300)
+8. [Run src/util/ulsdata2json.php](https://github.com/wikimedia/language-data/pull/301)
+9. [Add script variants for Serbo-Croatian (sh-cyrl and sh-latn)](https://github.com/wikimedia/language-data/pull/271)
+10. [Add wuu and yue variants by @amire80](https://github.com/wikimedia/language-data/pull/302)
+11. [Split Buginese to Latin and Lontara script]( https://github.com/wikimedia/language-data/pull/304)
+
 ### 2023-04-17
 1. [Add Hindko (hno)](https://github.com/wikimedia/language-data/pull/277)
 2. [Add Hassaniya (mey)](https://github.com/wikimedia/language-data/pull/278)
@@ -161,6 +174,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.4 (2023-07-17)
+- See [language updates 2023-07-17](#2023-07-17)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/305)
+
 ### PHP 1.1.3 (2023-04-17)
 - See [language updates 2023-04-17](#2023-04-17)
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/288)
@@ -211,6 +228,9 @@ Language data related changes,
 
 ## Node.js
 
+### Node.js 1.1.4 (2023-07-17)
+- See [language updates 2023-07-17](#2023-07-17)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/306)
 
 ### Node.js 1.1.3 (2023-04-17)
 - See [language updates 2023-04-17](#2023-04-17)
