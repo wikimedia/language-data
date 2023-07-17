@@ -704,11 +704,23 @@
             "Iriga Bicolano"
         ],
         "bug": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Basa Ugi"
+        ],
+        "bug-bugi": [
             "Bugi",
             [
-                "AS"
+                "AS",
+                "PA"
             ],
             "ᨅᨔ ᨕᨘᨁᨗ"
+        ],
+        "bug-latn": [
+            "bug"
         ],
         "bum": [
             "Latn",
