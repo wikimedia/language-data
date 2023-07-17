@@ -1,0 +1,7 @@
+files:
+  data/langdb.yaml:
+    excludedSections:
+      - scriptgroups
+      - rtlscripts
+      - regiongroups
+  yaml-sort-checker.yml:

@@ -23,5 +23,13 @@ jobs:
       - name: Running phpcs
         run: composer run-script cs
 
+      # The yaml-sort-checker library requires PHP 8.1 or higher,
+      # but we want to support older PHP versions,
+      # so we install the library here
+      # and not using composer.json
+      - name: Running yaml-sort-checker
+        if: ${{ matrix.php >= '8.1' }}
+        run: composer run-script yaml-sort-check
+
       - name: Run tests
         run: php ./vendor/bin/phpunit

@@ -50,6 +50,7 @@
 	"scripts": {
 		"fix": "phpcbf",
 		"cs": "phpcs -sp",
+		"yaml-sort-check": "composer require mhujer/yaml-sort-checker; yaml-sort-checker",
 		"test": [
 			"@composer validate --no-interaction",
 			"phpunit",
