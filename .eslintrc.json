@@ -10,9 +10,5 @@
 	},
 	"globals": {
 		"require": false
-	},
-	"rules": {
-		"dot-notation": 0,
-		"wrap-iife": 0
 	}
 }
