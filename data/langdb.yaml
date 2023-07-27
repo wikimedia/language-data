@@ -106,6 +106,7 @@ languages:
   bn: [Beng, [AS], বাংলা]
   bnn: [Latn, [AS], bunun]
   bo: [Tibt, [AS], བོད་ཡིག]
+  bol: [Latn, [AF], bòo pìkkà]
   bom: [Latn, [AF], bèrom]
   bpy: [Beng, [AS], বিষ্ণুপ্রিয়া মণিপুরী]
   bqi: [Arab, [AS, ME], بختیاری]
@@ -344,6 +345,7 @@ languages:
  # Can also be Tfng, but the Wikipedia is mostly Latn
   kab: [Latn, [AF, EU], Taqbaylit]
   kac: [Latn, [AS], Jinghpaw]
+  kai: [Latn, [AF], Karai-karai]
   kam: [Latn, [AF], kĩkamba]
   kbd: [Cyrl, [EU, ME], адыгэбзэ]
   kbd-cyrl: [kbd]
