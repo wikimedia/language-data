@@ -44,6 +44,7 @@ languages:
   arn: [Latn, [AM], mapudungun]
   aro: [Latn, [AM], Araona]
   arq: [Arab, [AF, ME], جازايرية]
+  ars: [Arab, [ME], نجدي]
   ary: [Arab, [AF, ME], الدارجة]
   ary-arab: [ary]
   ary-latn: [Latn, [AF, ME], ed-dārija]
