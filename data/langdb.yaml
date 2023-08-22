@@ -23,7 +23,6 @@ languages:
   ajp: [apc]
   ajp-arab: [apc]
   ajp-latn: [apc-latn]
-  ak: [Latn, [AF], Akan]
   akz: [Latn, [AM], Albaamo innaaɬiilka]
   ale: [Latn, [AM, AS], unangam tunuu]
   ale-cyrl: [Cyrl, [AS], унаӈам тунуу]

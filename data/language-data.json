@@ -138,13 +138,6 @@
         "ajp-latn": [
             "apc-latn"
         ],
-        "ak": [
-            "Latn",
-            [
-                "AF"
-            ],
-            "Akan"
-        ],
         "akz": [
             "Latn",
             [
@@ -5783,7 +5776,6 @@
             "en"
         ],
         "GH": [
-            "ak",
             "en",
             "ee",
             "gur",
