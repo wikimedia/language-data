@@ -8,6 +8,7 @@ languages:
   acf: [Latn, [AM], kwéyòl]
   acm: [Arab, [ME], عراقي]
   acq: [Arab, [ME, AF], تعزية-عدنية]
+  ada: [Latn, [AF], Dangme]
   ady: [Cyrl, [EU, ME], адыгабзэ]
   ady-cyrl: [ady]
   ady-latn: [Latn, [EU, ME], Adygabze]
