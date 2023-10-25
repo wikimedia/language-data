@@ -8,6 +8,13 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2023-10-25
+1. [Add Pintupi-Luritja](https://github.com/wikimedia/language-data/pull/310)
+2. [Add Bole (bol) and Karekare (kai)](https://github.com/wikimedia/language-data/pull/311)
+3. [Add Najdi (ars)](https://github.com/wikimedia/language-data/pull/312)
+4. [Remove akan](https://github.com/wikimedia/language-data/pull/313)
+5. [Add Dangme](https://github.com/wikimedia/language-data/pull/316)
+
 ### 2023-07-17
 1. [Add Crimean Tatar (Romania)](https://github.com/wikimedia/language-data/pull/290)
 2. [Add languages used in Wikimedia MinT](https://github.com/wikimedia/language-data/pull/292)
@@ -174,6 +181,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.5 (2023-10-25)
+- See [language updates 2023-10-25](#2023-10-25)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/319)
+
 ### PHP 1.1.4 (2023-07-17)
 - See [language updates 2023-07-17](#2023-07-17)
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/305)
@@ -227,6 +238,13 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.1.5 (2023-10-25)
+- See [language updates 2023-10-25](#2023-10-25)
+- Update DEV dependencies and fix security issues
+  - https://github.com/wikimedia/language-data/pull/309
+  - https://github.com/wikimedia/language-data/pull/317
+  - https://github.com/wikimedia/language-data/pull/318
 
 ### Node.js 1.1.4 (2023-07-17)
 - See [language updates 2023-07-17](#2023-07-17)
