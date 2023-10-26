@@ -39,6 +39,7 @@ languages:
   apc: [Arab, [ME], شامي]
   apc-arab: [apc]
   apc-latn: [Latn, [ME], šāmi]
+  apw: [Latn, [AM], "Ndee biyati'"]
   ar: [Arab, [AF, ME], العربية]
   arc: [Syrc, [ME], ܐܪܡܝܐ]
   arn: [Latn, [AM], mapudungun]
