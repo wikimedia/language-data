@@ -358,6 +358,8 @@ languages:
   kea: [Latn, [AF], kabuverdianu]
   ken: [Latn, [AF], kɛ́nyáŋ]
   kg: [Latn, [AF], Kongo]
+  kge: [Latn, [AS, PA], Basa Kumoring]
+  kge-arab: [Arab, [AS, PA], باس كوموريڠ]
   kgp: [Latn, [AM], Kaingáng]
   khk: [mn]
   khw: [Arab, [ME, AS], کھوار]
