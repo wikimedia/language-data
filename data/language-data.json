@@ -3323,6 +3323,13 @@
             ],
             "runyankore"
         ],
+        "nyo": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Orunyoro"
+        ],
         "nys": [
             "Latn",
             [
@@ -4633,6 +4640,13 @@
                 "EU"
             ],
             "tatarça"
+        ],
+        "ttj": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Orutooro"
         ],
         "ttt": [
             "Cyrl",
@@ -6811,6 +6825,7 @@
             "nyn",
             "en",
             "rw",
+            "ttj",
             "hi"
         ],
         "UM": [
