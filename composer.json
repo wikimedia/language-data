@@ -34,6 +34,7 @@
 		"mustangostang/spyc": "0.6.3"
 	},
 	"require-dev": {
+		"ext-curl": "*",
 		"phpunit/phpunit": "9.6.13",
 		"mediawiki/mediawiki-codesniffer": "42.0.0"
 	},
