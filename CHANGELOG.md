@@ -8,6 +8,14 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2024-01-24
+1. [Add Western Apache](https://github.com/wikimedia/language-data/pull/321)
+2. [Add Komering](https://github.com/wikimedia/language-data/pull/322)
+3. [Add Nyoro (nyo) and Tooro (ttj)](https://github.com/wikimedia/language-data/pull/326)
+4. [Update Mon (mnw) autonym](https://github.com/wikimedia/language-data/pull/325)
+5. [Add Gondi and Kolami](https://github.com/wikimedia/language-data/pull/324)
+6. [Add Nupe (nup)](https://github.com/wikimedia/language-data/pull/327)
+
 ### 2023-10-25
 1. [Add Pintupi-Luritja](https://github.com/wikimedia/language-data/pull/310)
 2. [Add Bole (bol) and Karekare (kai)](https://github.com/wikimedia/language-data/pull/311)
@@ -181,6 +189,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.6 (2024-01-24)
+- See [language updates 2024-01-24](#2024-01-24)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/328)
+
 ### PHP 1.1.5 (2023-10-25)
 - See [language updates 2023-10-25](#2023-10-25)
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/319)
@@ -238,6 +250,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.1.6 (2024-01-24)
+- See [language updates 2024-01-24](#2024-01-24)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/329)
 
 ### Node.js 1.1.5 (2023-10-25)
 - See [language updates 2023-10-25](#2023-10-25)
