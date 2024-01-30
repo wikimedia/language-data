@@ -319,6 +319,7 @@ languages:
   id: [Latn, [AS, PA], Bahasa Indonesia]
   ie: [Latn, [WW], Interlingue]
   ig: [Latn, [AF], Igbo]
+  igb: [Latn, [AF], Ebira]
   igl: [Latn, [AF], Igala]
   ii: [Yiii, [AS], ꆇꉙ]
   ik: [Latn, [AM], Iñupiatun]
