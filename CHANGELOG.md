@@ -8,6 +8,10 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2024-04-15
+1. [Add Ebira (igb)](https://github.com/wikimedia/language-data/pull/332)
+2. [Add Petjoh (pey)](https://github.com/wikimedia/language-data/pull/335)
+
 ### 2024-01-24
 1. [Add Western Apache](https://github.com/wikimedia/language-data/pull/321)
 2. [Add Komering](https://github.com/wikimedia/language-data/pull/322)
@@ -189,6 +193,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.7 (2024-04-15)
+- See [language updates 2024-04-15](#2024-04-15)
+- [Update PHP dependencies](https://github.com/wikimedia/language-data/pull/337)
+
 ### PHP 1.1.6 (2024-01-24)
 - See [language updates 2024-01-24](#2024-01-24)
 - [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/328)
@@ -250,6 +258,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.1.7 (2024-04-15)
+- See [language updates 2024-04-15](#2024-04-15)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/336)
 
 ### Node.js 1.1.6 (2024-01-24)
 - See [language updates 2024-01-24](#2024-01-24)
