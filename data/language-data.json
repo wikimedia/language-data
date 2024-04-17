@@ -1941,6 +1941,14 @@
             ],
             "interlingua"
         ],
+        "iba": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Jaku Iban"
+        ],
         "ibb": [
             "Latn",
             [
@@ -5584,8 +5592,7 @@
             "mic",
             "atj",
             "war",
-            "oka",
-            "tok"
+            "oka"
         ],
         "CC": [
             "ms-arab",
@@ -5748,8 +5755,7 @@
             "frr",
             "dsb",
             "stq",
-            "pfl",
-            "vo"
+            "pfl"
         ],
         "DG": [
             "en"
@@ -6433,6 +6439,7 @@
             "nan-hans",
             "nan",
             "ta",
+            "iba",
             "jv",
             "dtp",
             "ml",
