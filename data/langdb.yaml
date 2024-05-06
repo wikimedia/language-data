@@ -715,7 +715,7 @@ languages:
  # Perhaps some day it can be changed to Latin as default.
   taq: [taq-tfng]
   taq-latn: [Latn, [AF], təmajəq]
-  taq-tfng: [Latn, [AF], ⵜⴰⵎⴰⵌⴰⵆ]
+  taq-tfng: [Tfng, [AF], ⵜⴰⵎⴰⵌⴰⵆ]
   tay: [Latn, [AS], Tayal]
   tcy: [Knda, [AS], ತುಳು]
   tdd: [Tale, [AS], ᥖᥭᥰᥖᥬᥳᥑᥨᥒᥰ]
