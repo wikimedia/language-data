@@ -406,7 +406,9 @@ languages:
   ksw: [Mymr, [AS], စှီၤ]
  # CLDR uses ku-latn and ku-arab. Latin is more common and is used in Wikipedia.
   ku: [ku-latn]
-  ku-arab: [Arab, [EU, ME], كوردي]
+ # Note: The first word here is the same as the name of ckb.
+ # It should probably be made less ambiguous.
+  ku-arab: [Arab, [EU, ME], کوردی (عەرەبی)]
   ku-latn: [Latn, [EU, ME], kurdî]
   kum: [Cyrl, [EU], къумукъ]
   kus: [Latn, [AF], Kʋsaal]
