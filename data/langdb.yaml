@@ -100,6 +100,7 @@ languages:
   bh: [bho]
   bho: [Deva, [AS], भोजपुरी]
   bi: [Latn, [PA], Bislama]
+  bin: [Latn, [AF], Ẹdo]
   bjn: [Latn, [AS], Banjar]
   bkm: [Latn, [AF], Itaŋikom]
   blc: [Latn, [AM], ItNuxalkmc]
