@@ -596,6 +596,13 @@
             ],
             "Bislama"
         ],
+        "bin": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Ẹdo"
+        ],
         "bjn": [
             "Latn",
             [
@@ -6484,6 +6491,7 @@
             "efi",
             "ibb",
             "ha-arab",
+            "bin",
             "kcg",
             "ar",
             "ann"
