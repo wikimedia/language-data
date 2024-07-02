@@ -340,6 +340,7 @@ languages:
   iu: [ike-cans]
   izh: [Latn, [EU], ižoran keel]
   ja: [Jpan, [AS], 日本語]
+  jac: [Latn, [AM], Abꞌxubꞌal Poptiꞌ]
   jam: [Latn, [AM], Patois]
   jbo: [Latn, [WW], lojban]
   jdt: [jdt-cyrl]
