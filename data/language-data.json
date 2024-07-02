@@ -2069,6 +2069,23 @@
             ],
             "awain"
         ],
+        "isv": [
+            "isv-latn"
+        ],
+        "isv-cyrl": [
+            "Cyrl",
+            [
+                "EU"
+            ],
+            "меджусловјанскы"
+        ],
+        "isv-latn": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "medžuslovjansky"
+        ],
         "it": [
             "Latn",
             [
