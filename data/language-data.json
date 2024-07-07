@@ -28,6 +28,13 @@
             ],
             "Wôbanakiôdwawôgan"
         ],
+        "abr": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Abron"
+        ],
         "abs": [
             "Latn",
             [
@@ -6003,6 +6010,7 @@
         "GH": [
             "en",
             "ee",
+            "abr",
             "gur",
             "ada",
             "gaa",
