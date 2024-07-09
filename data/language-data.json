@@ -28,6 +28,13 @@
             ],
             "Wôbanakiôdwawôgan"
         ],
+        "abr": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Abron"
+        ],
         "abs": [
             "Latn",
             [
@@ -4772,6 +4779,13 @@
             ],
             "Seediq"
         ],
+        "trw": [
+            "Arab",
+            [
+                "AS"
+            ],
+            "توروالی"
+        ],
         "ts": [
             "Latn",
             [
@@ -6010,6 +6024,7 @@
         "GH": [
             "en",
             "ee",
+            "abr",
             "gur",
             "ada",
             "gaa",
@@ -6658,7 +6673,8 @@
             "tg-cyrl",
             "bft",
             "khw",
-            "ks-arab"
+            "ks-arab",
+            "trw"
         ],
         "PL": [
             "pl",
