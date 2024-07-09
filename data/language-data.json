@@ -4772,6 +4772,13 @@
             ],
             "Seediq"
         ],
+        "trw": [
+            "Arab",
+            [
+                "AS"
+            ],
+            "توروالی"
+        ],
         "ts": [
             "Latn",
             [
@@ -6659,7 +6666,8 @@
             "tg-cyrl",
             "bft",
             "khw",
-            "ks-arab"
+            "ks-arab",
+            "trw"
         ],
         "PL": [
             "pl",
