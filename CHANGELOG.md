@@ -8,6 +8,28 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 
+### 2024-07-12
+1. [Add Latin script for Manchu (mnc-latn)](https://github.com/wikimedia/language-data/pull/263)
+2. [Add Iban (iba)](https://github.com/wikimedia/language-data/pull/339)
+3. [Change mui autonym according to Ethnologue](https://github.com/wikimedia/language-data/pull/341)
+4. [Add Pothwari (phr)](https://github.com/wikimedia/language-data/pull/342)
+5. [Correct script for taq-tfng](https://github.com/wikimedia/language-data/pull/343)
+6. [Correct autonym for American Sign Language](https://github.com/wikimedia/language-data/pull/344)
+7. [Add Ekpeye (ekp)](https://github.com/wikimedia/language-data/pull/346)
+8. [Add Edo (bin)](https://github.com/wikimedia/language-data/pull/351)
+9. [Add Waalii (wlx)](https://github.com/wikimedia/language-data/pull/352)
+10. [Add Chitonga (toi) and Chiluvale (lue)](https://github.com/wikimedia/language-data/pull/350)
+11. [Change autonym for tdd](https://github.com/wikimedia/language-data/pull/349)
+12. [Update the autonym for ku-arab](https://github.com/wikimedia/language-data/pull/347)
+13. [Add Interslavic (isv)](https://github.com/wikimedia/language-data/pull/353)
+14. [Add Jakalteko (jac)](https://github.com/wikimedia/language-data/pull/354)
+15. [Add Kihunde (hke)](https://github.com/wikimedia/language-data/pull/355)
+16. [Rename wlx autonym](https://github.com/wikimedia/language-data/pull/356)
+17. [Make a less ambiguous autonym for acf](https://github.com/wikimedia/language-data/pull/357)
+18. [Add Torwali (trw)](https://github.com/wikimedia/language-data/pull/360)
+19. [Add Abron (a.k.a. Bono, Brong, abr)](https://github.com/wikimedia/language-data/pull/358)
+20. [Add Assyrian Neo-Aramaic (aii)](https://github.com/wikimedia/language-data/pull/359)
+
 ### 2024-04-15
 1. [Add Ebira (igb)](https://github.com/wikimedia/language-data/pull/332)
 2. [Add Petjoh (pey)](https://github.com/wikimedia/language-data/pull/335)
@@ -193,6 +215,10 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.8 (2024-07-12)
+- See [language updates 2024-07-12](#2024-07-12)
+- [Update PHP dependencies](https://github.com/wikimedia/language-data/pull/363)
+
 ### PHP 1.1.7 (2024-04-15)
 - See [language updates 2024-04-15](#2024-04-15)
 - [Update PHP dependencies](https://github.com/wikimedia/language-data/pull/337)
@@ -258,6 +284,10 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 1.1.8 (2024-07-12)
+- See [language updates 2024-07-12](#2024-07-12)
+- [Update DEV dependencies](https://github.com/wikimedia/language-data/pull/361)
 
 ### Node.js 1.1.7 (2024-04-15)
 - See [language updates 2024-04-15](#2024-04-15)

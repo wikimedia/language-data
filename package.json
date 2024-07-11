@@ -1,6 +1,6 @@
 {
   "name": "@wikimedia/language-data",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Language data and utilities.",
   "homepage": "https://language-data.readthedocs.io/en/latest/index.html",
   "keywords": [
