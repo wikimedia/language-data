@@ -171,12 +171,12 @@ class LanguageUtilTest extends TestCase {
 
 		$this->assertEquals(
 			[
-				'atj', 'gn',  'en',
-				'es',  'fr',  'haw',
-				'ik',  'kl',  'nl',
-				'pt',  'qu',  'srn',
-				'chy', 'yi',  'chr',
-				'ike-cans',  'cr'
+				'atj', 'gn', 'en',
+				'es', 'fr', 'haw',
+				'ik', 'kl', 'nl',
+				'pt', 'qu', 'srn',
+				'chy', 'yi', 'chr',
+				'ike-cans', 'cr'
 			],
 			$sorted
 		);
