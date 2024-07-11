@@ -35,8 +35,8 @@
 	},
 	"require-dev": {
 		"ext-curl": "*",
-		"phpunit/phpunit": "9.6.16",
-		"mediawiki/mediawiki-codesniffer": "42.0.0"
+		"phpunit/phpunit": "9.6.20",
+		"mediawiki/mediawiki-codesniffer": "43.0.0"
 	},
 	"support": {
 		"issues": "https://github.com/wikimedia/language-data/issues",
@@ -57,5 +57,10 @@
 			"phpunit",
 			"@cs"
 		]
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
 	}
 }
