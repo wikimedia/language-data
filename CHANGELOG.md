@@ -29,6 +29,8 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 18. [Add Torwali (trw)](https://github.com/wikimedia/language-data/pull/360)
 19. [Add Abron (a.k.a. Bono, Brong, abr)](https://github.com/wikimedia/language-data/pull/358)
 20. [Add Assyrian Neo-Aramaic (aii)](https://github.com/wikimedia/language-data/pull/359)
+21. [Add Sheshi Kham (kip)](https://github.com/wikimedia/language-data/pull/365)
+22. [Add Tamazight (Latin) (zgh-latn)](https://github.com/wikimedia/language-data/pull/366)
 
 ### 2024-04-15
 1. [Add Ebira (igb)](https://github.com/wikimedia/language-data/pull/332)
