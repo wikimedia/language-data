@@ -825,6 +825,7 @@ languages:
   za: [Latn, [AS], Vahcuengh]
   zea: [Latn, [EU], Zeêuws]
   zgh: [Tfng, [AF], ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ]
+  zgh-latn: [Latn, [AF], tamaziɣt tanawayt]
   zh: [Hani, [AS, PA, AM, WW], 中文]
   zh-cdo: [cdo]
   zh-classical: [lzh]
