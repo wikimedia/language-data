@@ -496,6 +496,7 @@ languages:
   mrv: [Latn, [PA], Magareva]
   ms: [Latn, [AS], Bahasa Melayu]
   ms-arab: [Arab, [AS], بهاس ملايو]
+  msi: [Latn, [AS], Bahasa Sabah]
   mt: [Latn, [EU], Malti]
   mui: [Latn, [AS], Baso Palembang]
   mus: [Latn, [AM], Mvskoke]
