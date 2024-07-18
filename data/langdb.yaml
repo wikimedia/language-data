@@ -740,6 +740,7 @@ languages:
   th: [Thai, [AS], ไทย]
   ti: [Ethi, [AF], ትግርኛ]
   tig: [Ethi, [AF], ትግረ]
+  tji: [Latn, [AS], bifzivsar]
   tk: [Latn, [AS], Türkmençe]
   tkr: [Cyrl, [AS], цӀаӀхна миз]
   tl: [Latn, [AS], Tagalog]
