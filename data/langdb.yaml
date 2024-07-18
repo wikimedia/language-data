@@ -642,8 +642,6 @@ languages:
   rup: [Latn, [EU], armãneashti]
   ruq: [Cyrl, [EU], Влахесте]
   ruq-cyrl: [ruq]
- # FIXME: broken autonym
-  ruq-grek: [Grek, [EU], Megleno-Romanian (Greek script)]
   ruq-latn: [Latn, [EU], Vlăheşte]
   rut: [Cyrl, [EU], мыхаӀбишды]
   rw: [Latn, [AF], Ikinyarwanda]
