@@ -1795,11 +1795,11 @@
             "X̱aat Kíl"
         ],
         "hak": [
-            "Latn",
+            "Hant",
             [
                 "AS"
             ],
-            "Hak-kâ-fa"
+            "客家語 \/ Hak-kâ-ngî"
         ],
         "hak-hans": [
             "Hans",
@@ -1814,6 +1814,13 @@
                 "AS"
             ],
             "客家語（繁體）"
+        ],
+        "hak-latn": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Hak-kâ-ngî (Pha̍k-fa-sṳ)"
         ],
         "haw": [
             "Latn",
