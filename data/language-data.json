@@ -3392,6 +3392,13 @@
             ],
             "norsk (høgnorsk)"
         ],
+        "nnh": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "ngiembɔɔn"
+        ],
         "no": [
             "Latn",
             [
@@ -5780,6 +5787,7 @@
             "en",
             "bum",
             "ff",
+            "nnh",
             "bkm",
             "bas",
             "dua",
