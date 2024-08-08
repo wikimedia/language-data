@@ -11,7 +11,8 @@
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
-			"name": "Amir E. Aharoni"
+			"name": "Amir E. Aharoni",
+			"email": "amir.aharoni@mail.huji.ac.il"
 		},
 		{
 			"name": "Kartik Mistry"
