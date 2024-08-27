@@ -5801,8 +5801,8 @@
         "CN": [
             "zh",
             "wuu",
-            "yue-hans",
             "yue",
+            "yue-hans",
             "hsn",
             "hak",
             "nan",
@@ -6038,6 +6038,7 @@
             "gu",
             "sco",
             "cy",
+            "ro",
             "bn",
             "ar",
             "zh-hant",
