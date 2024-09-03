@@ -448,6 +448,7 @@ languages:
   lmo: [Latn, [EU], lombard]
   ln: [Latn, [AF], lingála]
   lo: [Laoo, [AS], ລາວ]
+  lou: [Latn, [AM], Kouri-Vini]
   loz: [Latn, [AF], Silozi]
   lrc: [Arab, [AS, ME], لۊری شومالی]
   lt: [Latn, [EU], lietuvių]
