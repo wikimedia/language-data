@@ -2257,6 +2257,13 @@
             ],
             "Karai-karai"
         ],
+        "kaj": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Jju"
+        ],
         "kam": [
             "Latn",
             [
@@ -5380,6 +5387,14 @@
         "zh-yue": [
             "yue"
         ],
+        "zmi": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Nismilan"
+        ],
         "zsm": [
             "ms"
         ],
@@ -6580,6 +6595,7 @@
             "ta",
             "iba",
             "jv",
+            "zmi",
             "dtp",
             "ml",
             "bug",
@@ -6625,6 +6641,7 @@
             "ibb",
             "ha-arab",
             "bin",
+            "kaj",
             "kcg",
             "ar",
             "ann"
