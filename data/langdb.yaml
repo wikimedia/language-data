@@ -97,6 +97,7 @@ languages:
   bft: [Arab, [AS], بلتی]
   bg: [Cyrl, [EU], български]
   bgc: [Deva, [AS], हरियाणवी]
+  bgc-arab: [Arab, [AS], ہریانوی]
   bgn: [Arab, [AS, ME], روچ کپتین بلوچی]
  # FIXME - currently says Bhojpuri, but it's a macrolanguage.
   bh: [bho]
