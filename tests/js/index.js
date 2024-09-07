@@ -83,7 +83,7 @@ describe( 'languagedata', function () {
 				duplicateAutonyms.push( language );
 			}
 
-			autonyms.push( autonym );
+			autonyms.push( autonym.toLowerCase() );
 		}
 
 		return duplicateAutonyms;
