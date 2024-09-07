@@ -122,6 +122,7 @@ describe( 'languagedata', function () {
 		assert.ok( languageData.getAutonym( 'qqq' ), 'Language documentation', 'Language qqq was added with the correct autonym' );
 		autonyms = languageData.getAutonyms();
 		assert.strictEqual( autonyms[ 'zu' ], 'isiZulu', 'Correct autonym is returned for Zulu using getAutonyms().' );
+		assert.deepEqual( doubleAutonyms(), [], 'All languages have distinct autonyms.' );
 		assert.strictEqual( autonyms[ 'pa' ], undefined, 'Language "pa" is not listed in autonyms, because it is a redirect' );
 		assert.strictEqual( autonyms[ 'pa-guru' ], 'ਪੰਜਾਬੀ', 'Language "pa-guru" has the correct autonym' );
 		assert.deepEqual( languagesWithoutAutonym(), [], 'All languages have autonyms.' );
@@ -180,7 +181,6 @@ describe( 'languagedata', function () {
 		assert.strictEqual( languageData.isRedirect( 'sr-ec' ), 'sr-cyrl', '"sr-ec" is a redirect to "sr-cyrl"' );
 		assert.deepEqual( badRedirects(), [], 'All redirects have valid targets.' );
 		assert.deepEqual( doubleRedirects(), [], 'There are no double redirects.' );
-		assert.deepEqual( doubleAutonyms(), [], 'All languages have distinct autonyms.' );
 		assert.strictEqual( languageData.getScript( 'no-such-language' ), 'Zyyy', 'A script for an unknown language is Zyyy - undetermined' );
 		assert.strictEqual( languageData.getScript( 'ii' ), 'Yiii', 'Correct script of the Yi language was selected' );
 	} );
