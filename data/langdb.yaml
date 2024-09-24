@@ -532,6 +532,7 @@ languages:
   nan-latn-pehoeji: [Latn, [AS], Bân-lâm-gú (Pe̍h-ōe-jī)]
   nan-latn-tailo: [Latn, [AS], Bân-lâm-gú (Tâi-lô)]
   nap: [Latn, [EU], Napulitano]
+  naq: [Latn, [AF], Khoekhoegowab]
   nb: [Latn, [EU], norsk (bokmål)]
   nd: [Latn, [AF], siNdebele saseNyakatho]
   nds: [Latn, [EU], Plattdüütsch]
