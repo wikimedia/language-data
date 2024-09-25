@@ -3347,6 +3347,13 @@
             ],
             "Napulitano"
         ],
+        "naq": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Khoekhoegowab"
+        ],
         "nb": [
             "Latn",
             [
@@ -6670,6 +6677,7 @@
             "af",
             "kj",
             "ng",
+            "naq",
             "hz",
             "en",
             "de",
