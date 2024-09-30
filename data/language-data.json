@@ -57,6 +57,13 @@
             ],
             "Kwéyòl Sent Lisi"
         ],
+        "ach": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Acoli"
+        ],
         "acm": [
             "Arab",
             [
@@ -2724,6 +2731,13 @@
                 "AF"
             ],
             "Kilaangi"
+        ],
+        "laj": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Lëblaŋo"
         ],
         "lb": [
             "Latn",
@@ -7175,6 +7189,8 @@
             "lg",
             "nyn",
             "en",
+            "laj",
+            "ach",
             "rw",
             "ttj",
             "hi"
