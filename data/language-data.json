@@ -3112,18 +3112,21 @@
             "mvf"
         ],
         "mnc": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "manju gisun"
+        ],
+        "mnc-latn": [
+            "mnc"
+        ],
+        "mnc-mong": [
             "Mong",
             [
                 "AS"
             ],
             "ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ"
-        ],
-        "mnc-latn": [
-            "Latn",
-            [
-                "AS"
-            ],
-            "Manju gisun"
         ],
         "mni": [
             "Mtei",
