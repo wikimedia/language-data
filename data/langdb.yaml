@@ -411,10 +411,7 @@ languages:
   kmb: [Latn, [AF], kimbundu]
   kmr: [ku-latn]
   kn: [Knda, [AS], ಕನ್ನಡ]
- # In ISO 639, it refers to Central Kanuri. It may
- # be changed like that here, too, but for
- # now, redirect it to macro Kanuri.
-  knc: [kr]
+  knc: [Latn, [AF], Yerwa Kanuri]
   knn: [Deva, [AS], महाराष्ट्रीय कोंकणी]
   ko: [Kore, [AS], 한국어]
   ko-kp: [Kore, [AS], 조선말]
