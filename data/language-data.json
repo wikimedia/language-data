@@ -1332,7 +1332,7 @@
             [
                 "AS"
             ],
-            "Dusun Bundu-liwan"
+            "Kadazandusun"
         ],
         "dty": [
             "Deva",
@@ -2587,7 +2587,11 @@
             "ಕನ್ನಡ"
         ],
         "knc": [
-            "kr"
+            "Latn",
+            [
+                "AF"
+            ],
+            "Yerwa Kanuri"
         ],
         "knn": [
             "Deva",

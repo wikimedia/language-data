@@ -219,7 +219,7 @@ languages:
   doi: [Deva, [AS], डोगरी]
   dru: [Latn, [AS], drekai]
   dsb: [Latn, [EU], dolnoserbski]
-  dtp: [Latn, [AS], Dusun Bundu-liwan]
+  dtp: [Latn, [AS], Kadazandusun]
   dty: [Deva, [AS], डोटेली]
   dua: [Latn, [AF], Duálá]
   dv: [Thaa, [AS], ދިވެހިބަސް]
@@ -413,10 +413,7 @@ languages:
   kmb: [Latn, [AF], kimbundu]
   kmr: [ku-latn]
   kn: [Knda, [AS], ಕನ್ನಡ]
- # In ISO 639, it refers to Central Kanuri. It may
- # be changed like that here, too, but for
- # now, redirect it to macro Kanuri.
-  knc: [kr]
+  knc: [Latn, [AF], Yerwa Kanuri]
   knn: [Deva, [AS], महाराष्ट्रीय कोंकणी]
   ko: [Kore, [AS], 한국어]
   ko-kp: [Kore, [AS], 조선말]
