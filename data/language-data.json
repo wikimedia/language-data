@@ -3085,6 +3085,14 @@
             ],
             "мокшень"
         ],
+        "mdh": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Magindanawn"
+        ],
         "mey": [
             "Arab",
             [
@@ -6892,6 +6900,7 @@
             "war",
             "pam",
             "pag",
+            "mdh",
             "tsg",
             "zh-hant",
             "zh",
