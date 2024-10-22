@@ -486,6 +486,7 @@ languages:
   mak: [Latn, [AS, PA], Mangkasarak]
   mak-bugi: [Bugi, [AS, PA], ᨆᨀᨔᨑ]
   map-bms: [Latn, [AS], Basa Banyumasan]
+  maw: [Latn, [AF], Ŋmampulli]
   mcn: [Latn, [AF], vùn màsànà]
   mdf: [Cyrl, [EU], мокшень]
   mey: [Arab, [AF], الحسانية]
