@@ -488,6 +488,20 @@
         "bat-smg": [
             "sgs"
         ],
+        "bax": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Shüpamom"
+        ],
+        "bax-bamu": [
+            "Bamu",
+            [
+                "AF"
+            ],
+            "ꚶꛉ꛰꛲ꚫꛦꚳ"
+        ],
         "bbc": [
             "bbc-latn"
         ],
@@ -5368,6 +5382,13 @@
             ],
             "Manado"
         ],
+        "xon": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "likpakpaanl"
+        ],
         "xsy": [
             "Latn",
             [
@@ -5601,6 +5622,7 @@
             "Syrc"
         ],
         "African": [
+            "Bamu",
             "Copt",
             "Ethi",
             "Nkoo",
@@ -5984,6 +6006,7 @@
             "nnh",
             "bkm",
             "bas",
+            "bax",
             "byv",
             "dua",
             "ar",
