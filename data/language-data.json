@@ -6720,8 +6720,11 @@
         "MO": [
             "zh-hant",
             "zh",
-            "pt",
-            "en"
+            "yue",
+            "en",
+            "nan",
+            "tl",
+            "pt"
         ],
         "MP": [
             "en",
