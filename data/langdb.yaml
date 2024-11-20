@@ -82,6 +82,8 @@ languages:
   bar: [Latn, [EU], Boarisch]
   bas: [Latn, [AF], ɓasaá]
   bat-smg: [sgs]
+  bax: [Latn, [AF], Shüpamom]
+  bax-bamu: [Bamu, [AF], ꚶꛉ꛰꛲ꚫꛦꚳ]
   bbc: [bbc-latn]
   bbc-batk: [Batk, [AS], ᯅᯖᯂ᯲ ᯖᯬᯅ]
   bbc-latn: [Latn, [AS], Batak Toba]
@@ -839,6 +841,7 @@ languages:
   xh: [Latn, [AF], isiXhosa]
   xmf: [Geor, [EU], მარგალური]
   xmm: [Latn, [AS, PA], Manado]
+  xon: [Latn, [AF], likpakpaanl]
   xsy: [Latn, [AS], SaiSiyat]
   ydd: [yi]
   yi: [Hebr, [ME, EU, AM], ייִדיש]
@@ -896,7 +899,7 @@ scriptgroups:
  # Maybe Thaana can be moved here from SouthAsian.
  # Maybe it can be unified with African.
   MiddleEastern: [Hebr, Syrc]
-  African: [Copt, Ethi, Nkoo, Tfng, Vaii]
+  African: [Bamu, Copt, Ethi, Nkoo, Tfng, Vaii]
  # India, Nepal, Bangladesh, Sri-Lanka, Bhutan, Maldives.
  #
  # Thaana (Thaa, the script of Maldives) is here, even though it's RTL,
