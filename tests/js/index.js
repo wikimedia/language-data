@@ -123,8 +123,8 @@ describe( 'languagedata', function () {
 		autonyms = languageData.getAutonyms();
 		assert.strictEqual( autonyms[ 'zu' ], 'isiZulu', 'Correct autonym is returned for Zulu using getAutonyms().' );
 		assert.deepEqual( doubleAutonyms(), [], 'All languages have distinct autonyms.' );
-		assert.strictEqual( autonyms[ 'pa' ], undefined, 'Language "pa" is not listed in autonyms, because it is a redirect' );
-		assert.strictEqual( autonyms[ 'pa-guru' ], 'ਪੰਜਾਬੀ', 'Language "pa-guru" has the correct autonym' );
+		assert.strictEqual( autonyms[ 'pa-guru' ], undefined, 'Language "pa-guru" is not listed in autonyms, because it is a redirect' );
+		assert.strictEqual( autonyms[ 'pa' ], 'ਪੰਜਾਬੀ', 'Language "pa" has the correct autonym' );
 		assert.deepEqual( languagesWithoutAutonym(), [], 'All languages have autonyms.' );
 		assert.strictEqual( languageData.getAutonym( 'pa' ), 'ਪੰਜਾਬੀ', 'Correct autonym of the Punjabi language was selected using code pa.' );
 		assert.strictEqual( languageData.getAutonym( 'pa-guru' ), 'ਪੰਜਾਬੀ', 'Correct autonym of the Punjabi language was selected using code pa-guru.' );
@@ -169,7 +169,7 @@ describe( 'languagedata', function () {
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
-		assert.deepEqual( languageData.getLanguagesInScript( 'Guru' ), [ 'pa-guru' ], '"pa-guru" is written in script Guru, and "pa" is skipped as a redirect' );
+		assert.deepEqual( languageData.getLanguagesInScript( 'Guru' ), [ 'pa' ], '"pa" is written in script Guru, and "pa-guru" is skipped as a redirect' );
 		assert.deepEqual( languageData.getLanguagesInScripts( [ 'Geor', 'Armn' ] ), [ 'hy', 'hyw', 'ka', 'xmf' ], 'languages in scripts Geor and Armn are selected correctly' );
 		assert.deepEqual( languageData.getLanguagesInScript( 'Knda' ), [
 			'kn', 'tcy'
