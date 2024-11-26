@@ -597,6 +597,7 @@ languages:
   ota: [Arab, [AS, EU], لسان عثمانى]
   ovd: [Latn, [EU], övdalsk]
   pa: [Guru, [AS], ਪੰਜਾਬੀ]
+  pa-arab: [pnb]
   pa-guru: [pa]
   pag: [Latn, [AS], Pangasinan]
   pam: [Latn, [AS], Kapampangan]
