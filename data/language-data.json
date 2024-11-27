@@ -1666,6 +1666,13 @@
             ],
             "Nordfriisk"
         ],
+        "frs": [
+            "Latn",
+            [
+                "EU"
+            ],
+            "Oostfräisk"
+        ],
         "fuf": [
             "Latn",
             [
@@ -6107,7 +6114,8 @@
             "frr",
             "dsb",
             "stq",
-            "pfl"
+            "pfl",
+            "frs"
         ],
         "DG": [
             "en"
