@@ -266,6 +266,7 @@ languages:
   frc: [Latn, [AM], français cadien]
   frp: [Latn, [EU], arpetan]
   frr: [Latn, [EU], Nordfriisk]
+  frs: [Latn, [EU], Oostfräisk]
   fuf: [Latn, [AF], Fuuta Jalon]
   fur: [Latn, [EU], furlan]
  # In ISO 639, it refers to Nigerian Fula. It may
