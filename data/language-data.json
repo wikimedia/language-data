@@ -3813,14 +3813,17 @@
             "övdalsk"
         ],
         "pa": [
-            "pa-guru"
-        ],
-        "pa-guru": [
             "Guru",
             [
                 "AS"
             ],
             "ਪੰਜਾਬੀ"
+        ],
+        "pa-arab": [
+            "pnb"
+        ],
+        "pa-guru": [
+            "pa"
         ],
         "pag": [
             "Latn",
@@ -5919,7 +5922,7 @@
             "zh",
             "yue",
             "es",
-            "pa-guru",
+            "pa",
             "ar",
             "tl",
             "it",
@@ -6251,7 +6254,7 @@
             "de",
             "es",
             "pl",
-            "pa-guru",
+            "pa",
             "ur",
             "ta",
             "gu",
@@ -6455,7 +6458,7 @@
             "kn",
             "ml",
             "or",
-            "pa-guru",
+            "pa",
             "bho",
             "awa",
             "as",
@@ -6573,7 +6576,7 @@
             "pko",
             "om",
             "ar",
-            "pa-guru",
+            "pa",
             "gu"
         ],
         "KG": [
@@ -6947,7 +6950,8 @@
         ],
         "PK": [
             "ur",
-            "pa-guru",
+            "pnb",
+            "pa",
             "en",
             "ps",
             "sd",
@@ -7121,7 +7125,7 @@
             "ms",
             "ta",
             "ml",
-            "pa-guru"
+            "pa"
         ],
         "SH": [
             "en"
@@ -7240,7 +7244,8 @@
             "ar"
         ],
         "TK": [
-            "en"
+            "en",
+            "sm"
         ],
         "TL": [
             "pt",
@@ -7442,9 +7447,12 @@
         ],
         "ZM": [
             "bem",
-            "en",
             "ny",
-            "loz"
+            "en",
+            "toi",
+            "loz",
+            "tum",
+            "lue"
         ],
         "ZW": [
             "sn",
