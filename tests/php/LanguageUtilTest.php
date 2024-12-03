@@ -31,7 +31,7 @@ class LanguageUtilTest extends TestCase {
 	 */
 	public function testIsRedirect() {
 		$this->assertFalse( $this->languageUtil->isRedirect( 'en' ) );
-		$this->assertEquals( 'aeb-arab', $this->languageUtil->isRedirect( 'aeb' ) );
+		$this->assertEquals( 'aeb', $this->languageUtil->isRedirect( 'aeb-arab' ) );
 	}
 
 	/**
@@ -63,7 +63,7 @@ class LanguageUtilTest extends TestCase {
 		$this->assertFalse( $this->languageUtil->getAutonym( self::UNKNOWN_LANGUAGE_CODE ) );
 		$this->assertEquals(
 			'تونسي',
-			$this->languageUtil->getAutonym( 'aeb' ),
+			$this->languageUtil->getAutonym( 'aeb-arab' ),
 			'Redirects return proper value in getAutonym.'
 		);
 
@@ -77,7 +77,7 @@ class LanguageUtilTest extends TestCase {
 		$autonyms = $this->languageUtil->getAutonyms();
 		$this->assertEquals( 'English', $autonyms['en'] );
 		$this->assertFalse(
-			isset( $autonyms['aeb'] ),
+			isset( $autonyms['aeb-arab'] ),
 			'Redirects are not present in getAutonyms.'
 		);
 	}
