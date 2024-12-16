@@ -662,6 +662,7 @@ languages:
   rmc: [Latn, [EU], romaňi čhib]
  # Also known as Fíntika Rómma
   rmf: [Latn, [EU], kaalengo tšimb]
+  rml-cyrl: [Cyrl, [EU], романы]
   rmy: [Latn, [EU], Romani]
   rn: [Latn, [AF], ikirundi]
   ro: [Latn, [EU], română]
@@ -768,6 +769,7 @@ languages:
   tg-cyrl: [Cyrl, [AS], тоҷикӣ]
   tg-latn: [Latn, [AS], tojikī]
   th: [Thai, [AS], ไทย]
+  thr: [Deva, [AS], राना थारू]
   ti: [Ethi, [AF], ትግርኛ]
   tig: [Ethi, [AF], ትግሬ]
   tji: [Latn, [AS], bifzivsar]
