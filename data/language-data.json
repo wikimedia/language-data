@@ -2888,6 +2888,14 @@
             ],
             "Līvõ kēļ"
         ],
+        "ljp": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Lampung Api"
+        ],
         "lki": [
             "Arab",
             [
@@ -6437,6 +6445,7 @@
             "zh-hant",
             "zh",
             "mak",
+            "ljp",
             "rej",
             "gor",
             "kge",
