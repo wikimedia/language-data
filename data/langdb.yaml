@@ -528,6 +528,7 @@ languages:
   mr: [Deva, [AS, ME], मराठी]
   mrh: [Latn, [AS], Mara]
   mrj: [Cyrl, [EU], кырык мары]
+  mrt: [Latn, [AF], Margi]
   mrv: [Latn, [PA], Magareva]
   ms: [Latn, [AS], Bahasa Melayu]
   ms-arab: [Arab, [AS], بهاس ملايو]
