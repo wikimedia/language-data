@@ -773,7 +773,7 @@ languages:
   te: [Telu, [AS], తెలుగు]
   tet: [Latn, [AS, PA], tetun]
   tg: [Cyrl, [AS], тоҷикӣ]
-  tg-cyrl: [tg-cyrl]
+  tg-cyrl: [tg]
   tg-latn: [Latn, [AS], tojikī]
   th: [Thai, [AS], ไทย]
   thq: [Deva, [AS], काेचिला थारु]
