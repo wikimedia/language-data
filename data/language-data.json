@@ -5994,8 +5994,8 @@
             "af"
         ],
         "BY": [
-            "be",
-            "ru"
+            "ru",
+            "be"
         ],
         "BZ": [
             "en",
@@ -6622,6 +6622,7 @@
             "sc",
             "de",
             "vec",
+            "pms",
             "nap",
             "lij",
             "scn",
@@ -6632,7 +6633,6 @@
             "lld",
             "ca",
             "el",
-            "pms",
             "hr",
             "rgn"
         ],
@@ -7164,7 +7164,6 @@
             "mrj",
             "alt",
             "fi",
-            "sr-latn",
             "sr-cyrl",
             "vep",
             "mn",
