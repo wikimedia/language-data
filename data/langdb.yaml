@@ -611,7 +611,7 @@ languages:
   pag: [Latn, [AS], Pangasinan]
   pam: [Latn, [AS], Kapampangan]
   pap: [Latn, [AM], Papiamentu]
-  pap-aw: [Latn, [AM], Papiamento]
+  pap-aw: [Latn, [AM], Papiamento (Aruba)]
   pbb: [Latn, [AM], Nasa Yuwe]
  # In ISO 639, it refers to Southern Pashto. It may
  # be changed like that here, too, but for
