@@ -5835,6 +5835,7 @@
         ],
         "AM": [
             "hy",
+            "ru",
             "ku-latn",
             "az-latn"
         ],
@@ -5994,12 +5995,13 @@
             "af"
         ],
         "BY": [
-            "be",
-            "ru"
+            "ru",
+            "be"
         ],
         "BZ": [
             "en",
-            "es"
+            "es",
+            "bzj"
         ],
         "CA": [
             "en",
@@ -6227,6 +6229,7 @@
             "arq",
             "ar",
             "fr",
+            "mey",
             "kab",
             "en"
         ],
@@ -6254,7 +6257,8 @@
             "el"
         ],
         "EH": [
-            "ar"
+            "ar",
+            "mey"
         ],
         "ER": [
             "ti",
@@ -6437,7 +6441,10 @@
         ],
         "GT": [
             "es",
-            "quc"
+            "cak",
+            "quc",
+            "en",
+            "jac"
         ],
         "GU": [
             "en",
@@ -6622,6 +6629,7 @@
             "sc",
             "de",
             "vec",
+            "pms",
             "nap",
             "lij",
             "scn",
@@ -6632,7 +6640,6 @@
             "lld",
             "ca",
             "el",
-            "pms",
             "hr",
             "rgn"
         ],
@@ -6774,6 +6781,7 @@
             "tzm",
             "shi-latn",
             "rif",
+            "mey",
             "es"
         ],
         "MC": [
@@ -6835,6 +6843,7 @@
             "zh",
             "yue",
             "en",
+            "nan-hant",
             "nan",
             "tl",
             "pt"
@@ -6847,6 +6856,7 @@
             "fr"
         ],
         "MR": [
+            "mey",
             "ar",
             "fr",
             "ff",
@@ -7164,7 +7174,6 @@
             "mrj",
             "alt",
             "fi",
-            "sr-latn",
             "sr-cyrl",
             "vep",
             "mn",
