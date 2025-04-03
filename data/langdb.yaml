@@ -325,6 +325,7 @@ languages:
   hak-hans: [Hans, [AS], 客家语（简体）]
   hak-hant: [Hant, [AS], 客家語（繁體）]
   hak-latn: [Latn, [AS], Hak-kâ-ngî (Pha̍k-fa-sṳ)]
+  hav: [Latn, [AF], Kihavu]
   haw: [Latn, [AM, PA], Hawaiʻi]
   he: [Hebr, [ME], עברית]
   hi: [Deva, [AS], हिन्दी]
