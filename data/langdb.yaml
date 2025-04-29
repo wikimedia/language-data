@@ -646,6 +646,7 @@ languages:
   pt: [Latn, [EU, AM, AS, PA, AF, WW], português]
   pt-br: [Latn, [AM], português do Brasil]
   pwn: [Latn, [AS], pinayuanan]
+  pzh: [Latn, [AS], Pazeh]
   qu: [Latn, [AM], Runa Simi]
   quc: [Latn, [AM], "K'iche'"]
   qug: [Latn, [AM], Runa shimi]
