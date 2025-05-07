@@ -195,6 +195,7 @@ languages:
   cr: [Cans, [AM], ᓀᐦᐃᔭᐍᐏᐣ]
   cr-cans: [cr]
   cr-latn: [Latn, [AM], Nēhiyawēwin]
+  crg: [Latn, [AM], Michif]
   crh: [Latn, [EU], qırımtatarca]
   crh-cyrl: [Cyrl, [EU], къырымтатарджа]
   crh-latn: [crh]
