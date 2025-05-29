@@ -6377,6 +6377,7 @@
             "nl",
             "eu",
             "frp",
+            "mww-latn",
             "ia"
         ],
         "GA": [
@@ -6765,7 +6766,8 @@
             "kaa"
         ],
         "LA": [
-            "lo"
+            "lo",
+            "mww-latn"
         ],
         "LB": [
             "apc",
@@ -7387,6 +7389,7 @@
             "zh",
             "mnw",
             "shn",
+            "mww-latn",
             "pi"
         ],
         "TJ": [
@@ -7519,6 +7522,7 @@
             "lkt",
             "ik",
             "mus",
+            "oka",
             "io",
             "jbo"
         ],
@@ -7551,6 +7555,7 @@
         ],
         "VN": [
             "vi",
+            "mww-latn",
             "zh-hant",
             "zh",
             "cjm-cham"
