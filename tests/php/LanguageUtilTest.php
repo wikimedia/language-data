@@ -148,7 +148,7 @@ class LanguageUtilTest extends TestCase {
 		$this->assertContains( 'ug-arab', $actuals['Arabic'] );
 		$this->assertContains( 'zh-sg', $actuals['CJK'] );
 		$this->assertNotContains(
-			'azb',
+			'az-arab',
 			$actuals['Arabic'],
 			'Redirects are not present when languages grouped by script in a region.'
 		);

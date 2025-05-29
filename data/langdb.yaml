@@ -68,12 +68,12 @@ languages:
  # The Arabic script is the default in the South Azerbaijani Wikipedia,
  # which correctly uses the code 'azb'.
  # CLDR uses az-latn and az-arab.
-  az: [az-latn]
-  az-arab: [Arab, [AS, ME], تۆرکجه]
+  az: [Latn, [EU, ME], azərbaycanca]
+  az-arab: [azb]
   az-cyrl: [Cyrl, [EU, ME], азәрбајҹанҹа]
-  az-latn: [Latn, [EU, ME], azərbaycanca]
-  azb: [az-arab]
-  azj: [az-latn]
+  az-latn: [az]
+  azb: [Arab, [AS, ME], تۆرکجه]
+  azj: [az]
   ba: [Cyrl, [EU], башҡортса]
  # The common modern default.
   ban: [Latn, [AS, PA], Bali]
@@ -656,6 +656,7 @@ languages:
  # now, redirect it to macro Quechua.
   quy: [qu]
   qwh: [Latn, [AM], anqash qichwa]
+  qxp: [Latn, [AM], Punu qhichwa]
   rag: [Latn, [AF], Lologooli]
   rap: [Latn, [PA, AM], arero rapa nui]
   rcf: [Latn, [AF], Kreol Réyoné]
