@@ -5886,7 +5886,7 @@
             "hy",
             "ru",
             "ku-latn",
-            "az-latn"
+            "az"
         ],
         "AO": [
             "pt",
@@ -5929,7 +5929,7 @@
             "sv"
         ],
         "AZ": [
-            "az-latn",
+            "az",
             "az-cyrl",
             "tly",
             "ku-latn",
@@ -6646,15 +6646,15 @@
             "ckb",
             "ku-arab",
             "ku-latn",
-            "az-arab",
-            "az-latn",
+            "azb",
+            "az",
             "fa",
             "lrc"
         ],
         "IR": [
             "fa",
-            "az-arab",
-            "az-latn",
+            "azb",
+            "az",
             "mzn",
             "glk",
             "sdh",
@@ -7227,7 +7227,7 @@
             "inh",
             "tyv",
             "az-cyrl",
-            "az-latn",
+            "az",
             "ady",
             "krl",
             "lbe",
@@ -7435,8 +7435,8 @@
             "ku-latn",
             "apc",
             "kbd",
-            "az-latn",
-            "az-arab",
+            "az",
+            "azb",
             "ar",
             "bg",
             "ady",
