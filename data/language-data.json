@@ -4200,6 +4200,13 @@
             ],
             "Lologooli"
         ],
+        "raj": [
+            "Deva",
+            [
+                "AS"
+            ],
+            "राजस्थानी"
+        ],
         "rap": [
             "Latn",
             [
@@ -6624,6 +6631,7 @@
             "tcy",
             "brx",
             "mni",
+            "raj",
             "hoc",
             "saz",
             "ccp",
