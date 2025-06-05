@@ -221,6 +221,7 @@ languages:
   dik: [din]
   din: [Latn, [AF], Thuɔŋjäŋ]
   diq: [Latn, [EU, AS], Zazaki]
+  dlg: [Cyrl, [RU], долган тыла]
   doi: [Deva, [AS], डोगरी]
   dru: [Latn, [AS], drekai]
   dsb: [Latn, [EU], dolnoserbski]
