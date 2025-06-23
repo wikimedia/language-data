@@ -20,6 +20,7 @@ languages:
   af: [Latn, [AF], Afrikaans]
   agq: [Latn, [AF], aghɨ̂m]
   ahr: [Deva, [AS], अहिराणी]
+  aig: [Latn, [AG, AI, MS, KN, MF], Aanteegan an' Baabyuudan]
   aii: [Syrc, [ME], ܣܘܪܝܬ]
   ajg: [Latn, [AF], ajagbe]
  # The code ajp was deprecated by ISO and merged into apc:
