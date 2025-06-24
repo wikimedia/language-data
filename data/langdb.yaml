@@ -64,6 +64,7 @@ languages:
   avk: [Latn, [WW], Kotava]
   awa: [Deva, [AS], अवधी]
   ay: [Latn, [AM], Aymar aru]
+  ayh: [Arab, [ME], الحضرمية]
  # The Latin script is the default in the North Azerbaijani Wikipedia,
  # which uses the macro code 'az'. Its own standard code is 'azj'.
  # The Arabic script is the default in the South Azerbaijani Wikipedia,
