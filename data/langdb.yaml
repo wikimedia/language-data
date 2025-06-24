@@ -20,7 +20,7 @@ languages:
   af: [Latn, [AF], Afrikaans]
   agq: [Latn, [AF], aghɨ̂m]
   ahr: [Deva, [AS], अहिराणी]
-  aig: [Latn, [AG, AI, MS, KN, MF], Aanteegan an' Baabyuudan]
+  aig: [Latn, [AM], Aanteegan an' Baabyuudan]
   aii: [Syrc, [ME], ܣܘܪܝܬ]
   ajg: [Latn, [AF], ajagbe]
  # The code ajp was deprecated by ISO and merged into apc:
@@ -223,7 +223,7 @@ languages:
   dik: [din]
   din: [Latn, [AF], Thuɔŋjäŋ]
   diq: [Latn, [EU, AS], Zazaki]
-  dlg: [Cyrl, [RU], долган тыла]
+  dlg: [Cyrl, [EU, AS], долган тыла]
   doi: [Deva, [AS], डोगरी]
   dru: [Latn, [AS], drekai]
   dsb: [Latn, [EU], dolnoserbski]
