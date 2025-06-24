@@ -265,6 +265,15 @@ function isRtl( language ) {
 }
 
 /**
+ * Get a list of existing regions
+ *
+ * @return {string[]}
+ */
+function getRegionGroups() {
+	return languageData.regiongroups;
+}
+
+/**
  * Return the direction of the language
  *
  * @param {string} language Language code
@@ -314,6 +323,7 @@ module.exports = {
 	getLanguagesInScripts,
 	getLanguagesInTerritory,
 	getRegions,
+	getRegionGroups,
 	getScript,
 	getScriptGroupOfLanguage,
 	isKnown,

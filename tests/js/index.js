@@ -142,7 +142,9 @@ describe( 'languagedata', function () {
 		assert.deepEqual( languagesWithParentheses, [], 'Chinese script languages\' autonyms don\'t have Western parentheses' );
 	} );
 	it( 'regions and groups', function () {
-		var languagesAM;
+		var languagesAM,
+			regionGroups = languageData.getRegionGroups();
+
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
@@ -164,6 +166,14 @@ describe( 'languagedata', function () {
 			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'ike-cans', 'cr', 'chr' ],
 			'languages in region AM are ordered correctly by script group'
 		);
+
+		for ( var language in languageData.getLanguages() ) {
+			var regions = languageData.getRegions( language );
+
+			for ( var region of regions ) {
+				assert.ok( regionGroups[region], `Language ${language} has an invalid region ${region}` );
+			}
+		}
 	} );
 	it( 'scripts', function () {
 		// This test assumes that we don't want any scripts to be in the 'Other'
