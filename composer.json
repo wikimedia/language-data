@@ -31,7 +31,7 @@
 		}
 	],
 	"require": {
-		"php": ">=7.3",
+		"php": ">=8.0",
 		"mustangostang/spyc": "0.6.3"
 	},
 	"require-dev": {
@@ -39,6 +39,7 @@
 		"phpunit/phpunit": "9.6.20",
 		"mediawiki/mediawiki-codesniffer": "47.0.0"
 	},
+
 	"support": {
 		"issues": "https://github.com/wikimedia/language-data/issues",
 		"irc": "irc://irc.freenode.net/mediawiki-i18n",
@@ -62,6 +63,9 @@
 	"config": {
 		"allow-plugins": {
 			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"platform": {
+			"php": "8.0"
 		}
 	}
 }
