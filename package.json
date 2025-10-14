@@ -20,11 +20,26 @@
     "Niklas Laxström",
     "Abijeet Patro"
   ],
-  "main": "src/index.js",
+  "main": "./dist/language-data.umd.cjs",
+  "module": "./dist/language-data.js",
+  "exports": {
+    ".": {
+      "import": "./dist/language-data.js",
+      "require": "./dist/language-data.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
   "devDependencies": {
-    "eslint": "8.57.0",
+    "@eslint/eslintrc": "3.3.1",
+    "@eslint/js": "9.37.0",
+    "eslint": "9.37.0",
     "eslint-config-wikimedia": "0.31.0",
-    "mocha": "10.6.0"
+    "globals": "16.4.0",
+    "mocha": "10.6.0",
+    "vite": "6.3.7"
   },
   "repository": {
     "type": "git",
@@ -34,11 +49,13 @@
     "url": "http://github.com/wikimedia/language-data/issues"
   },
   "engine": {
-    "node": ">=16.0.0"
+    "node": ">=20.10.0"
   },
   "license": "GPL-2.0-or-later",
   "scripts": {
     "test": "mocha tests/js/*.js",
-    "lint": "eslint src/*.js"
+    "lint": "eslint src/*.js",
+    "build": "vite build",
+    "prepare": "npm run build"
   }
 }
