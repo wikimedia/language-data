@@ -78,10 +78,10 @@ The basic usage is like this:
 
 .. code-block:: js
 
-		const languageData = require('@wikimedia/language-data');
+		import { getAutonym } from '@wikimedia/language-data';
 
 		// Returns English
-		languageData.getAutonym( 'en');
+		getAutonym( 'en');
 
 The exposed methods are similar to the methods present in the PHP `LanguageUtil <api/languagedata/languageutil.html>`_ class.
 

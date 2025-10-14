@@ -1,4 +1,4 @@
-const languageData = require( '../data/language-data.json' );
+import languageData from '../data/language-data.json' with { type: 'json' };
 
 /**
  * Utility functions for querying language data.
@@ -301,7 +301,7 @@ function addLanguage( code, options ) {
 	}
 }
 
-module.exports = {
+export {
 	addLanguage,
 	getAutonym,
 	getAutonyms,
