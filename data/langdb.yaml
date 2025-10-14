@@ -768,6 +768,7 @@ languages:
   sw: [Latn, [AF], Kiswahili]
   swb: [Latn, [AF], Shikomoro]
   swh: [sw]
+  sxr: [Latn, [AS], Hla'alua]
   sxu: [Latn, [EU], Säggssch]
   syc: [Syrc, [ME], ܣܘܪܝܝܐ]
   syl: [Sylo, [AS], ꠍꠤꠟꠐꠤ]
