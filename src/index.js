@@ -1,4 +1,4 @@
-var languageData = require( '../data/language-data.json' );
+const languageData = require( '../data/language-data.json' );
 
 /**
  * Utility functions for querying language data.
@@ -43,7 +43,7 @@ function getLanguages() {
  * @return {string}
  */
 function getScript( language ) {
-	var target = isRedirect( language );
+	const target = isRedirect( language );
 	if ( target ) {
 		return getScript( target );
 	}
@@ -61,7 +61,7 @@ function getScript( language ) {
  * @return {string[]} 'UNKNOWN'
  */
 function getRegions( language ) {
-	var target = isRedirect( language );
+	const target = isRedirect( language );
 	if ( target ) {
 		return getRegions( target );
 	}
@@ -75,7 +75,7 @@ function getRegions( language ) {
  * @return {string}
  */
 function getAutonym( language ) {
-	var target = isRedirect( language );
+	const target = isRedirect( language );
 	if ( target ) {
 		return getAutonym( target );
 	}
@@ -88,9 +88,8 @@ function getAutonym( language ) {
  * @return {Array}
  */
 function getAutonyms() {
-	var language,
-		autonymsByCode = {};
-	for ( language in languageData.languages ) {
+	const autonymsByCode = {};
+	for ( const language in languageData.languages ) {
 		if ( isRedirect( language ) ) {
 			continue;
 		}
@@ -106,13 +105,12 @@ function getAutonyms() {
  * @return {string[]} languages codes
  */
 function getLanguagesInScripts( scripts ) {
-	var language, i,
-		languagesInScripts = [];
-	for ( language in languageData.languages ) {
+	const languagesInScripts = [];
+	for ( const language in languageData.languages ) {
 		if ( isRedirect( language ) ) {
 			continue;
 		}
-		for ( i = 0; i < scripts.length; i++ ) {
+		for ( let i = 0; i < scripts.length; i++ ) {
 			if ( scripts[ i ] === getScript( language ) ) {
 				languagesInScripts.push( language );
 				break;
@@ -140,8 +138,7 @@ function getLanguagesInScript( script ) {
  * @return {string} script group name
  */
 function getGroupOfScript( script ) {
-	var scriptGroup;
-	for ( scriptGroup in languageData.scriptgroups ) {
+	for ( const scriptGroup in languageData.scriptgroups ) {
 		if ( languageData.scriptgroups[ scriptGroup ].includes( script ) ) {
 			return scriptGroup;
 		}
@@ -166,13 +163,11 @@ function getScriptGroupOfLanguage( language ) {
  * @return {string[]} Array of language codes
  */
 function getLanguagesByScriptGroup( languages ) {
-	var languagesByScriptGroup = {},
-		language, languageIndex, resolvedRedirect, langScriptGroup;
+	const languagesByScriptGroup = {};
 
-	for ( languageIndex = 0; languageIndex < languages.length; languageIndex++ ) {
-		language = languages[ languageIndex ];
-		resolvedRedirect = isRedirect( language ) || language;
-		langScriptGroup = getScriptGroupOfLanguage( resolvedRedirect );
+	for ( const language of languages ) {
+		const resolvedRedirect = isRedirect( language ) || language;
+		const langScriptGroup = getScriptGroupOfLanguage( resolvedRedirect );
 		if ( !languagesByScriptGroup[ langScriptGroup ] ) {
 			languagesByScriptGroup[ langScriptGroup ] = [];
 		}
@@ -189,15 +184,14 @@ function getLanguagesByScriptGroup( languages ) {
  * @return {Object}
  */
 function getLanguagesByScriptGroupInRegions( regions ) {
-	var language, i, scriptGroup,
-		languagesByScriptGroupInRegions = {};
-	for ( language in languageData.languages ) {
+	const languagesByScriptGroupInRegions = {};
+	for ( const language in languageData.languages ) {
 		if ( isRedirect( language ) ) {
 			continue;
 		}
-		for ( i = 0; i < regions.length; i++ ) {
-			if ( getRegions( language ).includes( regions[ i ] ) ) {
-				scriptGroup = getScriptGroupOfLanguage( language );
+		for ( const region of regions ) {
+			if ( getRegions( language ).includes( region ) ) {
+				const scriptGroup = getScriptGroupOfLanguage( language );
 				if ( languagesByScriptGroupInRegions[ scriptGroup ] === undefined ) {
 					languagesByScriptGroupInRegions[ scriptGroup ] = [];
 				}
@@ -227,14 +221,12 @@ function getLanguagesByScriptGroupInRegion( region ) {
  * @return {string[]} Array of language codes
  */
 function sortByScriptGroup( languages ) {
-	var groupedLanguages, scriptGroups, i,
-		allLanguages = [];
+	const groupedLanguages = getLanguagesByScriptGroup( languages );
+	const scriptGroups = Object.keys( groupedLanguages ).sort();
+	let allLanguages = [];
 
-	groupedLanguages = getLanguagesByScriptGroup( languages );
-	scriptGroups = Object.keys( groupedLanguages ).sort();
-
-	for ( i = 0; i < scriptGroups.length; i++ ) {
-		allLanguages = allLanguages.concat( groupedLanguages[ scriptGroups[ i ] ] );
+	for ( const scriptGroup of scriptGroups ) {
+		allLanguages = allLanguages.concat( groupedLanguages[ scriptGroup ] );
 	}
 
 	return allLanguages;
@@ -249,7 +241,7 @@ function sortByScriptGroup( languages ) {
  * @return {number}
  */
 function sortByAutonym( a, b ) {
-	var autonymA = getAutonym( a ) || a,
+	const autonymA = getAutonym( a ) || a,
 		autonymB = getAutonym( b ) || b;
 	return ( autonymA.toLowerCase() < autonymB.toLowerCase() ) ? -1 : 1;
 }
