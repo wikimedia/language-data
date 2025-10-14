@@ -153,7 +153,7 @@ describe( 'languagedata', () => {
 		const languagesAM = [ 'atj', 'chr', 'chy', 'cr', 'en', 'es', 'fr', 'gn', 'haw', 'ike-cans', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'yi' ];
 		assert.deepEqual(
 			languageData.sortByScriptGroup( languagesAM.sort( languageData.sortByAutonym ) ),
-			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'ike-cans', 'cr', 'chr' ],
+			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'chr', 'ike-cans', 'cr' ],
 			'languages in region AM are ordered correctly by script group'
 		);
 
