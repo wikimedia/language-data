@@ -1,5 +1,5 @@
-const languageData = require( '../../src/index.js' ),
-	assert = require( 'assert' );
+import * as languageData from '../../src/index.js';
+import assert from 'assert';
 
 describe( 'languagedata', () => {
 	/*
