@@ -31,13 +31,13 @@
 		}
 	],
 	"require": {
-		"php": ">=8.0",
-		"mustangostang/spyc": "0.6.3"
+		"php": ">=8.0"
 	},
 	"require-dev": {
 		"ext-curl": "*",
 		"phpunit/phpunit": "9.6.20",
-		"mediawiki/mediawiki-codesniffer": "47.0.0"
+		"mediawiki/mediawiki-codesniffer": "47.0.0",
+		"mustangostang/spyc": "0.6.3"
 	},
 
 	"support": {
