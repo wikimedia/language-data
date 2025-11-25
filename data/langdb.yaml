@@ -780,6 +780,7 @@ languages:
   ta: [Taml, [AS], தமிழ்]
  # This is initially added for Wikimiedia MinT, which outputs Tifinagh.
  # Perhaps some day it can be changed to Latin as default.
+  tao: [Latn, [AS], Ciriciring No Tao]
   taq: [taq-tfng]
   taq-latn: [Latn, [AF], təmajəq]
   taq-tfng: [Tfng, [AF], ⵜⴰⵎⴰⵌⴰⵆ]
