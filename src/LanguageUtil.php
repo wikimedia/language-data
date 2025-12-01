@@ -7,6 +7,8 @@
 
 namespace Wikimedia\LanguageData;
 
+use stdClass;
+
 /**
  * A singleton utility class to query the language data.
  */
