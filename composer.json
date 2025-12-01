@@ -37,6 +37,7 @@
 		"ext-curl": "*",
 		"phpunit/phpunit": "9.6.20",
 		"mediawiki/mediawiki-codesniffer": "48.0.0",
+		"mediawiki/mediawiki-phan-config": "0.17.0",
 		"mustangostang/spyc": "0.6.3"
 	},
 
@@ -53,11 +54,13 @@
 	"scripts": {
 		"fix": "phpcbf",
 		"cs": "phpcs -sp",
+		"phan": "phan -d . --long-progress-bar",
 		"yaml-sort-check": "composer require mhujer/yaml-sort-checker; yaml-sort-checker",
 		"test": [
 			"@composer validate --no-interaction",
 			"phpunit",
-			"@cs"
+			"@cs",
+			"@phan"
 		]
 	},
 	"config": {
