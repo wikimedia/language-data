@@ -1,9 +1,12 @@
 <?php
+
+namespace Wikimedia\LanguageData\Tests;
+
 use PHPUnit\Framework\TestCase;
 use Wikimedia\LanguageData\LanguageUtil;
 
 /**
- * @coversDefaultClass \Wikimedia\LanguageData
+ * @coversDefaultClass \Wikimedia\LanguageUtil
  */
 class LanguageUtilTest extends TestCase {
 	/**
