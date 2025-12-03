@@ -243,7 +243,7 @@ function sortByScriptGroup( languages ) {
 function sortByAutonym( a, b ) {
 	const autonymA = getAutonym( a ) || a,
 		autonymB = getAutonym( b ) || b;
-	return ( autonymA.toLowerCase() < autonymB.toLowerCase() ) ? -1 : 1;
+	return autonymA.localeCompare( autonymB );
 }
 
 /**
