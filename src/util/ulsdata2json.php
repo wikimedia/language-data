@@ -18,6 +18,8 @@ define( 'DATA_DIRECTORY', __DIR__ . '/../../data' );
 
 print "Reading langdb.yaml...\n";
 $yamlLangdb = file_get_contents( DATA_DIRECTORY . '/langdb.yaml' );
+// spyc_load is from mustangostang/spyc. Only needed during development.
+// @phan-suppress-next-line PhanUndeclaredFunction
 $parsedLangdb = spyc_load( $yamlLangdb );
 
 $supplementalDataFilename = 'supplementalData.xml';
