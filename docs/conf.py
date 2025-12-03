@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'LanguageData'
-copyright = u'2020, Wikimedia Foundation'
+copyright = u'2025, Wikimedia Foundation'
 author = u'Wikimedia Foundation'
 
 # The short X.Y version
