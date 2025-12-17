@@ -31,13 +31,14 @@
 		}
 	],
 	"require": {
-		"php": ">=8.0"
+		"php": ">=8.1"
 	},
 	"require-dev": {
 		"ext-curl": "*",
 		"phpunit/phpunit": "9.6.20",
 		"mediawiki/mediawiki-codesniffer": "47.0.0",
-		"mustangostang/spyc": "0.6.3"
+		"mustangostang/spyc": "0.6.3",
+		"mhujer/yaml-sort-checker": "^1.5"
 	},
 
 	"support": {
@@ -53,11 +54,12 @@
 	"scripts": {
 		"fix": "phpcbf",
 		"cs": "phpcs -sp",
-		"yaml-sort-check": "composer require mhujer/yaml-sort-checker; yaml-sort-checker",
+		"yaml-sort-check": "yaml-sort-checker",
 		"test": [
 			"@composer validate --no-interaction",
 			"phpunit",
-			"@cs"
+			"@cs",
+			"@yaml-sort-check"
 		]
 	},
 	"config": {
