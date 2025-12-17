@@ -36,7 +36,7 @@
 	"require-dev": {
 		"ext-curl": "*",
 		"phpunit/phpunit": "9.6.20",
-		"mediawiki/mediawiki-codesniffer": "47.0.0",
+		"mediawiki/mediawiki-codesniffer": "48.0.0",
 		"mustangostang/spyc": "0.6.3",
 		"mhujer/yaml-sort-checker": "^1.5"
 	},
@@ -67,7 +67,7 @@
 			"dealerdirect/phpcodesniffer-composer-installer": true
 		},
 		"platform": {
-			"php": "8.0"
+			"php": "8.1"
 		}
 	}
 }
