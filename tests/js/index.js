@@ -1,18 +1,15 @@
-var languageData = require( __dirname + '/../../src/index' ),
+const languageData = require( '../../src/index.js' ),
 	assert = require( 'assert' );
 
-describe( 'languagedata', function () {
-	var orphanScripts, badRedirects, invalidCodes,
-		doubleRedirects, doubleAutonyms, languagesWithoutAutonym;
+describe( 'languagedata', () => {
 	/*
 	 * Runs over all script codes mentioned in langdb and checks whether
 	 * they belong to the 'Other' group.
 	 */
-	orphanScripts = function () {
-		var language, script,
-			result = [];
-		for ( language in languageData.getLanguages() ) {
-			script = languageData.getScript( language );
+	const orphanScripts = () => {
+		const result = [];
+		for ( const language in languageData.getLanguages() ) {
+			const script = languageData.getScript( language );
 			if ( languageData.getGroupOfScript( script ) === 'Other' ) {
 				result.push( script );
 			}
@@ -22,11 +19,10 @@ describe( 'languagedata', function () {
 	/*
 	 * Runs over all languages and checks that all redirects have a valid target.
 	 */
-	badRedirects = function () {
-		var language, target,
-			result = [];
-		for ( language in languageData.getLanguages() ) {
-			target = languageData.isRedirect( language );
+	const badRedirects = () => {
+		const result = [];
+		for ( const language in languageData.getLanguages() ) {
+			const target = languageData.isRedirect( language );
 			if ( target && !languageData.getLanguages()[ target ] ) {
 				result.push( language );
 			}
@@ -36,12 +32,11 @@ describe( 'languagedata', function () {
 	/*
 	 * Runs over all languages and checks that all redirects have a valid target.
 	 */
-	invalidCodes = function () {
-		var languageCode,
-			invalidCharsRe = /[^0-9a-z-]/,
-			result = [];
+	const invalidCodes = () => {
+		const invalidCharsRe = /[^0-9a-z-]/;
+		const result = [];
 
-		for ( languageCode in languageData.getLanguages() ) {
+		for ( const languageCode in languageData.getLanguages() ) {
 			if ( languageCode.match( invalidCharsRe ) ) {
 				result.push( languageCode );
 			}
@@ -53,11 +48,10 @@ describe( 'languagedata', function () {
 	 * Runs over all languages and checks that all redirects point to a language.
 	 * There's no reason to have double redirects.
 	 */
-	doubleRedirects = function () {
-		var language, target,
-			result = [];
-		for ( language in languageData.getLanguages() ) {
-			target = languageData.isRedirect( language );
+	const doubleRedirects = () => {
+		const result = [];
+		for ( const language in languageData.getLanguages() ) {
+			const target = languageData.isRedirect( language );
 			if ( target && languageData.isRedirect( target ) ) {
 				result.push( language );
 			}
@@ -67,19 +61,18 @@ describe( 'languagedata', function () {
 	/*
 	 * Runs over all languages and checks that all autonyms are unique.
 	 */
-	doubleAutonyms = function () {
-		var language, autonym,
-			autonyms = [],
-			duplicateAutonyms = [];
+	const doubleAutonyms = () => {
+		const autonyms = [];
+		const duplicateAutonyms = [];
 
-		for ( language in languageData.getLanguages() ) {
+		for ( const language in languageData.getLanguages() ) {
 			if ( languageData.isRedirect( language ) ) {
 				continue;
 			}
 
-			autonym = languageData.getAutonym( language );
+			const autonym = languageData.getAutonym( language );
 
-			if ( autonyms.indexOf( autonym ) > -1 ) {
+			if ( autonyms.includes( autonym ) ) {
 				duplicateAutonyms.push( language );
 			}
 
@@ -92,10 +85,9 @@ describe( 'languagedata', function () {
 	 * Runs over all script codes mentioned in langdb and checks whether
 	 * they have something that looks like an autonym.
 	 */
-	languagesWithoutAutonym = function () {
-		var language,
-			result = [];
-		for ( language in languageData.getLanguages() ) {
+	const languagesWithoutAutonym = () => {
+		const result = [];
+		for ( const language in languageData.getLanguages() ) {
 			if ( typeof languageData.getAutonym( language ) !== 'string' ) {
 				result.push( language );
 			}
@@ -103,15 +95,14 @@ describe( 'languagedata', function () {
 		return result;
 	};
 
-	it( 'language tags', function () {
+	it( 'language tags', () => {
 		assert.ok( languageData.isKnown( 'ar' ), 'Language is unknown' );
 		assert.ok( !languageData.isKnown( 'unknownLanguageCode!' ), 'Language is known' );
 		assert.deepEqual( invalidCodes(), [], 'All language codes have no invalid characters.' );
 	} );
 
-	it( 'autonyms', function () {
-		var autonyms, chineseScriptLanguages, i,
-			languagesWithParentheses = [];
+	it( 'autonyms', () => {
+		const languagesWithParentheses = [];
 		// Add a language in run time.
 		// This is done early to make sure that it doesn't break other functions.
 		languageData.addLanguage( 'qqq', {
@@ -120,11 +111,11 @@ describe( 'languagedata', function () {
 			autonym: 'Language documentation'
 		} );
 		assert.ok( languageData.getAutonym( 'qqq' ), 'Language documentation', 'Language qqq was added with the correct autonym' );
-		autonyms = languageData.getAutonyms();
-		assert.strictEqual( autonyms[ 'zu' ], 'isiZulu', 'Correct autonym is returned for Zulu using getAutonyms().' );
+		const autonyms = languageData.getAutonyms();
+		assert.strictEqual( autonyms.zu, 'isiZulu', 'Correct autonym is returned for Zulu using getAutonyms().' );
 		assert.deepEqual( doubleAutonyms(), [], 'All languages have distinct autonyms.' );
 		assert.strictEqual( autonyms[ 'pa-guru' ], undefined, 'Language "pa-guru" is not listed in autonyms, because it is a redirect' );
-		assert.strictEqual( autonyms[ 'pa' ], 'ਪੰਜਾਬੀ', 'Language "pa" has the correct autonym' );
+		assert.strictEqual( autonyms.pa, 'ਪੰਜਾਬੀ', 'Language "pa" has the correct autonym' );
 		assert.deepEqual( languagesWithoutAutonym(), [], 'All languages have autonyms.' );
 		assert.strictEqual( languageData.getAutonym( 'pa' ), 'ਪੰਜਾਬੀ', 'Correct autonym of the Punjabi language was selected using code pa.' );
 		assert.strictEqual( languageData.getAutonym( 'pa-guru' ), 'ਪੰਜਾਬੀ', 'Correct autonym of the Punjabi language was selected using code pa-guru.' );
@@ -133,17 +124,16 @@ describe( 'languagedata', function () {
 			'gn', 'de', 'hu', 'fi'
 		], 'Languages are correctly sorted by autonym' );
 
-		chineseScriptLanguages = languageData.getLanguagesInScripts( [ 'Hans', 'Hant', 'Hani' ] );
-		for ( i = 0; i < chineseScriptLanguages.length; ++i ) {
-			if ( languageData.getAutonym( chineseScriptLanguages[i] ).match( /[()]/ ) ) {
-				languagesWithParentheses.push( chineseScriptLanguages[i] );
+		const chineseScriptLanguages = languageData.getLanguagesInScripts( [ 'Hans', 'Hant', 'Hani' ] );
+		for ( const lang of chineseScriptLanguages ) {
+			if ( languageData.getAutonym( lang ).match( /[()]/ ) ) {
+				languagesWithParentheses.push( lang );
 			}
 		}
 		assert.deepEqual( languagesWithParentheses, [], 'Chinese script languages\' autonyms don\'t have Western parentheses' );
 	} );
-	it( 'regions and groups', function () {
-		var languagesAM,
-			regionGroups = languageData.getRegionGroups();
+	it( 'regions and groups', () => {
+		const regionGroups = languageData.getRegionGroups();
 
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
@@ -160,22 +150,22 @@ describe( 'languagedata', function () {
 			'An invalid country has no languages and returns an empty array'
 		);
 
-		languagesAM = [ 'atj', 'chr', 'chy', 'cr', 'en', 'es', 'fr', 'gn', 'haw', 'ike-cans', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'yi' ];
+		const languagesAM = [ 'atj', 'chr', 'chy', 'cr', 'en', 'es', 'fr', 'gn', 'haw', 'ike-cans', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'yi' ];
 		assert.deepEqual(
 			languageData.sortByScriptGroup( languagesAM.sort( languageData.sortByAutonym ) ),
-			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'ike-cans', 'cr', 'chr' ],
+			[ 'atj', 'gn', 'en', 'es', 'fr', 'haw', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'chy', 'yi', 'chr', 'ike-cans', 'cr' ],
 			'languages in region AM are ordered correctly by script group'
 		);
 
-		for ( var language in languageData.getLanguages() ) {
-			var regions = languageData.getRegions( language );
+		for ( const language in languageData.getLanguages() ) {
+			const regions = languageData.getRegions( language );
 
-			for ( var region of regions ) {
-				assert.ok( regionGroups[region], `Language ${language} has an invalid region ${region}` );
+			for ( const region of regions ) {
+				assert.ok( regionGroups[ region ], `Language ${language} has an invalid region ${region}` );
 			}
 		}
 	} );
-	it( 'scripts', function () {
+	it( 'scripts', () => {
 		// This test assumes that we don't want any scripts to be in the 'Other'
 		// group. Actually, this may become wrong some day.
 		assert.deepEqual( orphanScripts(), [], 'All scripts belong to script groups.' );
@@ -187,14 +177,14 @@ describe( 'languagedata', function () {
 		assert.strictEqual( languageData.getGroupOfScript( 'Beng' ), 'SouthAsian', 'Bengali script belongs to the SouthAsian group.' );
 		assert.strictEqual( languageData.getScriptGroupOfLanguage( 'iu' ), 'NativeAmerican', 'The script of the Inupiaq language belongs to the NativeAmerican group.' );
 	} );
-	it( 'redirects', function () {
+	it( 'redirects', () => {
 		assert.strictEqual( languageData.isRedirect( 'sr-ec' ), 'sr-cyrl', '"sr-ec" is a redirect to "sr-cyrl"' );
 		assert.deepEqual( badRedirects(), [], 'All redirects have valid targets.' );
 		assert.deepEqual( doubleRedirects(), [], 'There are no double redirects.' );
 		assert.strictEqual( languageData.getScript( 'no-such-language' ), 'Zyyy', 'A script for an unknown language is Zyyy - undetermined' );
 		assert.strictEqual( languageData.getScript( 'ii' ), 'Yiii', 'Correct script of the Yi language was selected' );
 	} );
-	it( 'directionality', function () {
+	it( 'directionality', () => {
 		assert.strictEqual( languageData.isRtl( 'te' ), false, 'Telugu language is not RTL' );
 		assert.strictEqual( languageData.isRtl( 'dv' ), true, 'Divehi language is RTL' );
 		assert.strictEqual( languageData.getDir( 'mzn' ), 'rtl', 'Mazandarani language is RTL' );

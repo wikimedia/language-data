@@ -31,14 +31,16 @@
 		}
 	],
 	"require": {
-		"php": ">=7.3",
-		"mustangostang/spyc": "0.6.3"
+		"php": ">=8.1"
 	},
 	"require-dev": {
 		"ext-curl": "*",
 		"phpunit/phpunit": "9.6.20",
-		"mediawiki/mediawiki-codesniffer": "43.0.0"
+		"mediawiki/mediawiki-codesniffer": "48.0.0",
+		"mustangostang/spyc": "0.6.3",
+		"mhujer/yaml-sort-checker": "^1.5"
 	},
+
 	"support": {
 		"issues": "https://github.com/wikimedia/language-data/issues",
 		"irc": "irc://irc.freenode.net/mediawiki-i18n",
@@ -52,16 +54,20 @@
 	"scripts": {
 		"fix": "phpcbf",
 		"cs": "phpcs -sp",
-		"yaml-sort-check": "composer require mhujer/yaml-sort-checker; yaml-sort-checker",
+		"yaml-sort-check": "yaml-sort-checker",
 		"test": [
 			"@composer validate --no-interaction",
 			"phpunit",
-			"@cs"
+			"@cs",
+			"@yaml-sort-check"
 		]
 	},
 	"config": {
 		"allow-plugins": {
 			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"platform": {
+			"php": "8.1"
 		}
 	}
 }

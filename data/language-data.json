@@ -1131,6 +1131,13 @@
             ],
             "ԓыгъоравэтԓьэн"
         ],
+        "ckv": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Kebalan"
+        ],
         "cnh": [
             "Latn",
             [
@@ -2381,6 +2388,13 @@
             ],
             "日本語"
         ],
+        "jab": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Hyam"
+        ],
         "jac": [
             "Latn",
             [
@@ -3537,7 +3551,7 @@
             [
                 "AS"
             ],
-            "閩南語 \/ Bân-lâm-gú"
+            "閩南語 \/ Bân-lâm-gí"
         ],
         "nan-hani": [
             "Hani",
@@ -3565,21 +3579,21 @@
             [
                 "AS"
             ],
-            "Bân-lâm-gú (Lô-má-jī)"
+            "Bân-lâm-gí (Lô-má-jī)"
         ],
         "nan-latn-pehoeji": [
             "Latn",
             [
                 "AS"
             ],
-            "Bân-lâm-gú (Pe̍h-ōe-jī)"
+            "Bân-lâm-gí (Pe̍h-ōe-jī)"
         ],
         "nan-latn-tailo": [
             "Latn",
             [
                 "AS"
             ],
-            "Bân-lâm-gú (Tâi-lô)"
+            "Bân-lâm-gí (Tâi-lô)"
         ],
         "nap": [
             "Latn",
@@ -4597,6 +4611,13 @@
             ],
             "Sängö"
         ],
+        "sgh": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "xuɣ̌nůni"
+        ],
         "sgs": [
             "Latn",
             [
@@ -4910,6 +4931,13 @@
         "swh": [
             "sw"
         ],
+        "sxr": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Hla'alua"
+        ],
         "sxu": [
             "Latn",
             [
@@ -4961,6 +4989,13 @@
                 "AS"
             ],
             "தமிழ்"
+        ],
+        "tao": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Ciriciring No Tao"
         ],
         "taq": [
             "taq-tfng"
@@ -5217,6 +5252,13 @@
                 "AS"
             ],
             "Sinūg"
+        ],
+        "tsu": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "cou"
         ],
         "tt": [
             "Cyrl",
@@ -5554,6 +5596,13 @@
                 "PA"
             ],
             "Manado"
+        ],
+        "xnb": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Kanakanavu"
         ],
         "xon": [
             "Latn",
