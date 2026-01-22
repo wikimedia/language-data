@@ -2409,6 +2409,14 @@
             ],
             "Patois"
         ],
+        "jax": [
+            "Latn",
+            [
+                "AS",
+                "PA"
+            ],
+            "Jambi"
+        ],
         "jbo": [
             "Latn",
             [
@@ -6806,7 +6814,8 @@
         "JO": [
             "ar",
             "apc",
-            "en"
+            "en",
+            "ady"
         ],
         "JP": [
             "ja",

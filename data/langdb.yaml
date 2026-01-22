@@ -382,6 +382,7 @@ languages:
   jab: [Latn, [AF], Hyam]
   jac: [Latn, [AM], Abꞌxubꞌal Poptiꞌ]
   jam: [Latn, [AM], Patois]
+  jax: [Latn, [AS, PA], Jambi]
   jbo: [Latn, [WW], lojban]
   jdt: [jdt-cyrl]
   jdt-cyrl: [Cyrl, [EU, AS], жугьури]
