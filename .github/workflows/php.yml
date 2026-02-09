@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php: [8.1, 8.2, 8.3, 8.4, 8.5]
+        # PHP v8.5 has issues with Phan 5.5.1
+        # Method SplObjectStorage::attach() is deprecated since 8.5, use method SplObjectStorage::offsetSet() instead
+        php: [8.1, 8.2, 8.3, 8.4]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -28,3 +30,6 @@ jobs:
 
       - name: Run tests
         run: php ./vendor/bin/phpunit
+
+      - name: Running phan
+        run: composer run-script phan
