@@ -4893,6 +4893,13 @@
             ],
             "SiSwati"
         ],
+        "ssy": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Saaho"
+        ],
         "st": [
             "Latn",
             [
@@ -6424,6 +6431,7 @@
             "tig",
             "ar",
             "aa",
+            "ssy",
             "byn"
         ],
         "ES": [
