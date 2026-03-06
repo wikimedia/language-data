@@ -387,6 +387,7 @@ languages:
   jdt: [jdt-cyrl]
   jdt-cyrl: [Cyrl, [EU, AS], жугьури]
   jje: [Kore, [AS], 제주말]
+  juk: [Latn, [AF], Nene Wapan]
   jut: [Latn, [EU], jysk]
   jv: [Latn, [AS, PA], Jawa]
  # For support in webfonts.
