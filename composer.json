@@ -38,7 +38,9 @@
 		"phpunit/phpunit": "9.6.34",
 		"mediawiki/mediawiki-codesniffer": "48.0.0",
 		"mustangostang/spyc": "0.6.3",
-		"mhujer/yaml-sort-checker": "^1.5"
+		"mhujer/yaml-sort-checker": "^1.5",
+		"symfony/console": "^5.4",
+		"psr/log": "^2.0"
 	},
 
 	"support": {

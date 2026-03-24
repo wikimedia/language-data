@@ -50,7 +50,12 @@ class LanguageUtil {
 	}
 
 	private function loadData() {
-		$this->data = json_decode( file_get_contents( __DIR__ . '/' . self::LANGUAGE_DATA_PATH ) );
+		$path = realpath( __DIR__ . '/' . self::LANGUAGE_DATA_PATH );
+		if ( $path && str_starts_with( $path, dirname( __DIR__ ) ) ) {
+			$this->data = json_decode( file_get_contents( $path ) );
+		} else {
+			throw new \RuntimeException( 'Invalid language data file path' );
+		}
 	}
 
 	/**
