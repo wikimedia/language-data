@@ -35,7 +35,7 @@
 	},
 	"require-dev": {
 		"ext-curl": "*",
-		"phpunit/phpunit": "9.6.34",
+		"phpunit/phpunit": "~10.5.63",
 		"mediawiki/mediawiki-codesniffer": "48.0.0",
 		"mustangostang/spyc": "0.6.3",
 		"mhujer/yaml-sort-checker": "^1.5",

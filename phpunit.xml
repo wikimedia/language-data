@@ -4,12 +4,13 @@
 	bootstrap="vendor/autoload.php"
 	beStrictAboutTestsThatDoNotTestAnything="true"
 	beStrictAboutOutputDuringTests="true"
-	xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
-  <coverage>
+	requireCoverageMetadata="true"
+	xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd">
+  <source>
     <include>
       <directory suffix=".php">src/</directory>
     </include>
-  </coverage>
+  </source>
   <testsuites>
     <testsuite name="Test suite">
       <directory>tests/php</directory>
