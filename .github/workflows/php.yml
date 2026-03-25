@@ -20,11 +20,5 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-interaction --ansi
 
-      - name: Running phpcs
-        run: composer run-script cs
-
-      - name: Running yaml-sort-checker
-        run: composer run-script yaml-sort-check
-
-      - name: Run tests
-        run: php ./vendor/bin/phpunit
+      - name: Running all checks and tests
+        run: composer test
