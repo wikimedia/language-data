@@ -40,7 +40,9 @@
 		"mustangostang/spyc": "0.6.3",
 		"mhujer/yaml-sort-checker": "^1.5",
 		"symfony/console": "^5.4",
-		"psr/log": "^2.0"
+		"psr/log": "^2.0",
+		"php-parallel-lint/php-console-highlighter": "1.0.0",
+		"php-parallel-lint/php-parallel-lint": "1.4.0"
 	},
 
 	"support": {
@@ -59,6 +61,7 @@
 		"yaml-sort-check": "yaml-sort-checker",
 		"test": [
 			"@composer validate --no-interaction",
+			"parallel-lint . --exclude vendor --exclude node_modules",
 			"phpunit",
 			"@cs",
 			"@yaml-sort-check"
