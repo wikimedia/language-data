@@ -7,6 +7,21 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2026-03-27
+1.  [Update language autonym of nan/nan-*](https://github.com/wikimedia/language-data/pull/442)
+2.  [Add Kavalan to language-data](https://github.com/wikimedia/language-data/pull/446)
+3.  [Add Hyam (jab) to language-data](https://github.com/wikimedia/language-data/pull/447)
+4.  [Add Tsou to language-data](https://github.com/wikimedia/language-data/pull/448)
+5.  [Add Saaroa (sxr) to language-data](https://github.com/wikimedia/language-data/pull/453)
+6.  [Add Shughni (sgh) to language-data](https://github.com/wikimedia/language-data/pull/455)
+7.  [Add Kanakanavu to language data](https://github.com/wikimedia/language-data/pull/462)
+8.  [Add Yami to language data](https://github.com/wikimedia/language-data/pull/463)
+9. [Add Tiv](https://github.com/wikimedia/language-data/pull/475)
+10. [Add Jambi to language data](https://github.com/wikimedia/language-data/pull/476)
+11. [Updating territory-language information from upstream automatically](https://github.com/wikimedia/language-data/pull/477)
+12. [Add Saho (ssy) to language data](https://github.com/wikimedia/language-data/pull/479)
+13. [Add Western Pwo (pwo) to language-data](https://github.com/wikimedia/language-data/pull/480)
+14. [Add Wapan (juk) to language-data](https://github.com/wikimedia/language-data/pull/482)
 
 ### 2025-07-31
 1.  [Add Northern Tujia (tji)](https://github.com/wikimedia/language-data/pull/368)
@@ -283,6 +298,12 @@ Language data related changes,
 
 ## PHP
 
+### PHP 1.1.10 (2026-03-27)
+- See [language updates 2026-03-27](#2026-03-27)
+- [Improved developer experience by adding various automated tests and linting tools](https://github.com/wikimedia/language-data/pull/487)
+-  [docs: Add readthedocs configuration file, update dependencies](https://github.com/wikimedia/language-data/pull/472)
+- [Fix a few minor security issues with dev dependencies](https://github.com/wikimedia/language-data/pull/486)
+
 ### PHP 1.1.9 (2025-07-31)
 - See [language updates 2025-07-31](#2025-07-31)
 - [Bump minimum PHP version to 8.0](https://github.com/wikimedia/language-data/pull/444)
@@ -359,6 +380,14 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+
+### Node.js 2.0.0 (2026-03-27)
+- See [language updates 2026-03-27](#2026-03-27)
+- [Bump minimum Node.js version to 20.0.0](https://github.com/wikimedia/language-data/pull/488)
+- [Fix broken documentation system](https://github.com/wikimedia/language-data/pull/472)
+- [Update JavaScript library to use modern syntax](https://github.com/wikimedia/language-data/pull/449)
+- [Use localeCompare instead of simple unicode point comparison](https://github.com/wikimedia/language-data/pull/454)
+- [Run npm audit fix to address security issues with dev dependencies](https://github.com/wikimedia/language-data/pull/485)
 
 ### Node.js 1.1.9 (2025-07-31)
 - See [language updates 2025-07-31](#2025-07-31)
