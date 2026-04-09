@@ -4,6 +4,7 @@
 .github/ export-ignore
 .gitignore export-ignore
 .phpcs.xml export-ignore
+.readthedocs.yaml export-ignore
 composer.json export-ignore
 composer.lock export-ignore
 docs/ export-ignore
@@ -12,3 +13,5 @@ package.json export-ignore
 phpunit.xml export-ignore
 tests/ export-ignore
 yaml-sort-checker.yml export-ignore
+data/langdb.yaml export-ignore
+src/util/ export-ignore
