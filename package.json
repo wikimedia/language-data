@@ -21,6 +21,13 @@
     "Abijeet Patro"
   ],
   "main": "src/index.js",
+  "files": [
+    "src/index.js",
+    "data/language-data.json",
+    "CHANGELOG.md",
+    "COPYING",
+    "README.md"
+  ],
   "devDependencies": {
     "eslint": "8.57.0",
     "eslint-config-wikimedia": "0.32.3",
