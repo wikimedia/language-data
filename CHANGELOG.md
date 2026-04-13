@@ -8,7 +8,7 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 
 ## Language updates
 ### 2026-04-13
-1. [Add a version to the language data to aid with caching and caching invalidation](https://github.com/wikimedia/language-data/pull/494)
+1. [Add a version to the language data to aid with caching and cache invalidation](https://github.com/wikimedia/language-data/pull/494)
 
 ### 2026-04-09
 No language updates
