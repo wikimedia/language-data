@@ -7,6 +7,9 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2026-04-13
+1. [Add a version to the language data to aid with caching and cache invalidation](https://github.com/wikimedia/language-data/pull/494)
+
 ### 2026-04-09
 No language updates
 
@@ -300,6 +303,9 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
+### PHP 1.1.12 (2026-04-13)
+- [Add a getVersion method to return language data version](https://github.com/wikimedia/language-data/pull/494)
+
 ### PHP 1.1.11 (2026-04-09)
 - [Remove unnecessary files in composer package](https://github.com/wikimedia/language-data/pull/491)
 
@@ -385,6 +391,9 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+### Node.js 2.0.2 (2026-04-13)
+- [Add a getVersion method to return language data version](https://github.com/wikimedia/language-data/pull/494)
+
 ### Node.js 2.0.1 (2026-04-09)
 - [Remove unnecessary files in npm package](https://github.com/wikimedia/language-data/pull/491)
 - [Fix security issue in lodash dev dependency](https://github.com/wikimedia/language-data/pull/492)
