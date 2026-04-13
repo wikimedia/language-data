@@ -49,6 +49,8 @@ The basic usage is like this:
 		$languageUtil = LanguageUtil::get();
 		// Returns English
 		$languageUtil->getAutonym( 'en' );
+		// Returns version of the langauge data, or UNKNOWN if not declared
+		$languageUtil->getVersion();
 
 For a full list of methods see the documentation for the `LanguageUtil <api/languagedata/languageutil.html>`_ class.
 
@@ -82,6 +84,8 @@ The basic usage is like this:
 
 		// Returns English
 		languageData.getAutonym( 'en');
+		// Returns version of the language data or UNKNOWN if not declared
+		languageData.getVersion();
 
 The exposed methods are similar to the methods present in the PHP `LanguageUtil <api/languagedata/languageutil.html>`_ class.
 

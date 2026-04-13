@@ -124,6 +124,7 @@ foreach ( $parsedLangdb['territories'] as $territoryCode => $languages ) {
 }
 
 $logger->info( "Writing JSON langdb..." );
+$parsedLangdb['version'] = date( DATE_ATOM );
 $jsonVerbose = json_encode( $parsedLangdb, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) . "\n";
 // For making diff review easier.
 $outputFile = DATA_DIRECTORY . '/language-data.json';

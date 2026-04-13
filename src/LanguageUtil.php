@@ -167,6 +167,14 @@ class LanguageUtil {
 	}
 
 	/**
+	 * Returns the version of the language data.
+	 * @return string|bool Version string, or "UNKNOWN" if no version is declared
+	 */
+	public function getVersion() {
+		return $this->data->version ?? 'UNKNOWN';
+	}
+
+	/**
 	 * Returns all languages written in the given scripts
 	 * @param array $scripts List of strings, each being the name of a script
 	 * @return array

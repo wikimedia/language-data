@@ -99,6 +99,15 @@ function getAutonyms() {
 }
 
 /**
+ * Returns language data version.
+ *
+ * @return {string} Version string, or "UNKNOWN" if no version is declared
+ */
+function getVersion() {
+	return languageData.version || 'UNKNOWN';
+}
+
+/**
  * Returns all languages written in the given scripts.
  *
  * @param {string[]} scripts
@@ -305,6 +314,7 @@ module.exports = {
 	addLanguage,
 	getAutonym,
 	getAutonyms,
+	getVersion,
 	getDir,
 	getGroupOfScript,
 	getLanguages,
