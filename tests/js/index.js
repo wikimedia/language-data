@@ -1,4 +1,5 @@
 const languageData = require( '../../src/index.js' ),
+	jsonData = require( '../../data/language-data.json' ),
 	assert = require( 'assert' );
 
 describe( 'languagedata', () => {
@@ -189,5 +190,9 @@ describe( 'languagedata', () => {
 		assert.strictEqual( languageData.isRtl( 'dv' ), true, 'Divehi language is RTL' );
 		assert.strictEqual( languageData.getDir( 'mzn' ), 'rtl', 'Mazandarani language is RTL' );
 		assert.strictEqual( languageData.getDir( 'uk' ), 'ltr', 'Ukrainian language is LTR' );
+	} );
+
+	it( 'version', () => {
+		assert.strictEqual( languageData.getVersion(), jsonData.version, 'Returns language-data version' );
 	} );
 } );
