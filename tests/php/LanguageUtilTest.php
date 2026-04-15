@@ -215,7 +215,11 @@ class LanguageUtilTest extends TestCase {
 			'An invalid territory code is not present in getTerritories()'
 		);
 
-		$this->assertGreaterThan( 0, count( (array)$territories ), 'getTerritories() returns a non-empty set of territories' );
+		$this->assertGreaterThan(
+			0,
+			count( (array)$territories ),
+			'getTerritories() returns a non-empty set of territories'
+		);
 	}
 
 	public function testAddLanguage() {
