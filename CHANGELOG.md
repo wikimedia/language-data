@@ -303,9 +303,6 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
-### PHP 1.1.13 (2026-04-15)
-- [Add getTerritoriesWithLanguages method to retrieve territory-based language information](https://github.com/wikimedia/language-data/pull/T423319)
-
 ### PHP 1.1.12 (2026-04-13)
 - [Add a getVersion method to return language data version](https://github.com/wikimedia/language-data/pull/494)
 
@@ -394,9 +391,6 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
-### Node.js 2.0.3 (2026-04-15)
-- [Add getTerritoriesWithLanguages method to retrieve territory-based language information](https://github.com/wikimedia/language-data/pull/T423319)
-
 ### Node.js 2.0.2 (2026-04-13)
 - [Add a getVersion method to return language data version](https://github.com/wikimedia/language-data/pull/494)
 
