@@ -198,10 +198,8 @@ class LanguageUtilTest extends TestCase {
 		$this->assertNotContains( 'de', $actualsAFG );
 	}
 
-	public function testGetTerritories() {
-		$territories = $this->languageUtil->getTerritories();
-
-		$this->assertInstanceOf( \stdClass::class, $territories, 'getTerritories() returns a stdClass object' );
+	public function testGetTerritoriesWithLanguages() {
+		$territories = $this->languageUtil->getTerritoriesWithLanguages();
 
 		$this->assertObjectHasProperty( 'US', $territories, 'US is a known territory' );
 		$this->assertContains( 'en', $territories->US, 'English is listed for the US territory' );
@@ -212,13 +210,13 @@ class LanguageUtilTest extends TestCase {
 		$this->assertObjectNotHasProperty(
 			'no-such-country',
 			$territories,
-			'An invalid territory code is not present in getTerritories()'
+			'An invalid territory code is not present in getTerritoriesWithLanguages()'
 		);
 
 		$this->assertGreaterThan(
 			0,
 			count( (array)$territories ),
-			'getTerritories() returns a non-empty set of territories'
+			'getTerritoriesWithLanguages() returns a non-empty set of territories'
 		);
 	}
 

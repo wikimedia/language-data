@@ -366,10 +366,11 @@ class LanguageUtil {
 	}
 
 	/**
-	 * Returns all territories.
-	 * @return stdClass
+	 * Returns all territories and the languages spoken in each.
+	 * @return object An object whose keys are territory codes and whose values
+	 * are arrays of language codes spoken in that territory.
 	 */
-	public function getTerritories() {
+	public function getTerritoriesWithLanguages(): object {
 		return $this->data->territories;
 	}
 
