@@ -285,6 +285,16 @@ function getDir( language ) {
 }
 
 /**
+ * Returns all territories and the languages spoken in each.
+ *
+ * @return {Object} An object whose keys are territory codes and whose values
+ *   are arrays of language codes spoken in that territory.
+ */
+function getTerritoriesWithLanguages() {
+	return languageData.territories;
+}
+
+/**
  * Returns the languages spoken in a territory.
  *
  * @param {string} territory Territory code
@@ -328,6 +338,7 @@ module.exports = {
 	getRegionGroups,
 	getScript,
 	getScriptGroupOfLanguage,
+	getTerritoriesWithLanguages,
 	isKnown,
 	isRedirect,
 	isRtl,

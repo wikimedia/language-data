@@ -7,6 +7,8 @@
 
 namespace Wikimedia\LanguageData;
 
+use stdClass;
+
 /**
  * A singleton utility class to query the language data.
  */
@@ -363,6 +365,15 @@ class LanguageUtil {
 		}
 
 		return false;
+	}
+
+	/**
+	 * Returns all territories and the languages spoken in each.
+	 * @return stdClass An object whose keys are territory codes and whose values
+	 * are arrays of language codes spoken in that territory.
+	 */
+	public function getTerritoriesWithLanguages(): stdClass {
+		return $this->data->territories;
 	}
 
 	/**

@@ -86,6 +86,11 @@ The basic usage is like this:
 		languageData.getAutonym( 'en');
 		// Returns version of the language data or UNKNOWN if not declared
 		languageData.getVersion();
+		// Returns an object mapping all territory codes to their language arrays
+		// e.g. { US: ['en', 'es', ...], DE: ['de'], ... }
+		languageData.getTerritoriesWithLanguages();
+		// Returns the languages spoken in a specific territory
+		languageData.getLanguagesInTerritory( 'US' );
 
 The exposed methods are similar to the methods present in the PHP `LanguageUtil <api/languagedata/languageutil.html>`_ class.
 

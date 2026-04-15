@@ -151,6 +151,14 @@ describe( 'languagedata', () => {
 			'An invalid country has no languages and returns an empty array'
 		);
 
+		const territories = languageData.getTerritoriesWithLanguages();
+		assert.ok( typeof territories === 'object' && territories !== null, 'getTerritoriesWithLanguages() returns an object' );
+		assert.ok( Array.isArray( territories[ 'US' ] ), 'US territory entry is an array' );
+		assert.ok( territories[ 'US' ].includes( 'en' ), 'English is listed for the US territory' );
+		assert.ok( territories[ 'RU' ].includes( 'sah' ), 'Sakha is listed for the RU territory via getTerritoriesWithLanguages()' );
+		assert.ok( Object.keys( territories ).length > 0, 'getTerritoriesWithLanguages() returns a non-empty set of territories' );
+		assert.strictEqual( territories[ 'no-such-country' ], undefined, 'An invalid territory code is not present in getTerritoriesWithLanguages()' );
+
 		const languagesAM = [ 'atj', 'chr', 'chy', 'cr', 'en', 'es', 'fr', 'gn', 'haw', 'ike-cans', 'ik', 'kl', 'nl', 'pt', 'qu', 'srn', 'yi' ];
 		assert.deepEqual(
 			languageData.sortByScriptGroup( languagesAM.sort( languageData.sortByAutonym ) ),
