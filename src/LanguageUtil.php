@@ -366,6 +366,14 @@ class LanguageUtil {
 	}
 
 	/**
+	 * Returns all territories.
+	 * @return stdClass
+	 */
+	public function getTerritories() {
+		return $this->data->territories;
+	}
+
+	/**
 	 * Returns the languages spoken in a territory
 	 * @param string $territory Territory code
 	 * @return array|bool List of language codes in the territory, or else false if invalid
