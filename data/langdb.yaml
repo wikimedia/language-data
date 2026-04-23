@@ -392,6 +392,7 @@ languages:
   jv: [Latn, [AS, PA], Jawa]
  # For support in webfonts.
   jv-java: [Java, [AS, PA], ꦗꦮ]
+  jv-x-bms: [map-bms]
   ka: [Geor, [EU], ქართული]
   kaa: [Latn, [AS], Qaraqalpaqsha]
  # Can also be Tfng, but the Wikipedia is mostly Latn
@@ -565,6 +566,7 @@ languages:
   nan-latn-pehoeji: [Latn, [AS], Bân-lâm-gí (Pe̍h-ōe-jī)]
   nan-latn-tailo: [Latn, [AS], Bân-lâm-gí (Tâi-lô)]
   nap: [Latn, [EU], Napulitano]
+  nap-x-tara: [roa-tara]
   naq: [Latn, [AF], Khoekhoegowab]
   nb: [Latn, [EU], norsk (bokmål)]
   nd: [Latn, [AF], siNdebele saseNyakatho]
@@ -592,6 +594,7 @@ languages:
   npi: [ne]
   nqo: [Nkoo, [AF], ߒߞߏ]
   nr: [Latn, [AF], isiNdebele seSewula]
+  nrf: [nrm]
   nrf-gg: [Latn, [EU], Guernésiais]
   nrf-je: [Latn, [EU], Jèrriais]
   nrm: [Latn, [EU], Nouormand]
@@ -689,6 +692,7 @@ languages:
   rmy: [Latn, [EU], Romani]
   rn: [Latn, [AF], ikirundi]
   ro: [Latn, [EU], română]
+  ro-cyrl-md: [mo]
   roa-rup: [rup]
   roa-tara: [Latn, [EU], tarandíne]
   rsk: [Cyrl, [EU], руски]

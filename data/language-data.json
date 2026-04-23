@@ -2472,6 +2472,9 @@
             ],
             "ꦗꦮ"
         ],
+        "jv-x-bms": [
+            "map-bms"
+        ],
         "ka": [
             "Geor",
             [
@@ -3617,6 +3620,9 @@
             ],
             "Napulitano"
         ],
+        "nap-x-tara": [
+            "roa-tara"
+        ],
         "naq": [
             "Latn",
             [
@@ -3796,6 +3802,9 @@
                 "AF"
             ],
             "isiNdebele seSewula"
+        ],
+        "nrf": [
+            "nrm"
         ],
         "nrf-gg": [
             "Latn",
@@ -4413,6 +4422,9 @@
                 "EU"
             ],
             "română"
+        ],
+        "ro-cyrl-md": [
+            "mo"
         ],
         "roa-rup": [
             "rup"
@@ -7421,7 +7433,19 @@
             "en",
             "zh",
             "ms",
+            "nan",
             "ta",
+            "hak",
+            "tl",
+            "yue",
+            "id",
+            "jv",
+            "bn",
+            "cdo",
+            "th",
+            "ja",
+            "cpx",
+            "mad",
             "ml",
             "pa"
         ],
@@ -7767,5 +7791,5 @@
             "tn"
         ]
     },
-    "version": "2026-04-15T14:20:00+00:00"
+    "version": "2026-04-23T08:24:56+00:00"
 }
