@@ -4564,11 +4564,21 @@
             "Scots"
         ],
         "sd": [
+            "sd-arab"
+        ],
+        "sd-arab": [
             "Arab",
             [
                 "AS"
             ],
             "سنڌي"
+        ],
+        "sd-deva": [
+            "Deva",
+            [
+                "AS"
+            ],
+            "सिंधी"
         ],
         "sdc": [
             "Latn",
@@ -6742,9 +6752,10 @@
             "ks",
             "knn",
             "gbm",
-            "sd",
+            "sd-arab",
             "doi",
             "tcy",
+            "sd-deva",
             "brx",
             "mni",
             "raj",
@@ -7244,7 +7255,7 @@
             "pa",
             "en",
             "ps",
-            "sd",
+            "sd-arab",
             "skr-arab",
             "hno",
             "brh",
@@ -7421,7 +7432,19 @@
             "en",
             "zh",
             "ms",
+            "nan",
             "ta",
+            "hak",
+            "tl",
+            "yue",
+            "id",
+            "jv",
+            "bn",
+            "cdo",
+            "th",
+            "ja",
+            "cpx",
+            "mad",
             "ml",
             "pa"
         ],
@@ -7767,5 +7790,5 @@
             "tn"
         ]
     },
-    "version": "2026-04-15T14:20:00+00:00"
+    "version": "2026-05-30T16:43:33+00:00"
 }
