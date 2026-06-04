@@ -35,7 +35,7 @@ $parsedLangdb = spyc_load( $yamlLangdb );
 $supplementalDataFilename = 'supplementalData.xml';
 $supplementalDataUrl =
 	// phpcs:ignore Generic.Files.LineLength
-	"https://raw.githubusercontent.com/unicode-org/cldr/master/common/supplemental/supplementalData.xml";
+	"https://raw.githubusercontent.com/unicode-org/cldr/main/common/supplemental/supplementalData.xml";
 
 $curl = curl_init( $supplementalDataUrl );
 $supplementalDataFile = fopen( $supplementalDataFilename, 'w' );
@@ -48,6 +48,7 @@ curl_setopt( $curl, CURLOPT_HEADER, 0 );
 
 $logger->info( "Trying to download $supplementalDataUrl..." );
 $curlSuccess = curl_exec( $curl );
+
 curl_close( $curl );
 fclose( $supplementalDataFile );
 
