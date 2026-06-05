@@ -2612,6 +2612,13 @@
             ],
             "Kaingáng"
         ],
+        "kha": [
+            "Latn",
+            [
+                "AS"
+            ],
+            "Khasi"
+        ],
         "khk": [
             "mn"
         ],
@@ -6760,6 +6767,7 @@
             "mni",
             "raj",
             "hoc",
+            "kha",
             "saz",
             "ccp",
             "bfq",
