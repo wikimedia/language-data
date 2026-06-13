@@ -827,6 +827,7 @@ languages:
   tsd: [Grek, [EU], Τσακωνικά]
   tsg: [Latn, [AS], Sinūg]
   tsu: [Latn, [AS], cou]
+  tsw: [Latn, [AF], Tsishingini]
   tt: [Cyrl, [EU], татарча]
   tt-cyrl: [tt]
   tt-latn: [Latn, [EU], tatarça]
