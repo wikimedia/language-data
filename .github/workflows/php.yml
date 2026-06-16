@@ -22,3 +22,12 @@ jobs:
 
       - name: Running all checks and tests
         run: composer test
+
+      - name: Regenerate JSON Data from database definitions
+        run: php src/util/ulsdata2json.php
+
+      - name: Commit perfectly formatted JSON files automatically
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "style: auto-regenerate language-data.json layout structures"
+          file_pattern: 'data/language-data.json'
