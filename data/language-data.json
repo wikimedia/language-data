@@ -5320,6 +5320,13 @@
             ],
             "cou"
         ],
+        "tsw": [
+            "Latn",
+            [
+                "AF"
+            ],
+            "Tsishingini"
+        ],
         "tt": [
             "Cyrl",
             [
@@ -5467,6 +5474,9 @@
             ],
             "oʻzbekcha"
         ],
+        "uz-arab": [
+            "uzs"
+        ],
         "uz-cyrl": [
             "Cyrl",
             [
@@ -5479,6 +5489,13 @@
         ],
         "uzn": [
             "uz"
+        ],
+        "uzs": [
+            "Arab",
+            [
+                "AS"
+            ],
+            "اۉزبېکچه"
         ],
         "vai": [
             "Vaii",
@@ -6008,6 +6025,7 @@
         "AF": [
             "fa",
             "ps",
+            "uzs",
             "uz",
             "tk",
             "bgn",
