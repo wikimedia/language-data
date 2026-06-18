@@ -716,6 +716,7 @@ languages:
   sd: [sd-arab]
   sd-arab: [Arab, [AS], سنڌي]
   sd-deva: [Deva, [AS], सिंधी]
+  sd-sind: [Sind, [AS], 𑋝𑋡𑋟𑋐𑋢]
   sdc: [Latn, [EU], Sassaresu]
   sdh: [Arab, [ME], کوردی خوارگ]
   se: [Latn, [EU], davvisámegiella]
@@ -948,7 +949,7 @@ scriptgroups:
  # Tibetan (Tibt) is here, even though it's classified as "Central Asian" by
  # Unicode, because linguistically and geographically it's closely related to
  # the Brahmic family.
-  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Rohg, Saur, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
+  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Rohg, Saur, Sind, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
   CJK: [Hani, Hans, Hant, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Cham, Java, Khmr, Laoo, Lana, Mymr, Thai, Tale]
