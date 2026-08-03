@@ -47,6 +47,9 @@ languages:
   apc-latn: [Latn, [ME], šāmi]
   apw: [Latn, [AM], "Ndee biyati'"]
   ar: [Arab, [AF, ME], العربية]
+ # ar-001 is CLDR's code for Modern Standard Arabic, which for the purposes of
+ # this database is the same thing as ar:
+  ar-001: [ar]
   arc: [Syrc, [ME], ܐܪܡܝܐ]
   arn: [Latn, [AM], mapudungun]
   aro: [Latn, [AM], Araona]
@@ -675,6 +678,9 @@ languages:
   rej: [Latn, [AS, PA], Jang]
   rgn: [Latn, [EU], Rumagnôl]
   rhg: [Rohg, [AS], 𐴌𐴟𐴇𐴥𐴝𐴚𐴒𐴙𐴝]
+  rhg-arab: [Arab, [AS], رُحَ࣪ڠۡگَ࣪ࢬ عَرࣤبِي لࣦكَ࣪]
+ # The bare code rhg already denotes Hanifi-script Rohingya:
+  rhg-rohg: [rhg]
   rif: [Latn, [AF], Tarifit]
   rki: [Mymr, [AS], ရခိုင်]
   rm: [Latn, [EU], rumantsch]
