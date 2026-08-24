@@ -7,6 +7,17 @@ Documentation can be found [here](https://language-data.readthedocs.io/en/latest
 - [Node.js library updates](#nodejs)
 
 ## Language updates
+### 2026-08-24
+1. [Add Sindhi language and change master to main in ulsdata2json.php](https://github.com/wikimedia/language-data/pull/501)
+2. [Add Khasi language (kha) to language-data](https://github.com/wikimedia/language-data/pull/502)
+3. [Add Tsishingini (tsw) language metadata](https://github.com/wikimedia/language-data/pull/503)
+4. [Add Southern Uzbek (uzs) to language-data](https://github.com/wikimedia/language-data/pull/506)
+5. [Add Sindhi (sd-sind)](https://github.com/wikimedia/language-data/pull/507)
+6. [Add Khiamniungan Naga (kix)](https://github.com/wikimedia/language-data/pull/509)
+7. [Add ar-001, rhg-arab and rhg-rohg](https://github.com/wikimedia/language-data/pull/510)
+8. [Add Izere (izr) to language-data](https://github.com/wikimedia/language-data/pull/512)
+9. [Updating territory-language information from upstream automatically](https://github.com/wikimedia/language-data/pull/513)
+
 ### 2026-04-15
 No language updates
 
@@ -306,6 +317,9 @@ Language data related changes,
 10. [Add Madurese (mad)](https://github.com/wikimedia/language-data/pull/#104)
 
 ## PHP
+### PHP 1.1.14 (2026-08-24)
+- See [language updates 2026-08-24](#2026-08-24)
+
 ### PHP 1.1.13 (2026-04-15)
 - [Add getTerritoriesWithLanguages method to retrieve territory-based language information](https://github.com/wikimedia/language-data/pull/T423319)
 
@@ -397,6 +411,9 @@ Language data related changes,
 - Add PHP support. [Documentation](https://language-data.readthedocs.io/en/latest/api/languagedata/languageutil.html). [Packagist](https://packagist.org/packages/wikimedia/language-data).
 
 ## Node.js
+### Node.js 2.0.4 (2026-08-24)
+- See [language updates 2026-08-24](#2026-08-24)
+
 ### Node.js 2.0.3 (2026-04-15)
 - [Add getTerritoriesWithLanguages method to retrieve territory-based language information](https://github.com/wikimedia/language-data/pull/T423319)
 
