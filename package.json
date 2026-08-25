@@ -31,7 +31,7 @@
   "devDependencies": {
     "eslint": "8.57.0",
     "eslint-config-wikimedia": "0.32.3",
-    "mocha": "10.6.0"
+    "mocha": "11.8.0"
   },
   "repository": {
     "type": "git",
@@ -47,5 +47,9 @@
   "scripts": {
     "test": "mocha tests/js/*.js",
     "lint": "eslint src/*.js"
+  },
+  "overrides": {
+    "diff": "^8.0.4",
+    "serialize-javascript": "^7.1.0"
   }
 }
