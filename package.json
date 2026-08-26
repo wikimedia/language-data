@@ -40,7 +40,7 @@
   "bugs": {
     "url": "http://github.com/wikimedia/language-data/issues"
   },
-  "engine": {
+  "engines": {
     "node": ">=20.0.0"
   },
   "license": "GPL-2.0-or-later",
