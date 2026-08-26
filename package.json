@@ -49,7 +49,7 @@
     "lint": "eslint src/*.js"
   },
   "overrides": {
-    "diff": "^8.0.4",
-    "serialize-javascript": "^7.1.0"
+    "diff": "8.0.4",
+    "serialize-javascript": "7.1.0"
   }
 }
