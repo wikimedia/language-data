@@ -1,6 +1,6 @@
 {
   "name": "@wikimedia/language-data",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Language data and utilities.",
   "homepage": "https://language-data.readthedocs.io/en/latest/index.html",
   "keywords": [
@@ -31,7 +31,7 @@
   "devDependencies": {
     "eslint": "8.57.0",
     "eslint-config-wikimedia": "0.32.3",
-    "mocha": "10.6.0"
+    "mocha": "11.8.0"
   },
   "repository": {
     "type": "git",
@@ -40,12 +40,16 @@
   "bugs": {
     "url": "http://github.com/wikimedia/language-data/issues"
   },
-  "engine": {
+  "engines": {
     "node": ">=20.0.0"
   },
   "license": "GPL-2.0-or-later",
   "scripts": {
     "test": "mocha tests/js/*.js",
     "lint": "eslint src/*.js"
+  },
+  "overrides": {
+    "diff": "8.0.4",
+    "serialize-javascript": "7.1.0"
   }
 }
