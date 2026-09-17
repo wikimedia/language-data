@@ -4605,14 +4605,14 @@
             "Scots"
         ],
         "sd": [
-            "sd-arab"
-        ],
-        "sd-arab": [
             "Arab",
             [
                 "AS"
             ],
             "سنڌي"
+        ],
+        "sd-arab": [
+            "sd"
         ],
         "sd-deva": [
             "Deva",
@@ -6819,7 +6819,7 @@
             "ks",
             "knn",
             "gbm",
-            "sd-arab",
+            "sd",
             "doi",
             "tcy",
             "sd-deva",
@@ -7323,7 +7323,7 @@
             "pa",
             "en",
             "ps",
-            "sd-arab",
+            "sd",
             "skr-arab",
             "hno",
             "brh",
@@ -7858,5 +7858,5 @@
             "tn"
         ]
     },
-    "version": "2026-09-11T18:02:05+00:00"
+    "version": "2026-09-17T19:46:40+00:00"
 }
