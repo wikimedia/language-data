@@ -121,6 +121,7 @@ languages:
   blk: [Mymr, [AS], ပအိုဝ်ႏဘာႏသာႏ]
   bm: [Latn, [AF], bamanankan]
   bn: [Beng, [AS], বাংলা]
+  bn-sylo: [Sylo, [AS], ꠛꠣꠋꠟꠣ]
   bnn: [Latn, [AS], bunun]
   bo: [Tibt, [AS], བོད་ཡིག]
   bol: [Latn, [AF], bòo pìkkà]
