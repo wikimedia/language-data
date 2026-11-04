@@ -581,6 +581,8 @@ languages:
   nds-nl: [Latn, [EU], Nedersaksisch]
   ne: [Deva, [AS], नेपाली]
   new: [Deva, [AS], नेपाल भाषा]
+  new-deva: [new]
+  new-newa: [Newa, [AS], 𑐣𑐾𑐥𑐵𑐮 𑐨𑐵𑐲𑐵]
   ng: [Latn, [AF], Oshiwambo]
   nia: [Latn, [AS], Li Niha]
   nit: [Telu, [AS], కొలామి]
@@ -963,7 +965,7 @@ scriptgroups:
  # Tibetan (Tibt) is here, even though it's classified as "Central Asian" by
  # Unicode, because linguistically and geographically it's closely related to
  # the Brahmic family.
-  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Olck, Orya, Rohg, Saur, Sind, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
+  SouthAsian: [Beng, Cakm, Deva, Gujr, Guru, Knda, Mlym, Mtei, Newa, Olck, Orya, Rohg, Saur, Sind, Sinh, Sylo, Taml, Telu, Tibt, Thaa, Wara]
   Cyrillic: [Cyrl]
   CJK: [Hani, Hans, Hant, Kore, Jpan, Yiii]
   SouthEastAsian: [Bali, Batk, Bugi, Cham, Java, Khmr, Laoo, Lana, Mymr, Thai, Tale]
