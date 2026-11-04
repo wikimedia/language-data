@@ -581,7 +581,7 @@ languages:
   nds-nl: [Latn, [EU], Nedersaksisch]
   ne: [Deva, [AS], नेपाली]
   new: [Deva, [AS], नेपाल भाषा]
-  new-deva: [Deva, [AS], नेपाल भाषा]
+  new-deva: [new]
   new-newa: [Newa, [AS], 𑐣𑐾𑐥𑐵𑐮 𑐨𑐵𑐲𑐵]
   ng: [Latn, [AF], Oshiwambo]
   nia: [Latn, [AS], Li Niha]
