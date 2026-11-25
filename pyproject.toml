@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "languagedata"
+description = "Language data and utilities"
+version = "2.0.3"
+requires-python = ">=3.10"
+license = "GPL-2.0-or-later"
+readme = "README.md"
+authors = [{name= "Santhosh Thottingal", email= "santhosh.thottingal@gmail.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["python/languagedata"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "python/languagedata/",
+    "data/language-data.json",
+]
+exclude = [
+	"src*",
+    "docs*",
+    ".venv*",
+    ".ruff_cache*",
+	".pytest_cache*",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/python"]
+pythonpath = ["python"]
+
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1.0",
+]
+
